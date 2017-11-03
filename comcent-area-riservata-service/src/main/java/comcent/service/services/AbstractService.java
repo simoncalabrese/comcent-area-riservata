@@ -4,6 +4,7 @@ package comcent.service.services;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import comcent.common.builders.QueryParamsBuilder;
 import comcent.common.components.AbstractPropertiesConfig;
+import comcent.common.components.Converter;
 import comcent.service.exceptions.BaseException;
 import comcent.service.exceptions.Suppliers;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,7 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Optional;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -32,21 +34,24 @@ public class AbstractService {
 
     private HttpURLConnection buildConnection(final QueryParamsBuilder builder, final ApiEnum apiEnum) throws IOException {
         final String urlAsString = Stream.of(
-                    abstractPropertiesConfig.getBasePath(),
-                    abstractPropertiesConfig.getApi().get(apiEnum.getApiMapKey()))
+                abstractPropertiesConfig.getBasePath(),
+                abstractPropertiesConfig.getApi().get(apiEnum.getApiMapKey()))
                 .collect(Collectors.joining());
         final String queryParams = Optional.ofNullable(builder).map(QueryParamsBuilder::build).orElse("");
         final URL url = new URL(urlAsString + queryParams);
         return (HttpURLConnection) url.openConnection();
     }
 
-    public <RETURN_CLASS> RETURN_CLASS doGetCall(final Class<RETURN_CLASS> clazz, final ApiEnum apiEnum, final QueryParamsBuilder builder) throws BaseException {
+    public <RETURN_CLASS, JSON_CLASS> RETURN_CLASS doGetCall(final Class<JSON_CLASS> clazz,
+                                                             final ApiEnum apiEnum,
+                                                             final QueryParamsBuilder builder,
+                                                             final Converter<JSON_CLASS, RETURN_CLASS> func) throws BaseException {
         try {
             final HttpURLConnection connection = buildConnection(builder, apiEnum);
             connection.setRequestMethod("GET");
             connection.setRequestProperty("Accept", "application/json");
             if (connection.getResponseCode() == 200) {
-                return mapper.readValue(copyInputStream(connection.getInputStream()), clazz);
+                return convertObject(mapper.readValue(copyInputStream(connection.getInputStream()), clazz),func);
             } else {
                 throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR.get());
 
@@ -56,7 +61,11 @@ public class AbstractService {
         }
     }
 
-    public <RETURN_CLASS, INPUT_CLASS> RETURN_CLASS doPostCall(final Class<RETURN_CLASS> clazz, final ApiEnum apiEnum, final INPUT_CLASS inputObject) throws BaseException {
+    public <RETURN_CLASS, JSON_CLASS, INPUT_CLASS> RETURN_CLASS doPostCall(final Class<JSON_CLASS> clazz,
+                                                                           final ApiEnum apiEnum,
+                                                                           final INPUT_CLASS inputObject,
+                                                                           final Converter<JSON_CLASS, RETURN_CLASS> func)
+            throws BaseException {
         try {
             final String json = mapper.writeValueAsString(inputObject);
             final HttpURLConnection connection = buildConnection(null, apiEnum);
@@ -70,7 +79,7 @@ public class AbstractService {
             dataOutputStream.flush();
             dataOutputStream.close();
             if (connection.getResponseCode() == 200) {
-                return mapper.readValue(copyInputStream(connection.getInputStream()), clazz);
+                return convertObject(mapper.readValue(copyInputStream(connection.getInputStream()), clazz), func);
             } else {
                 throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR.get());
             }
@@ -88,5 +97,9 @@ public class AbstractService {
         }
         baos.flush();
         return new ByteArrayInputStream(baos.toByteArray());
+    }
+
+    protected <SRC, DST> DST convertObject(final SRC src, final Converter<SRC, DST> func) {
+        return func.apply(src);
     }
 }

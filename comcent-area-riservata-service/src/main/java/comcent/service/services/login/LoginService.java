@@ -1,6 +1,8 @@
 package comcent.service.services.login;
 
 
+import comcent.service.dbmappings.UserMapping;
+import comcent.service.dbmappings.functions.ConvertionFunction;
 import comcent.service.dto.user.LoginDTO;
 import comcent.service.dto.user.UserDTO;
 import comcent.service.exceptions.BaseException;
@@ -13,8 +15,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class LoginService extends AbstractService {
-    public void login(final LoginDTO loginDTO) throws BaseException {
-        final UserDTO user = doPostCall(UserDTO.class, ApiEnum.LOGIN, loginDTO);
-        System.out.println();
+    public UserDTO login(final LoginDTO loginDTO) throws BaseException {
+        return doPostCall(UserMapping.class, ApiEnum.LOGIN, loginDTO, ConvertionFunction.toUserDto);
     }
 }

@@ -11,10 +11,6 @@
 	$params[1]-> value=$password;
 	$conn = createConnection();
 	$query = getQuery("queryLogin",$params);
-	$risultato = mysqli_query($conn,$query) or die("Query non valida: " . mysql_error());
-	while($e=mysqli_fetch_assoc($risultato))
-        $output[]=$e;
-    mysqli_close($conn);
-	$res = json_encode($output);
+	$res = buildAndGetSingleResult($conn,$query);
 	echo $res;
 ?>

@@ -4,7 +4,8 @@ package comcent.service.services;
  * Created by simon.calabrese on 31/10/2017.
  */
 public enum ApiEnum {
-    LOGIN("login");
+    LOGIN("login"),
+    GET_ID("getId");
 
     private String apiMapKey;
 

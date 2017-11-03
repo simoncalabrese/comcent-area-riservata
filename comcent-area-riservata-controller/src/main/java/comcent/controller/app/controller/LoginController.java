@@ -2,6 +2,7 @@ package comcent.controller.app.controller;
 
 import comcent.controller.base.AbstractController;
 import comcent.service.dto.user.LoginDTO;
+import comcent.service.dto.user.UserDTO;
 import comcent.service.exceptions.BaseException;
 import comcent.service.services.login.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,7 @@ public class LoginController extends AbstractController {
     private LoginService loginService;
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public void login(@RequestBody final LoginDTO loginDTO) throws BaseException {
-        loginService.login(loginDTO);
+    public UserDTO login(@RequestBody final LoginDTO loginDTO) throws BaseException {
+        return loginService.login(loginDTO);
     }
 }
