@@ -9,11 +9,13 @@ import comcent.service.exceptions.BaseException;
 import comcent.service.exceptions.Suppliers;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Optional;
@@ -53,11 +55,11 @@ public class AbstractService {
             if (connection.getResponseCode() == 200) {
                 return convertObject(mapper.readValue(copyInputStream(connection.getInputStream()), clazz),func);
             } else {
-                throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR.get());
+                throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR);
 
             }
         } catch (IOException e) {
-            throw new BaseException(Suppliers.CONNECTION_ERROR.get());
+            throw new BaseException(Suppliers.CONNECTION_ERROR);
         }
     }
 
@@ -79,12 +81,13 @@ public class AbstractService {
             dataOutputStream.flush();
             dataOutputStream.close();
             if (connection.getResponseCode() == 200) {
-                return convertObject(mapper.readValue(copyInputStream(connection.getInputStream()), clazz), func);
+                final InputStream inputStream = copyInputStream(connection.getInputStream());
+                return convertObject(mapper.readValue(inputStream, clazz),func);
             } else {
-                throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR.get());
+                throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR);
             }
         } catch (IOException e) {
-            throw new BaseException(Suppliers.CONNECTION_ERROR.get());
+            throw new BaseException(Suppliers.CONNECTION_ERROR);
         }
     }
 
