@@ -16,3 +16,5 @@ app:
     api:
       login: login.php
       getId: getId.php
+      insertMovement: insertMovement.php
+      getPlafont: getPlafont.php
