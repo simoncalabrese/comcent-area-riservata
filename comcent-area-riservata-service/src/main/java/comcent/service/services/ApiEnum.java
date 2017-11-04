@@ -7,7 +7,8 @@ public enum ApiEnum {
     LOGIN("login"),
     GET_ID("getId"),
     INSERT_MOVEMENT("insertMovement"),
-    GET_PLAFONT("getPlafont");
+    INSERT_ACTIVATION("insertActivation"),
+    GET_PLAFONT("getPlafont"), GET_ID_ACTIVATION("getIdActivation");
 
     private String apiMapKey;
 

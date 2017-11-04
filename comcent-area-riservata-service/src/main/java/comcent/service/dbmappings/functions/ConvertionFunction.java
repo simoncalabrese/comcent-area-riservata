@@ -2,6 +2,8 @@ package comcent.service.dbmappings.functions;
 
 import comcent.common.components.Converter;
 import comcent.service.dbmappings.UserMapping;
+import comcent.service.dto.activation.ActivationDTO;
+import comcent.service.dto.plafont.AddPlafontDTO;
 import comcent.service.dto.user.UserDTO;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
@@ -47,8 +49,4 @@ public class ConvertionFunction {
         user.setReference(ConvertionFunction.toUserDto.apply(userMapping.getREFERENCE()));
         return user;
     };
-
-    public static Map<String, Object> buildMapByPairs(Pair<String, Object>... pairs) {
-        return Arrays.stream(pairs).collect(Collectors.toMap(Pair::getKey, Pair::getValue));
-    }
 }

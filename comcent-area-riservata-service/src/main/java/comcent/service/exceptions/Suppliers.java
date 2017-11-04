@@ -6,7 +6,6 @@ import comcent.service.dto.base.ConcreteDTO;
 import comcent.service.dto.base.MessageDTO;
 
 import java.util.Collections;
-import java.util.List;
 import java.util.function.Supplier;
 
 /**

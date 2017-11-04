@@ -1,6 +1,7 @@
 package comcent.controller.app.controller;
 
 import comcent.controller.base.AbstractController;
+import comcent.service.dto.activation.ActivationDTO;
 import comcent.service.dto.base.ConcreteDTO;
 import comcent.service.dto.plafont.AddPlafontDTO;
 import comcent.service.dto.plafont.GetPlafontDTO;
@@ -11,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -29,5 +29,10 @@ public class PlafontController extends AbstractController {
     @RequestMapping("/getPlafont")
     public Map getPlafont(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
         return plafontService.getPlafont(getPlafontDTO);
+    }
+
+    @RequestMapping("/insertActivation")
+    public ConcreteDTO insertApplication(@RequestBody final ActivationDTO activationDTO) throws BaseException {
+        return plafontService.insertActivation(activationDTO);
     }
 }

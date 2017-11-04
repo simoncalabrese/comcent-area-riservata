@@ -18,3 +18,5 @@ app:
       getId: getId.php
       insertMovement: insertMovement.php
       getPlafont: getPlafont.php
+      getIdActivation: getIdActivation.php
+      insertActivation: insertActivation.php
