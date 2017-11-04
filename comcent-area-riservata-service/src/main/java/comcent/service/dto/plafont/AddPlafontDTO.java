@@ -10,7 +10,16 @@ public class AddPlafontDTO extends AbstractDTO {
     private Integer id;
     private Integer userId;
     private Date dataMov;
-    private BigDecimal amount;
+    private String dateString;
+    private Integer amount;
+
+    public Integer getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Integer amount) {
+        this.amount = amount;
+    }
 
     public Integer getId() {
         return id;
@@ -36,11 +45,11 @@ public class AddPlafontDTO extends AbstractDTO {
         this.dataMov = dataMov;
     }
 
-    public BigDecimal getAmount() {
-        return amount;
+    public String getDateString() {
+        return dateString;
     }
 
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
+    public void setDateString(String dateString) {
+        this.dateString = dateString;
     }
 }

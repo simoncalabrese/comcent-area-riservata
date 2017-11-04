@@ -4,11 +4,32 @@ import comcent.common.components.Converter;
 import comcent.service.dbmappings.UserMapping;
 import comcent.service.dto.user.UserDTO;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.tuple.Pair;
 
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Map;
+import java.util.Optional;
 import java.util.function.Function;
+import java.util.function.Supplier;
+import java.util.stream.Collectors;
 
 public class ConvertionFunction {
     public static final Function<String, Boolean> toBooleanConvertion = string -> StringUtils.equalsIgnoreCase(string, "S");
+    public static final Function<Date, String> dateToString = date -> {
+        SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
+        return format.format(date);
+    };
+
+    public static final Supplier<String> getTodayAsString = () -> Optional.of(new Date()).map(dateToString).orElse(null);
+
+    public static final Supplier<String> getFirstOfMonthAsString = () -> {
+        final Calendar c = Calendar.getInstance();   // this takes current date
+        c.set(Calendar.DAY_OF_MONTH, 1);
+        return Optional.of(c.getTime()).map(dateToString).orElse(null);
+    };
 
     public static final Converter<UserMapping, UserDTO> toUserDto = userMapping -> {
         if (userMapping == null)
@@ -26,4 +47,8 @@ public class ConvertionFunction {
         user.setReference(ConvertionFunction.toUserDto.apply(userMapping.getREFERENCE()));
         return user;
     };
+
+    public static Map<String, Object> buildMapByPairs(Pair<String, Object>... pairs) {
+        return Arrays.stream(pairs).collect(Collectors.toMap(Pair::getKey, Pair::getValue));
+    }
 }

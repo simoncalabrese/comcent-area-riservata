@@ -5,7 +5,9 @@ package comcent.service.services;
  */
 public enum ApiEnum {
     LOGIN("login"),
-    GET_ID("getId");
+    GET_ID("getId"),
+    INSERT_MOVEMENT("insertMovement"),
+    GET_PLAFONT("getPlafont");
 
     private String apiMapKey;
 

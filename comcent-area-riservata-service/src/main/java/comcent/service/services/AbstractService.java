@@ -18,6 +18,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -53,7 +55,7 @@ public class AbstractService {
             connection.setRequestMethod("GET");
             connection.setRequestProperty("Accept", "application/json");
             if (connection.getResponseCode() == 200) {
-                return convertObject(mapper.readValue(copyInputStream(connection.getInputStream()), clazz),func);
+                return convertObject(mapper.readValue(copyInputStream(connection.getInputStream()), clazz), func);
             } else {
                 throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR);
 
@@ -82,7 +84,33 @@ public class AbstractService {
             dataOutputStream.close();
             if (connection.getResponseCode() == 200) {
                 final InputStream inputStream = copyInputStream(connection.getInputStream());
-                return convertObject(mapper.readValue(inputStream, clazz),func);
+                return convertObject(mapper.readValue(inputStream, clazz), func);
+            } else {
+                throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR);
+            }
+        } catch (IOException e) {
+            throw new BaseException(Suppliers.CONNECTION_ERROR);
+        }
+    }
+
+    public <RETURN_CLASS, INPUT_CLASS> List<RETURN_CLASS> doPostCallList(final Class<RETURN_CLASS> clazz,
+                                                                                     final ApiEnum apiEnum,
+                                                                                     final INPUT_CLASS inputObject) throws BaseException {
+        try {
+            final String json = mapper.writeValueAsString(inputObject);
+            final HttpURLConnection connection = buildConnection(null, apiEnum);
+            connection.setRequestMethod("POST");
+            connection.setRequestProperty("Accept", "application/json");
+            connection.setRequestProperty("Content-Type", "application/json");
+            connection.setDoOutput(true);
+
+            final DataOutputStream dataOutputStream = new DataOutputStream(connection.getOutputStream());
+            dataOutputStream.write(json.getBytes("UTF-8"));
+            dataOutputStream.flush();
+            dataOutputStream.close();
+            if (connection.getResponseCode() == 200) {
+                final InputStream inputStream = copyInputStream(connection.getInputStream());
+                return mapper.readValue(inputStream, mapper.getTypeFactory().constructCollectionType(ArrayList.class, clazz));
             } else {
                 throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR);
             }

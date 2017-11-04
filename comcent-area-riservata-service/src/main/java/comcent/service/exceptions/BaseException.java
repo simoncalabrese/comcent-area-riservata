@@ -6,6 +6,7 @@ import comcent.service.dto.base.ConcreteDTO;
 import comcent.service.dto.base.MessageDTO;
 
 import java.util.List;
+import java.util.function.Supplier;
 
 /**
  * Created by simon.calabrese on 31/10/2017.
@@ -15,8 +16,8 @@ public class BaseException extends Exception {
 
     private AbstractDTO exceptionDto;
 
-    public BaseException(AbstractDTO exceptionDto) {
-        this.exceptionDto = exceptionDto;
+    public BaseException(Supplier<AbstractDTO> exceptionDto) {
+        this.exceptionDto = exceptionDto.get();
     }
 
     public BaseException(List<MessageDTO> messages) {
