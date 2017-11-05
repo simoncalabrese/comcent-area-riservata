@@ -10,6 +10,7 @@ import comcent.service.services.plafont.PlafontService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
@@ -21,17 +22,17 @@ public class PlafontController extends AbstractController {
     @Autowired
     private PlafontService plafontService;
 
-    @RequestMapping("/addPlafont")
+    @RequestMapping(value = "/addPlafont", method = RequestMethod.POST)
     public ConcreteDTO addPlafont(@RequestBody final AddPlafontDTO addPlafontDTO) throws BaseException {
         return plafontService.addPlafont(addPlafontDTO);
     }
 
-    @RequestMapping("/getPlafont")
+    @RequestMapping(value = "/getPlafont", method = RequestMethod.POST)
     public Map getPlafont(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
         return plafontService.getPlafont(getPlafontDTO);
     }
 
-    @RequestMapping("/insertActivation")
+    @RequestMapping(value = "/insertActivation", method = RequestMethod.POST)
     public ConcreteDTO insertApplication(@RequestBody final ActivationDTO activationDTO) throws BaseException {
         return plafontService.insertActivation(activationDTO);
     }

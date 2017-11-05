@@ -62,6 +62,25 @@ public class AbstractService {
         }
     }
 
+    public <RETURN_CLASS> List<RETURN_CLASS> doGetCallList(final Class<RETURN_CLASS> clazz,
+                                                           final ApiEnum apiEnum,
+                                                           final QueryParamsBuilder builder) throws BaseException {
+
+        try {
+            final HttpURLConnection connection = buildConnection(builder, apiEnum);
+            connection.setRequestMethod("GET");
+            connection.setRequestProperty("Accept", "application/json");
+            if (connection.getResponseCode() == 200) {
+                return mapper.readValue(copyInputStream(connection.getInputStream()), mapper.getTypeFactory().constructCollectionType(ArrayList.class, clazz));
+            } else {
+                throw new BaseException(Suppliers.CONNECTION_RESULT_ERROR);
+
+            }
+        } catch (IOException e) {
+            throw new BaseException(Suppliers.CONNECTION_ERROR);
+        }
+    }
+
     public <RETURN_CLASS, JSON_CLASS, INPUT_CLASS> RETURN_CLASS doPostCall(final Class<JSON_CLASS> clazz,
                                                                            final ApiEnum apiEnum,
                                                                            final INPUT_CLASS inputObject,
@@ -91,8 +110,8 @@ public class AbstractService {
     }
 
     public <RETURN_CLASS, INPUT_CLASS> List<RETURN_CLASS> doPostCallList(final Class<RETURN_CLASS> clazz,
-                                                                                     final ApiEnum apiEnum,
-                                                                                     final INPUT_CLASS inputObject) throws BaseException {
+                                                                         final ApiEnum apiEnum,
+                                                                         final INPUT_CLASS inputObject) throws BaseException {
         try {
             final String json = mapper.writeValueAsString(inputObject);
             final HttpURLConnection connection = buildConnection(null, apiEnum);
@@ -115,6 +134,8 @@ public class AbstractService {
             throw new BaseException(Suppliers.CONNECTION_ERROR);
         }
     }
+
+
 
     private InputStream copyInputStream(InputStream inputStream) throws IOException {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();

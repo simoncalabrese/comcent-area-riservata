@@ -11,7 +11,6 @@ import comcent.service.exceptions.BaseException;
 import comcent.service.exceptions.Suppliers;
 import comcent.service.services.AbstractService;
 import comcent.service.services.ApiEnum;
-import org.apache.commons.lang3.math.NumberUtils;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -50,6 +49,9 @@ public class PlafontService extends AbstractService {
     public ConcreteDTO insertActivation(final ActivationDTO activationDTO) throws BaseException {
         final Integer lastMovementId = getLastMovementId(activationDTO.getUser(), Boolean.FALSE);
         activationDTO.setId(lastMovementId);
+        activationDTO.setDateString(Optional.ofNullable(activationDTO.getDateAtt())
+                .map(ConvertionFunction.dateToString)
+                .orElseGet(ConvertionFunction.getTodayAsString));
         final Boolean result = doPostCall(String.class, ApiEnum.INSERT_ACTIVATION, activationDTO,
                 e -> e.equals("0"));
         if (result) {

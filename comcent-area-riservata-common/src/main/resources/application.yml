@@ -20,3 +20,5 @@ app:
       getPlafont: getPlafont.php
       getIdActivation: getIdActivation.php
       insertActivation: insertActivation.php
+      getUsers: getUsers.php
+      getActivations: getActivations.php

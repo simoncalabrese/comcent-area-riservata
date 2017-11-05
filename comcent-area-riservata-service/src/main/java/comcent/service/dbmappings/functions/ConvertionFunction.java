@@ -9,14 +9,17 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class ConvertionFunction {
     public static final Function<String, Boolean> toBooleanConvertion = string -> StringUtils.equalsIgnoreCase(string, "S");
@@ -49,4 +52,8 @@ public class ConvertionFunction {
         user.setReference(ConvertionFunction.toUserDto.apply(userMapping.getREFERENCE()));
         return user;
     };
+
+    public static <T> Stream<T> notIntersect(final List<T> first, final List<T> second) {
+        return first.stream().filter(e -> !second.stream().anyMatch(m -> m.equals(e)));
+    }
 }

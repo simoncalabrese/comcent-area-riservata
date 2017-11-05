@@ -8,7 +8,9 @@ public enum ApiEnum {
     GET_ID("getId"),
     INSERT_MOVEMENT("insertMovement"),
     INSERT_ACTIVATION("insertActivation"),
-    GET_PLAFONT("getPlafont"), GET_ID_ACTIVATION("getIdActivation");
+    GET_PLAFONT("getPlafont"), GET_ID_ACTIVATION("getIdActivation"),
+    GET_USERS("getUsers"),
+    GET_ACTIVATIONS("getActivations");
 
     private String apiMapKey;
 
