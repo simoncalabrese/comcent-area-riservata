@@ -41,7 +41,6 @@ public class ActivationSerice extends AbstractService {
                             return null;
                         }
                     }, Collectors.toList())));
-
         } else {
             final Map<Integer, List<Integer>> hierarchiMap = hierarchyMappings
                     .stream()
