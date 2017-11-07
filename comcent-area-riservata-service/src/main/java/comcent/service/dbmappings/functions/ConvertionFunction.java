@@ -2,23 +2,16 @@ package comcent.service.dbmappings.functions;
 
 import comcent.common.components.Converter;
 import comcent.service.dbmappings.UserMapping;
-import comcent.service.dto.activation.ActivationDTO;
-import comcent.service.dto.plafont.AddPlafontDTO;
 import comcent.service.dto.user.UserDTO;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.tuple.Pair;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.function.Supplier;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class ConvertionFunction {
