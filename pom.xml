@@ -17,6 +17,7 @@
 
     <properties>
         <application.version>0.0.1</application.version>
+        <java.version>1.8</java.version>
         <start-class>comcent.controller.Main</start-class>
     </properties>
 
