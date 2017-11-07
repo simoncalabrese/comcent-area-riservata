@@ -12,7 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="comcent-area-riservata" target="1.8" />
+      <module name="comcent-area-riservata" target="1.6" />
       <module name="comcent-area-riservata-common" target="1.8" />
       <module name="comcent-area-riservata-controller" target="1.8" />
       <module name="comcent-area-riservata-service" target="1.8" />
