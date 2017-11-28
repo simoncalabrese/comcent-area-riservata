@@ -22,3 +22,4 @@ app:
       insertActivation: insertActivation.php
       getUsers: getUsers.php
       getActivations: getActivations.php
+      getUserData: getUserData.php

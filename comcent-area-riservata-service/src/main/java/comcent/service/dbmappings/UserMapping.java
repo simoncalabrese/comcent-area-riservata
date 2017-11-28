@@ -9,7 +9,7 @@ public class UserMapping {
     private String SURNAME;
     private String COD_FISC;
     private String P_IVA;
-    private UserMapping REFERENCE;
+    private Integer REFERENCE;
     private String READ_PERMISSION;
     private String WRITE_PERMISSION;
     private String EMAIL;
@@ -55,11 +55,11 @@ public class UserMapping {
         P_IVA = p_IVA;
     }
 
-    public UserMapping getREFERENCE() {
+    public Integer getREFERENCE() {
         return REFERENCE;
     }
 
-    public void setREFERENCE(UserMapping REFERENCE) {
+    public void setREFERENCE(Integer REFERENCE) {
         this.REFERENCE = REFERENCE;
     }
 

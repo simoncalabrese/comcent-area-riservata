@@ -2,26 +2,35 @@ package comcent.service.services.activation;
 
 import comcent.common.builders.QueryParamsBuilder;
 import comcent.service.dbmappings.HierarchyMappings;
+import comcent.service.dbmappings.UserMapping;
 import comcent.service.dbmappings.functions.ConvertionFunction;
 import comcent.service.dto.activation.ActivationDTO;
+import comcent.service.dto.activation.WrapperUserActivations;
 import comcent.service.dto.plafont.GetPlafontDTO;
+import comcent.service.dto.user.UserDTO;
 import comcent.service.exceptions.BaseException;
 import comcent.service.services.AbstractService;
 import comcent.service.services.ApiEnum;
+import comcent.service.services.plafont.PlafontService;
 import org.apache.commons.lang3.tuple.Pair;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Service
 public class ActivationSerice extends AbstractService {
 
-    public Map<Integer, List<Pair<Integer, List<ActivationDTO>>>> getActivations(final GetPlafontDTO getPlafontDTO) throws BaseException {
+    @Autowired
+    private PlafontService plafontService;
+
+    public List<WrapperUserActivations> getActivations(final GetPlafontDTO getPlafontDTO) throws BaseException {
         final String dateStart = Optional.ofNullable(getPlafontDTO.getDateStart()).orElseGet(ConvertionFunction.getFirstOfMonthAsString);
         final String dateEnd = Optional.ofNullable(getPlafontDTO.getDateEnd()).orElseGet(ConvertionFunction.getTodayAsString);
         getPlafontDTO.setDateStart(dateStart);
@@ -29,17 +38,49 @@ public class ActivationSerice extends AbstractService {
         final List<HierarchyMappings> hierarchyMappings = doGetCallList(HierarchyMappings.class,
                 ApiEnum.GET_USERS,
                 QueryParamsBuilder.getBuilder().appendParams("userId", getPlafontDTO.getUserId()));
+        final Function<Pair<UserDTO, List<ActivationDTO>>, WrapperUserActivations> funcFinal = e -> {
+            final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
+            wrapperUserActivations.setUser(e.getKey());
+            wrapperUserActivations.setActivations(e.getValue());
+            return wrapperUserActivations;
+        };
+
+        final Function<Pair<UserDTO, List<ActivationDTO>>, WrapperUserActivations> funcFinalPlafont = funcFinal.andThen(e -> {
+            e.setPlafont(convertObjectCloned(getPlafontDTO, s -> {
+                try {
+                    s.setUserId(e.getUser().getId());
+                    return plafontService.getPlafont(s);
+                } catch (BaseException e1) {
+                    return null;
+                }
+            }));
+            return e;
+        });
+        final Function<Pair<UserDTO, List<Pair<UserDTO, List<ActivationDTO>>>>, WrapperUserActivations> funcIntermediate = e -> {
+            final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
+            wrapperUserActivations.setUser(e.getKey());
+            wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinalPlafont).collect(Collectors.toList()));
+            return wrapperUserActivations;
+        };
         //se abbiamo uno user di bottom, la nostra hierarchy sarà vuota in quando non c'è nessuno al di sotto e quindi
         //possiamo eeguire la query delle attivazioni altrimenti...
         if (CollectionUtils.isEmpty(hierarchyMappings)) {
-            return Stream.of(getPlafontDTO).collect(Collectors.groupingBy(GetPlafontDTO::getUserId,
+            final Map<Integer, List<Pair<UserDTO, List<ActivationDTO>>>> mapRet = Stream.of(getPlafontDTO).collect(Collectors.groupingBy(GetPlafontDTO::getUserId,
                     Collectors.mapping(e -> {
                         try {
-                            return Pair.of(e.getUserId(), getActivation(e));
+                            return Pair.of(getUser(e.getUserId()), getActivation(e));
                         } catch (BaseException ex) {
                             return null;
                         }
                     }, Collectors.toList())));
+            return mapRet.entrySet()
+                    .stream()
+                    .map(e -> {
+                        final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
+                        wrapperUserActivations.setUser(getUser(e.getKey()));
+                        wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinalPlafont).collect(Collectors.toList()));
+                        return wrapperUserActivations;
+                    }).collect(Collectors.toList());
         } else {
             final Map<Integer, List<Integer>> hierarchiMap = hierarchyMappings
                     .stream()
@@ -48,15 +89,26 @@ public class ActivationSerice extends AbstractService {
                             e.getBottom()))
                     .collect(Collectors.groupingBy(Pair::getKey, Collectors.mapping(Pair::getValue, Collectors.toList())));
             return hierarchiMap.entrySet().stream().map(e ->
-                    Pair.of(e.getKey(), e.getValue().stream().map(i -> {
+                    Pair.of(getUser(e.getKey()), e.getValue().stream().map(i -> {
                         getPlafontDTO.setUserId(i);
                         try {
-                            return Pair.of(i, getActivation(getPlafontDTO));
+                            return Pair.of(getUser(i), getActivation(getPlafontDTO));
                         } catch (BaseException e1) {
                             return null;
                         }
-                    }).collect(Collectors.toList()))).collect(Collectors.toMap(Pair::getKey, Pair::getValue));
+                    }).collect(Collectors.toList())))
+                    .map(funcIntermediate).collect(Collectors.toList());
+        }
+    }
 
+    private UserDTO getUser(final Integer id) {
+        try {
+            return doGetCall(UserMapping.class,
+                    ApiEnum.GET_USER_DATA,
+                    QueryParamsBuilder.getBuilder().appendParams("userId", id),
+                    ConvertionFunction.toUserDto);
+        } catch (BaseException e) {
+            return null;
         }
     }
 

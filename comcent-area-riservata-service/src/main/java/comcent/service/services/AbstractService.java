@@ -7,6 +7,7 @@ import comcent.common.components.AbstractPropertiesConfig;
 import comcent.common.components.Converter;
 import comcent.service.exceptions.BaseException;
 import comcent.service.exceptions.Suppliers;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.*;
@@ -146,5 +147,15 @@ public class AbstractService {
 
     protected <SRC, DST> DST convertObject(final SRC src, final Converter<SRC, DST> func) {
         return func.apply(src);
+    }
+
+    protected <SRC,DST> DST convertObjectCloned(final SRC src, final Converter<SRC, DST> func) {
+        try {
+            final SRC clone = (SRC) src.getClass().newInstance();
+            BeanUtils.copyProperties(src,clone);
+            return func.apply(clone);
+        } catch (InstantiationException | IllegalAccessException e) {
+            return null;
+        }
     }
 }

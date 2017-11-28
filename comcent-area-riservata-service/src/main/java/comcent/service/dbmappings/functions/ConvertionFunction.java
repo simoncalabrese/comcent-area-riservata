@@ -42,7 +42,7 @@ public class ConvertionFunction {
         user.setReadPermission(toBooleanConvertion.apply(userMapping.getREAD_PERMISSION()));
         user.setSurname(userMapping.getSURNAME());
         user.setWritePermission(toBooleanConvertion.apply(userMapping.getWRITE_PERMISSION()));
-        user.setReference(ConvertionFunction.toUserDto.apply(userMapping.getREFERENCE()));
+        //user.setReference(ConvertionFunction.toUserDto.apply(userMapping.getREFERENCE()));
         return user;
     };
 

@@ -6,15 +6,13 @@ import comcent.service.dto.user.UserDTO;
 import comcent.service.exceptions.BaseException;
 import comcent.service.services.login.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by simon.calabrese on 31/10/2017.
  */
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/index")
 public class LoginController extends AbstractController {
 
