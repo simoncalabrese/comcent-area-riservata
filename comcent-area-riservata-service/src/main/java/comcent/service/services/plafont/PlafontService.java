@@ -1,12 +1,15 @@
 package comcent.service.services.plafont;
 
 import comcent.common.builders.QueryParamsBuilder;
+import comcent.service.dbmappings.HierarchyMappings;
 import comcent.service.dbmappings.IdMapping;
+import comcent.service.dbmappings.UserMapping;
 import comcent.service.dbmappings.functions.ConvertionFunction;
 import comcent.service.dto.activation.ActivationDTO;
 import comcent.service.dto.base.ConcreteDTO;
 import comcent.service.dto.plafont.AddPlafontDTO;
 import comcent.service.dto.plafont.GetPlafontDTO;
+import comcent.service.dto.user.UserDTO;
 import comcent.service.exceptions.BaseException;
 import comcent.service.exceptions.Suppliers;
 import comcent.service.services.AbstractService;
@@ -14,8 +17,10 @@ import comcent.service.services.ApiEnum;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class PlafontService extends AbstractService {
@@ -74,5 +79,26 @@ public class PlafontService extends AbstractService {
                 isTransaction ? ApiEnum.GET_ID : ApiEnum.GET_ID_ACTIVATION,
                 QueryParamsBuilder.getBuilder().appendParams("userId", userId), IdMapping::getId))
                 .map(e -> ++e).orElse(null);
+    }
+
+    public List<HierarchyMappings> getUsersDependency(final Integer id) throws BaseException {
+        return doGetCallList(HierarchyMappings.class,
+                ApiEnum.GET_USERS,
+                QueryParamsBuilder.getBuilder().appendParams("userId", id));
+    }
+
+    public List<UserDTO> getUsersDependencyPublic(final Integer id) throws BaseException {
+        return getUsersDependency(id).stream().map(hierarchyMappings -> getUser(hierarchyMappings.getBottom())).collect(Collectors.toList());
+    }
+
+    public UserDTO getUser(final Integer id) {
+        try {
+            return doGetCall(UserMapping.class,
+                    ApiEnum.GET_USER_DATA,
+                    QueryParamsBuilder.getBuilder().appendParams("userId", id),
+                    ConvertionFunction.toUserDto);
+        } catch (BaseException e) {
+            return null;
+        }
     }
 }

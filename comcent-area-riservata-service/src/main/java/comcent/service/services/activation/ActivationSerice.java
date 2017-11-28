@@ -35,9 +35,7 @@ public class ActivationSerice extends AbstractService {
         final String dateEnd = Optional.ofNullable(getPlafontDTO.getDateEnd()).orElseGet(ConvertionFunction.getTodayAsString);
         getPlafontDTO.setDateStart(dateStart);
         getPlafontDTO.setDateEnd(dateEnd);
-        final List<HierarchyMappings> hierarchyMappings = doGetCallList(HierarchyMappings.class,
-                ApiEnum.GET_USERS,
-                QueryParamsBuilder.getBuilder().appendParams("userId", getPlafontDTO.getUserId()));
+        final List<HierarchyMappings> hierarchyMappings = plafontService.getUsersDependency(getPlafontDTO.getUserId());
         final Function<Pair<UserDTO, List<ActivationDTO>>, WrapperUserActivations> funcFinal = e -> {
             final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
             wrapperUserActivations.setUser(e.getKey());
@@ -68,7 +66,7 @@ public class ActivationSerice extends AbstractService {
             final Map<Integer, List<Pair<UserDTO, List<ActivationDTO>>>> mapRet = Stream.of(getPlafontDTO).collect(Collectors.groupingBy(GetPlafontDTO::getUserId,
                     Collectors.mapping(e -> {
                         try {
-                            return Pair.of(getUser(e.getUserId()), getActivation(e));
+                            return Pair.of(plafontService.getUser(e.getUserId()), getActivation(e));
                         } catch (BaseException ex) {
                             return null;
                         }
@@ -77,7 +75,7 @@ public class ActivationSerice extends AbstractService {
                     .stream()
                     .map(e -> {
                         final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
-                        wrapperUserActivations.setUser(getUser(e.getKey()));
+                        wrapperUserActivations.setUser(plafontService.getUser(e.getKey()));
                         wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinalPlafont).collect(Collectors.toList()));
                         return wrapperUserActivations;
                     }).collect(Collectors.toList());
@@ -89,26 +87,15 @@ public class ActivationSerice extends AbstractService {
                             e.getBottom()))
                     .collect(Collectors.groupingBy(Pair::getKey, Collectors.mapping(Pair::getValue, Collectors.toList())));
             return hierarchiMap.entrySet().stream().map(e ->
-                    Pair.of(getUser(e.getKey()), e.getValue().stream().map(i -> {
+                    Pair.of(plafontService.getUser(e.getKey()), e.getValue().stream().map(i -> {
                         getPlafontDTO.setUserId(i);
                         try {
-                            return Pair.of(getUser(i), getActivation(getPlafontDTO));
+                            return Pair.of(plafontService.getUser(i), getActivation(getPlafontDTO));
                         } catch (BaseException e1) {
                             return null;
                         }
                     }).collect(Collectors.toList())))
                     .map(funcIntermediate).collect(Collectors.toList());
-        }
-    }
-
-    private UserDTO getUser(final Integer id) {
-        try {
-            return doGetCall(UserMapping.class,
-                    ApiEnum.GET_USER_DATA,
-                    QueryParamsBuilder.getBuilder().appendParams("userId", id),
-                    ConvertionFunction.toUserDto);
-        } catch (BaseException e) {
-            return null;
         }
     }
 
