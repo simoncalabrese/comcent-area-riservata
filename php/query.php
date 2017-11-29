@@ -9,8 +9,8 @@
 		$queries-> insertMove = "INSERT INTO app_transactions(ID,USER,DAT_MOV,AMOUNT) VALUES (<id>,<user>,'<date>',<amount>)";
 		$queries-> insertActivation = "INSERT INTO app_activation(ID, USER, DES_ACTIVATION, AMNT_PLAFONT,DAT_ATT) VALUES (<id>,<user>,'<desActivation>',<amntPlafont>,'<datAtt>')";
 		$queries-> getPlafont = "SELECT SUM(amount) as amount FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
-		$queries-> getPlafontPos = "SELECT SUM(amount) as amountPos FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
-		$queries-> getPlafontNeg = "SELECT SUM(amount) as amountNeg FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
+		$queries-> getPlafontPos = "SELECT SUM(amount) as amountPos FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' ) and amount>0";
+		$queries-> getPlafontNeg = "SELECT SUM(amount) as amountNeg FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' ) and amount<0";
 		$queries-> getUsers = "SELECT * FROM  `app_hierarchy` h WHERE h.center =<userId> OR h.top = <userId>";
 		$queries-> getActivations = "SELECT a.ID as id, 
 											a.DES_ACTIVATION as desActivation,
