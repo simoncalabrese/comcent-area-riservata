@@ -4,8 +4,8 @@
 		$queries = new stdClass();
 		$queries-> queryLogin = "SELECT * FROM anag_user u where u.EMAIL = '<username>' and u.PSW = '<password>'";
 		$queries-> queryUser = "SELECT u.ID,u.NAME,u.SURNAME FROM anag_user u where u.ID = <id>";
-		$queries-> queryGetId = "SELECT coalesce(max(ID),0) as id FROM app_transactions t where t.USER = <userId>";
-		$queries-> queryGetIdActivation = "SELECT coalesce(max(ID),0) as id FROM app_activation t where t.USER = <userId>";
+		$queries-> queryGetId = "SELECT coalesce(max(ID),0) as id FROM app_transactions t";
+		$queries-> queryGetIdActivation = "SELECT coalesce(max(ID),0) as id FROM app_activation t";
 		$queries-> insertMove = "INSERT INTO app_transactions(ID,USER,DAT_MOV,AMOUNT) VALUES (<id>,<user>,'<date>',<amount>)";
 		$queries-> insertActivation = "INSERT INTO app_activation(ID, USER, DES_ACTIVATION, AMNT_PLAFONT,DAT_ATT) VALUES (<id>,<user>,'<desActivation>',<amntPlafont>,'<datAtt>')";
 		$queries-> getPlafont = "SELECT SUM(amount) as amount FROM app_transactions WHERE USER = <userId> AND DAT_MOV BETWEEN  '<dateStart>' AND  '<dateEnd>'";
@@ -17,8 +17,10 @@
 											a.AMNT_PLAFONT as amntPlafont,
 											a.DAT_ATT as dateString from app_activation a where a.USER = <userId> and a.DAT_ATT BETWEEN '<dateStart>' AND  '<dateEnd>'";
 		$query = $queries->$querykey;
-		foreach ($params as $value) {
-			$query = str_replace("<".($value->key).">", $value->value, $query);
+		if($params != null) {
+			foreach ($params as $value) {
+				$query = str_replace("<".($value->key).">", $value->value, $query);
+			}
 		}
 		return $query;
 	}

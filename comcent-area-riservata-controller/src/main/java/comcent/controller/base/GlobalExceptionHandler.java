@@ -36,12 +36,14 @@ public abstract class GlobalExceptionHandler {
     @ResponseBody
     @ExceptionHandler(value = BaseException.class)
     public AbstractDTO generalException(final HttpServletResponse response, final HttpServletResponse request, final BaseException e) {
+        System.out.println(e.getMessage());
         return mapException.apply(e);
     }
 
     @ResponseBody
     @ExceptionHandler(value = RuntimeException.class)
     public AbstractDTO runtimeException(final HttpServletResponse response, final HttpServletResponse request, final RuntimeException e) {
+        System.out.println(e.getMessage());
         return getGenericError.get();
     }
 }
