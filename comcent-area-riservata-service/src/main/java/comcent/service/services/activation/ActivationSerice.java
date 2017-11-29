@@ -43,21 +43,20 @@ public class ActivationSerice extends AbstractService {
             return wrapperUserActivations;
         };
 
-        final Function<Pair<UserDTO, List<ActivationDTO>>, WrapperUserActivations> funcFinalPlafont = funcFinal.andThen(e -> {
-            e.setPlafont(convertObjectCloned(getPlafontDTO, s -> {
-                try {
-                    s.setUserId(e.getUser().getId());
-                    return plafontService.getPlafont(s);
-                } catch (BaseException e1) {
-                    return null;
-                }
-            }));
-            return e;
-        });
         final Function<Pair<UserDTO, List<Pair<UserDTO, List<ActivationDTO>>>>, WrapperUserActivations> funcIntermediate = e -> {
             final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
             wrapperUserActivations.setUser(e.getKey());
-            wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinalPlafont).collect(Collectors.toList()));
+            wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinal.andThen(elem -> {
+                elem.setPlafont(convertObjectCloned(getPlafontDTO, s -> {
+                    try {
+                        s.setUserId(elem.getUser().getId());
+                        return plafontService.getPlafont(s);
+                    } catch (BaseException e1) {
+                        return null;
+                    }
+                }));
+                return elem;
+            })).collect(Collectors.toList()));
             return wrapperUserActivations;
         };
         //se abbiamo uno user di bottom, la nostra hierarchy sarà vuota in quando non c'è nessuno al di sotto e quindi
@@ -76,7 +75,17 @@ public class ActivationSerice extends AbstractService {
                     .map(e -> {
                         final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
                         wrapperUserActivations.setUser(plafontService.getUser(e.getKey()));
-                        wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinalPlafont).collect(Collectors.toList()));
+                        wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinal.andThen(elem -> {
+                            convertObjectCloned(getPlafontDTO, s -> {
+                                try {
+                                    s.setUserId(elem.getUser().getId());
+                                    return plafontService.getPlafont(s);
+                                } catch (BaseException e1) {
+                                    return null;
+                                }
+                            });
+                            return elem;
+                        })).collect(Collectors.toList()));
                         return wrapperUserActivations;
                     }).collect(Collectors.toList());
         } else {
