@@ -8,14 +8,14 @@
 		$queries-> queryGetIdActivation = "SELECT coalesce(max(ID),0) as id FROM app_activation t";
 		$queries-> insertMove = "INSERT INTO app_transactions(ID,USER,DAT_MOV,AMOUNT) VALUES (<id>,<user>,'<date>',<amount>)";
 		$queries-> insertActivation = "INSERT INTO app_activation(ID, USER, DES_ACTIVATION, AMNT_PLAFONT,DAT_ATT) VALUES (<id>,<user>,'<desActivation>',<amntPlafont>,'<datAtt>')";
-		$queries-> getPlafont = "SELECT SUM(amount) as amount FROM app_transactions WHERE USER = <userId> AND DAT_MOV BETWEEN  '<dateStart>' AND  '<dateEnd>'";
-		$queries-> getPlafontPos = "SELECT SUM(amount) as amountPos FROM app_transactions WHERE USER = <userId> AND DAT_MOV BETWEEN  '<dateStart>' AND  '<dateEnd>' and amount>0";
-		$queries-> getPlafontNeg = "SELECT SUM(amount) as amountNeg FROM app_transactions WHERE USER = <userId> AND DAT_MOV BETWEEN  '<dateStart>' AND  '<dateEnd>' and amount<0";
+		$queries-> getPlafont = "SELECT SUM(amount) as amount FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
+		$queries-> getPlafontPos = "SELECT SUM(amount) as amountPos FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
+		$queries-> getPlafontNeg = "SELECT SUM(amount) as amountNeg FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
 		$queries-> getUsers = "SELECT * FROM  `app_hierarchy` h WHERE h.center =<userId> OR h.top = <userId>";
 		$queries-> getActivations = "SELECT a.ID as id, 
 											a.DES_ACTIVATION as desActivation,
 											a.AMNT_PLAFONT as amntPlafont,
-											a.DAT_ATT as dateString from app_activation a where a.USER = <userId> and a.DAT_ATT BETWEEN '<dateStart>' AND  '<dateEnd>'";
+											a.DAT_ATT as dateString from app_activation a where a.USER = <userId> and STR_TO_DATE( a.DAT_ATT,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
 		$query = $queries->$querykey;
 		if($params != null) {
 			foreach ($params as $value) {
