@@ -12,10 +12,10 @@ public class LoginDTO extends AbstractDTO {
     private String password;
 
     public String getUsername() {
-        return username;
+        return username.toUpperCase();
     }
 
     public String getPassword() {
-        return password;
+        return password.toUpperCase();
     }
 }
