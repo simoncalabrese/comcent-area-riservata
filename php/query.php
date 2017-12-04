@@ -3,6 +3,8 @@
 	function getQuery($querykey,$params) {
 		$queries = new stdClass();
 		$queries-> queryLogin = "SELECT * FROM anag_user u where u.EMAIL = '<username>' and u.PSW = '<password>'";
+		$queries-> querySignUp = "INSERT INTO anag_user(ID, NAME, SURNAME, COD_FISC, P_IVA, REFERENCE, READ_PERMISSION, WRITE_PERMISSION, EMAIL, PHONE, PSW) 
+									VALUES (<ID>,'<NAME>','<SURNAME>','<COD_FISC>','<P_IVA>',<REFERENCE>,'<READ_PERMISSION>','<WRITE_PERMISSION>','<EMAIL>','<PHONE>','<PSW>')";
 		$queries-> queryUser = "SELECT u.ID,u.NAME,u.SURNAME FROM anag_user u where u.ID = <id>";
 		$queries-> queryGetId = "SELECT coalesce(max(ID),0) as id FROM app_transactions t";
 		$queries-> queryGetIdActivation = "SELECT coalesce(max(ID),0) as id FROM app_activation t";

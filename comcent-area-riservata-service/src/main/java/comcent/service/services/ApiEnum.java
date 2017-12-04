@@ -11,7 +11,8 @@ public enum ApiEnum {
     GET_PLAFONT("getPlafont"), GET_ID_ACTIVATION("getIdActivation"),
     GET_USERS("getUsers"),
     GET_ACTIVATIONS("getActivations"),
-    GET_USER_DATA("getUserData");
+    GET_USER_DATA("getUserData"),
+    SIGNUP("signUp");
 
     private String apiMapKey;
 

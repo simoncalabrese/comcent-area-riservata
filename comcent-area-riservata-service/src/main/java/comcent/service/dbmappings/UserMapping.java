@@ -1,9 +1,11 @@
 package comcent.service.dbmappings;
 
+import java.io.Serializable;
+
 /**
  * Created by simon.calabrese on 31/10/2017.
  */
-public class UserMapping {
+public class UserMapping implements Serializable {
     private Integer ID;
     private String NAME;
     private String SURNAME;
@@ -14,6 +16,7 @@ public class UserMapping {
     private String WRITE_PERMISSION;
     private String EMAIL;
     private String PHONE;
+    private String PSW;
 
     public Integer getID() {
         return ID;
@@ -93,5 +96,13 @@ public class UserMapping {
 
     public void setPHONE(String PHONE) {
         this.PHONE = PHONE;
+    }
+
+    public String getPSW() {
+        return PSW;
+    }
+
+    public void setPSW(String PSW) {
+        this.PSW = PSW;
     }
 }

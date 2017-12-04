@@ -32,4 +32,11 @@ public class Suppliers {
         messageDTO.setDesErrore("Errore durante l' inserimento del versamento. Contattare Assistenza");
         return new ConcreteDTO(Collections.singletonList(messageDTO));
     };
+
+    public static Supplier<AbstractDTO> INSERT_USER = () -> {
+        final MessageDTO messageDTO = new MessageDTO();
+        messageDTO.setCodErrore("004");
+        messageDTO.setDesErrore("Errore durante la registrazione");
+        return new ConcreteDTO(Collections.singletonList(messageDTO));
+    };
 }

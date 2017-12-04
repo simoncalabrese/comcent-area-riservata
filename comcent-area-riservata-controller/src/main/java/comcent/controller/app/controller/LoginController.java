@@ -1,6 +1,8 @@
 package comcent.controller.app.controller;
 
 import comcent.controller.base.AbstractController;
+import comcent.service.dto.base.ConcreteDTO;
+import comcent.service.dto.user.CompleteUserDTO;
 import comcent.service.dto.user.LoginDTO;
 import comcent.service.dto.user.UserDTO;
 import comcent.service.exceptions.BaseException;
@@ -22,5 +24,10 @@ public class LoginController extends AbstractController {
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public UserDTO login(@RequestBody final LoginDTO loginDTO) throws BaseException {
         return loginService.login(loginDTO);
+    }
+
+    @RequestMapping(value = "/signup", method = RequestMethod.POST)
+    public ConcreteDTO signUp(@RequestBody final CompleteUserDTO userDTO) throws BaseException {
+        return loginService.signUp(userDTO);
     }
 }

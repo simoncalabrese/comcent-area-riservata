@@ -2,6 +2,7 @@ package comcent.service.dbmappings.functions;
 
 import comcent.common.components.Converter;
 import comcent.service.dbmappings.UserMapping;
+import comcent.service.dto.user.CompleteUserDTO;
 import comcent.service.dto.user.UserDTO;
 import org.apache.commons.lang3.StringUtils;
 
@@ -16,6 +17,8 @@ import java.util.stream.Stream;
 
 public class ConvertionFunction {
     public static final Function<String, Boolean> toBooleanConvertion = string -> StringUtils.equalsIgnoreCase(string, "S");
+    public static final Function<Boolean,String> toStringFlag = bool -> bool ? "S" : "N";
+
     public static final Function<Date, String> dateToString = date -> {
         SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
         return format.format(date);
@@ -42,6 +45,22 @@ public class ConvertionFunction {
         user.setReadPermission(toBooleanConvertion.apply(userMapping.getREAD_PERMISSION()));
         user.setSurname(userMapping.getSURNAME());
         user.setWritePermission(toBooleanConvertion.apply(userMapping.getWRITE_PERMISSION()));
+        return user;
+    };
+
+    public static final Converter<CompleteUserDTO,UserMapping> toUserMapping = userDTO -> {
+        final UserMapping user = new UserMapping();
+        user.setID(userDTO.getId());
+        user.setCOD_FISC(userDTO.getCodFisc());
+        user.setEMAIL(userDTO.getEmail());
+        user.setNAME(userDTO.getName());
+        user.setP_IVA(userDTO.getPartIva());
+        user.setPHONE(userDTO.getPhone());
+        user.setREAD_PERMISSION(toStringFlag.apply(userDTO.getReadPermission()));
+        user.setSURNAME(userDTO.getSurname());
+        user.setWRITE_PERMISSION(toStringFlag.apply(userDTO.getWritePermission()));
+        user.setREFERENCE(userDTO.getReference().getId());
+        user.setPSW(userDTO.getPsw());
         return user;
     };
 
