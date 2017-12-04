@@ -7,6 +7,7 @@ comcent\service\services\plafont\PlafontService.class
 comcent\service\dbmappings\UserMapping.class
 comcent\service\dbmappings\functions\ConvertionFunction.class
 comcent\service\dto\activation\WrapperUserActivations.class
+comcent\service\dto\user\CompleteUserDTO.class
 comcent\service\exceptions\Suppliers.class
 comcent\service\dbmappings\IdMapping.class
 comcent\service\dto\base\AbstractDTO.class
