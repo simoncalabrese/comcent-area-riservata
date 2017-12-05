@@ -20,6 +20,7 @@ import org.springframework.util.CollectionUtils;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -95,7 +96,7 @@ public class ActivationSerice extends AbstractService {
                     .map(e -> Pair.of(e.getCenter(),
                             e.getBottom()))
                     .collect(Collectors.groupingBy(Pair::getKey, Collectors.mapping(Pair::getValue, Collectors.toList())));
-            return hierarchiMap.entrySet().stream().map(e ->
+            final List<WrapperUserActivations> collect = hierarchiMap.entrySet().stream().map(e ->
                     Pair.of(plafontService.getUser(e.getKey()), e.getValue().stream().map(i -> {
                         getPlafontDTO.setUserId(i);
                         try {
@@ -105,6 +106,21 @@ public class ActivationSerice extends AbstractService {
                         }
                     }).collect(Collectors.toList())))
                     .map(funcIntermediate).collect(Collectors.toList());
+             collect.forEach(user -> {
+                 final List<Map<String, String>> collect1 = user.getWrapper().stream().map(WrapperUserActivations::getPlafont).collect(Collectors.toList());
+                 final List<Map.Entry<String, String>> collect2 = collect1.stream().flatMap(e -> e.entrySet().stream()).collect(Collectors.toList());
+                 /*final Set<Map.Entry<String, String>> collect1 = user.getWrapper().stream()
+                         .flatMap(e -> e.getWrapper().stream())
+                         .filter(e -> e.getPlafont() != null)
+                         .flatMap(e -> e.getPlafont().entrySet().stream())
+                         .collect(Collectors.toSet());
+                 final Map<String, String> map = collect1.stream()
+                         .collect(Collectors.groupingBy(Map.Entry::getKey,
+                                 Collectors.summingDouble(e -> e.getValue() != null ? Double.valueOf(e.getValue()) : 0D)))
+                         .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, e -> e != null ? e.getValue().toString() : null));*/
+                 user.setPlafont(null);
+             });
+             return collect;
         }
     }
 

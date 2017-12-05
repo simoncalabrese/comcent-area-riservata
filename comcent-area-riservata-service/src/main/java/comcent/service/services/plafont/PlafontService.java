@@ -39,7 +39,7 @@ public class PlafontService extends AbstractService {
         }
     }
 
-    public Map getPlafont(final GetPlafontDTO getPlafontDTO) throws BaseException {
+    public Map<String,String> getPlafont(final GetPlafontDTO getPlafontDTO) throws BaseException {
         final String dateStart = Optional.ofNullable(getPlafontDTO.getDateStart()).orElseGet(ConvertionFunction.getFirstOfMonthAsString);
         final String dateEnd = Optional.ofNullable(getPlafontDTO.getDateEnd()).orElseGet(ConvertionFunction.getTodayAsString);
 

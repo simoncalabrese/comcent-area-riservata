@@ -17,7 +17,8 @@
 		$queries-> getActivations = "SELECT a.ID as id, 
 											a.DES_ACTIVATION as desActivation,
 											a.AMNT_PLAFONT as amntPlafont,
-											a.DAT_ATT as dateString from app_activation a where a.USER = <userId> and STR_TO_DATE( a.DAT_ATT,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
+											a.DAT_ATT as dateString,
+											a.USER_INSERT as userInsert from app_activation a where a.USER = <userId> and STR_TO_DATE( a.DAT_ATT,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
 		$query = $queries->$querykey;
 		if($params != null) {
 			foreach ($params as $value) {

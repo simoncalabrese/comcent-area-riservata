@@ -11,9 +11,10 @@ import java.util.Map;
  */
 public class WrapperUserActivations extends AbstractDTO {
 
+    private static final long serialVersionUID = -3928457993926354382L;
     private UserDTO user;
     private List<ActivationDTO> activations;
-    private Map plafont;
+    private Map<String,String> plafont;
     private List<WrapperUserActivations> wrapper;
 
     public UserDTO getUser() {
@@ -32,19 +33,19 @@ public class WrapperUserActivations extends AbstractDTO {
         this.activations = activations;
     }
 
+    public Map<String, String> getPlafont() {
+        return plafont;
+    }
+
+    public void setPlafont(Map<String, String> plafont) {
+        this.plafont = plafont;
+    }
+
     public List<WrapperUserActivations> getWrapper() {
         return wrapper;
     }
 
     public void setWrapper(List<WrapperUserActivations> wrapper) {
         this.wrapper = wrapper;
-    }
-
-    public Map getPlafont() {
-        return plafont;
-    }
-
-    public void setPlafont(Map plafont) {
-        this.plafont = plafont;
     }
 }

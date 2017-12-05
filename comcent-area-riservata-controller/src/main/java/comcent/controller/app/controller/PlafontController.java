@@ -28,7 +28,7 @@ public class PlafontController extends AbstractController {
     }
 
     @RequestMapping(value = "/getPlafont", method = RequestMethod.POST)
-    public Map getPlafont(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
+    public Map<String,String> getPlafont(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
         return plafontService.getPlafont(getPlafontDTO);
     }
 
