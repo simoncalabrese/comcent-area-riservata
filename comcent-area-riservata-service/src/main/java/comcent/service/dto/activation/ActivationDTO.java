@@ -12,6 +12,7 @@ public class ActivationDTO extends AbstractDTO {
     private Integer amntPlafont;
     private Date dateAtt;
     private String dateString;
+    private Integer userInsert;
 
     public Integer getId() {
         return id;
@@ -59,5 +60,13 @@ public class ActivationDTO extends AbstractDTO {
 
     public void setDateString(String dateString) {
         this.dateString = dateString;
+    }
+
+    public Integer getUserInsert() {
+        return userInsert;
+    }
+
+    public void setUserInsert(Integer userInsert) {
+        this.userInsert = userInsert;
     }
 }

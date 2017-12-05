@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0496f68a-0664-4cf9-99e6-ff7434c94865" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/comcent-area-riservata-controller-0.0.1-exec.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-example" afterPath="$PROJECT_DIR$/angular-example" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/comcent-area-riservata-common-0.0.1-exec.jar" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/target/comcent-area-riservata-common-0.0.1-exec.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/comcent-area-riservata-common-0.0.1.jar" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/target/comcent-area-riservata-common-0.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/LoginController.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/comcent-area-riservata-controller-0.0.1.jar" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/comcent-area-riservata-controller-0.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/UserMapping.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/UserMapping.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/functions/ConvertionFunction.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/functions/ConvertionFunction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/exceptions/Suppliers.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/exceptions/Suppliers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/ApiEnum.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/ApiEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/login/LoginService.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/login/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/comcent-area-riservata-service-0.0.1-exec.jar" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/comcent-area-riservata-service-0.0.1-exec.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/comcent-area-riservata-service-0.0.1.jar" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/comcent-area-riservata-service-0.0.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/insertActivation.php" afterPath="$PROJECT_DIR$/php/insertActivation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/query.php" afterPath="$PROJECT_DIR$/php/query.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/application.yml" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/ActivationDTO.java" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/ActivationDTO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-service/target/" />
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-controller/target/" />
@@ -50,7 +34,42 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="PlafontController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlafontService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivationDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/ActivationDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+              <folding>
+                <element signature="e#1427#1428#0" expanded="true" />
+                <element signature="e#1480#1481#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,6 +129,7 @@
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/CompleteUserDTO.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/AbstractService.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/login/LoginService.java" />
+        <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/ActivationDTO.java" />
       </list>
     </option>
   </component>
@@ -221,6 +241,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="comcent-area-riservata-controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comcent-area-riservata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comcent-area-riservata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comcent-area-riservata-controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comcent-area-riservata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comcent-area-riservata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="angular-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -233,7 +285,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="SearchEverywhereHistoryKey" value="plafs&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;loginser&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/login/LoginService.java&#10;comple&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/CompleteUserDTO.java&#10;userma&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/UserMapping.java&#10;userd&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/UserDTO.java&#10;plaf&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;act&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;yml&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-common/src/main/resources/application.yml&#10;Userd&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/UserDTO.java&#10;Userma&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/UserMapping.java&#10;Logins&#9;PSI&#9;JAVA://comcent.service.services.login.LoginService&#10;activat&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java&#10;global&#9;PSI&#9;JAVA://comcent.controller.base.GlobalExceptionHandler&#10;Conv&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/functions/ConvertionFunction.java&#10;Converter&#9;PSI&#9;JAVA://comcent.common.components.Converter&#10;Conver&#9;PSI&#9;JAVA://comcent.service.dbmappings.functions.ConvertionFunction&#10;api&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java&#10;pom&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/pom.xml&#10;Abs&#9;PSI&#9;JAVA://comcent.service.dto.base.AbstractDTO&#10;lafontService.&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java" />
+    <property name="SearchEverywhereHistoryKey" value="plafoncon&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafs&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;loginser&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/login/LoginService.java&#10;comple&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/CompleteUserDTO.java&#10;userma&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/UserMapping.java&#10;userd&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/UserDTO.java&#10;plaf&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;act&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;yml&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-common/src/main/resources/application.yml&#10;Userd&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/UserDTO.java&#10;Userma&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/UserMapping.java&#10;Logins&#9;PSI&#9;JAVA://comcent.service.services.login.LoginService&#10;activat&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java&#10;global&#9;PSI&#9;JAVA://comcent.controller.base.GlobalExceptionHandler&#10;Conv&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/functions/ConvertionFunction.java&#10;Converter&#9;PSI&#9;JAVA://comcent.common.components.Converter&#10;Conver&#9;PSI&#9;JAVA://comcent.service.dbmappings.functions.ConvertionFunction&#10;api&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java&#10;pom&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/pom.xml&#10;Abs&#9;PSI&#9;JAVA://comcent.service.dto.base.AbstractDTO&#10;lafontService.&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -750,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512380888448</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fix jar">
+      <created>1512385792741</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1512385792741</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -833,7 +892,8 @@
     <MESSAGE value="lost code" />
     <MESSAGE value="fix pom" />
     <MESSAGE value="aggiunta registrazione" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunta registrazione" />
+    <MESSAGE value="fix jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix jar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1057,14 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1230,20 +1282,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/login/LoginService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1276,6 +1320,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/ActivationDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+          <folding>
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding />
         </state>
       </provider>
