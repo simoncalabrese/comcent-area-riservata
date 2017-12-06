@@ -17,10 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -109,7 +106,7 @@ public class ActivationSerice extends AbstractService {
             collect.forEach(user ->
                 user.setPlafont(user.getWrapper().stream()
                         .map(WrapperUserActivations::getPlafont)
-                        .filter(e -> e != null)
+                        .filter(Objects::nonNull)
                         .flatMap(e -> e.entrySet().stream())
                         .collect(Collectors.groupingBy(Map.Entry::getKey,
                                 Collectors.summingDouble(e -> e.getValue() != null ? Double.valueOf(e.getValue()) : 0D)))
