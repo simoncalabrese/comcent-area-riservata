@@ -106,21 +106,15 @@ public class ActivationSerice extends AbstractService {
                         }
                     }).collect(Collectors.toList())))
                     .map(funcIntermediate).collect(Collectors.toList());
-             collect.forEach(user -> {
-                 final List<Map<String, String>> collect1 = user.getWrapper().stream().map(WrapperUserActivations::getPlafont).collect(Collectors.toList());
-                 final List<Map.Entry<String, String>> collect2 = collect1.stream().flatMap(e -> e.entrySet().stream()).collect(Collectors.toList());
-                 /*final Set<Map.Entry<String, String>> collect1 = user.getWrapper().stream()
-                         .flatMap(e -> e.getWrapper().stream())
-                         .filter(e -> e.getPlafont() != null)
-                         .flatMap(e -> e.getPlafont().entrySet().stream())
-                         .collect(Collectors.toSet());
-                 final Map<String, String> map = collect1.stream()
-                         .collect(Collectors.groupingBy(Map.Entry::getKey,
-                                 Collectors.summingDouble(e -> e.getValue() != null ? Double.valueOf(e.getValue()) : 0D)))
-                         .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, e -> e != null ? e.getValue().toString() : null));*/
-                 user.setPlafont(null);
-             });
-             return collect;
+            collect.forEach(user ->
+                user.setPlafont(user.getWrapper().stream()
+                        .map(WrapperUserActivations::getPlafont)
+                        .filter(e -> e != null)
+                        .flatMap(e -> e.entrySet().stream())
+                        .collect(Collectors.groupingBy(Map.Entry::getKey,
+                                Collectors.summingDouble(e -> e.getValue() != null ? Double.valueOf(e.getValue()) : 0D)))
+                        .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, e -> e.getValue().toString()))));
+            return collect;
         }
     }
 
