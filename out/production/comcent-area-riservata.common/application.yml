@@ -1,0 +1,17 @@
+server:
+  contextPath: /comunicationcenter
+  port: 8080
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+app:
+  basePath: http://www.comunicationcenter.it/area-riservata/be/
+  restUrl:
+    api:
+      login: /login.php
