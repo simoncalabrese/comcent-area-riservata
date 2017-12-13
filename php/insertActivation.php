@@ -11,7 +11,7 @@
 	$params[3]-> key="amntPlafont";
 	$params[4] = new stdClass();
 	$params[4]-> key="datAtt";
-	$params[5]-> new stdClass();
+	$params[5] = new stdClass();
 	$params[5]-> key="userInsert";
 	$params[0]-> value=$json->id;
 	$params[1]-> value=$json->user;
