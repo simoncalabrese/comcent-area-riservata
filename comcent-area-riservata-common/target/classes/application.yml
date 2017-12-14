@@ -24,3 +24,6 @@ app:
       getActivations: getActivations.php
       getUserData: getUserData.php
       signUp: signUp.php
+      getDocs: getDocs.php
+      addDocs: addDoc.php
+      delDocs: delDoc.php

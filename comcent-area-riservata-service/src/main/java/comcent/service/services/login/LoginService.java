@@ -43,7 +43,7 @@ public class LoginService extends AbstractService {
         if (res) {
             return new ConcreteDTO();
         } else {
-            throw new BaseException(Suppliers.INSERT_AMOUNT_RESULT);
+            throw new BaseException(Suppliers.INSERT_USER);
         }
     }
 }

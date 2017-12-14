@@ -69,4 +69,17 @@ public class ActivationDTO extends AbstractDTO {
     public void setUserInsert(Integer userInsert) {
         this.userInsert = userInsert;
     }
+
+    @Override
+    public String toString() {
+        return "ActivationDTO{" +
+                "id=" + id +
+                ", user=" + user +
+                ", desActivation='" + desActivation + '\'' +
+                ", amntPlafont=" + amntPlafont +
+                ", dateAtt=" + dateAtt +
+                ", dateString='" + dateString + '\'' +
+                ", userInsert=" + userInsert +
+                '}';
+    }
 }

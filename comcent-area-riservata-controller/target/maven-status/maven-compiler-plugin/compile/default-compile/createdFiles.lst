@@ -1,6 +1,6 @@
 comcent\controller\base\GlobalExceptionHandler.class
 comcent\controller\Main.class
-comcent\controller\base\AbstractController.class
 comcent\controller\app\controller\ActivationController.class
+comcent\controller\base\AbstractController.class
 comcent\controller\app\controller\LoginController.class
 comcent\controller\app\controller\PlafontController.class

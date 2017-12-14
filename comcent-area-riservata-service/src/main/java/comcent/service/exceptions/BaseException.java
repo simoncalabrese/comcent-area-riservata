@@ -16,6 +16,7 @@ public class BaseException extends Exception {
 
     private AbstractDTO exceptionDto;
 
+
     public BaseException(Supplier<AbstractDTO> exceptionDto) {
         this.exceptionDto = exceptionDto.get();
     }

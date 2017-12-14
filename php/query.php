@@ -19,6 +19,9 @@
 											a.AMNT_PLAFONT as amntPlafont,
 											a.DAT_ATT as dateString,
 											a.USER_INSERT as userInsert from app_activation a where a.USER = <userId> and STR_TO_DATE( a.DAT_ATT,  '%d-%m-%y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%y' )";
+		$queries-> getDocs = "SELECT NAME as name, URL as url FROM anag_docs";
+		$queries-> addDocLink = "INSERT INTO anag_docs values ('<name>','<url>')";
+		$queries-> removeDocLink = "DELETE FROM anag_docs WHERE NAME = '<name>'";
 		$query = $queries->$querykey;
 		if($params != null) {
 			foreach ($params as $value) {
@@ -54,5 +57,10 @@
 		mysqli_query($conn,$query) or die("Query non valida: " . mysql_error());
 		$id = mysqli_insert_id($conn);
 		return $id;
+	}
+
+	function executeDelete($conn,$query) {
+		mysqli_query($conn,$query) or die("Query non valida: " . mysql_error());
+		return 1; 
 	}
 ?>

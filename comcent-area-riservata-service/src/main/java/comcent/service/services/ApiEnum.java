@@ -12,7 +12,9 @@ public enum ApiEnum {
     GET_USERS("getUsers"),
     GET_ACTIVATIONS("getActivations"),
     GET_USER_DATA("getUserData"),
-    SIGNUP("signUp");
+    SIGNUP("signUp"),
+    GET_DOCS("getDocs"),
+    ADD_DOCS("addDocs"), DEL_DOC("delDocs");
 
     private String apiMapKey;
 

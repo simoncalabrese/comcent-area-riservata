@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import javax.annotation.PostConstruct;
 
@@ -16,7 +18,7 @@ import javax.annotation.PostConstruct;
 @SpringBootApplication
 @EnableAutoConfiguration
 @ComponentScan({"comcent.service", "comcent.common", "comcent.controller" })
-public abstract class BaseApplication {
+public abstract class BaseApplication extends WebMvcConfigurerAdapter{
 
     @Autowired
     private ObjectMapper jacksonMapper;

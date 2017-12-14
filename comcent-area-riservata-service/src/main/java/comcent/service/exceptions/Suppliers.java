@@ -39,4 +39,18 @@ public class Suppliers {
         messageDTO.setDesErrore("Errore durante la registrazione");
         return new ConcreteDTO(Collections.singletonList(messageDTO));
     };
+
+    public static Supplier<AbstractDTO> INSERT_DOC = () -> {
+        final MessageDTO messageDTO = new MessageDTO();
+        messageDTO.setCodErrore("004");
+        messageDTO.setDesErrore("Errore durante l' inserimento del link");
+        return new ConcreteDTO(Collections.singletonList(messageDTO));
+    };
+
+    public static Supplier<AbstractDTO> DEL_DOC = () -> {
+        final MessageDTO messageDTO = new MessageDTO();
+        messageDTO.setCodErrore("004");
+        messageDTO.setDesErrore("Errore durante l' eliminazione del link");
+        return new ConcreteDTO(Collections.singletonList(messageDTO));
+    };
 }
