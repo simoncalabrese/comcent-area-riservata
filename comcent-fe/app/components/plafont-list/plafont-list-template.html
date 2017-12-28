@@ -1,0 +1,19 @@
+
+<div class="add-plafont well">
+    <div>
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th>IMPORTO VERSATO</th>
+                <th>DATA REGISTRAZIONE VERSAMENTO</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="(key, value) in $ctrl.plafonts">
+                <td class="text-primary text-right">{{value.amount}}</td>
+                <td>{{value.dateString}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

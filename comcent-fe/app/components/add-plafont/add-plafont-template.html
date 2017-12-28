@@ -1,0 +1,26 @@
+<div class="add-plafont well">
+  <ng-form name="addPlafontForm" class="form-horizontal" novalidate>
+    <div class="form-group">
+      <label for="inputDate" class="col-sm-2 control-label">Data</label>
+      <div class="col-sm-10">
+        <p class="input-group">
+          <input  id="inputDate" type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="$ctrl.date" is-open="date.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" placeholder="Data" />
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="date.opened = !date.opened"><i class="fa fa-calendar-o text-primary" aria-hidden="true"></i></i></button>
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAmount" class="col-sm-2 control-label">Plafont</label>
+      <div class="col-sm-10">
+        <input type="number" class="form-control" id="inputAmount" placeholder="Plafont" ng-model="$ctrl.amount" ng-required="true" >
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary float-right" ng-click="$ctrl.add()" ng-disabled="addPlafontForm.$invalid">Aggiungi</button>
+      </div>
+    </div>
+  </ng-form>
+</div>

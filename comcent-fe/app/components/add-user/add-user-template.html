@@ -1,0 +1,84 @@
+<div class="add-user well">
+  <ng-form name="addUserForm" class="form-horizontal" novalidate>
+    <div class="form-group">
+      <label for="inputName" class="col-sm-2 control-label">Nome</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputName" placeholder="Nome" ng-model="$ctrl.name" ng-required="true">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputSurname" class="col-sm-2 control-label">Cognome</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputSurname" placeholder="Cognome" ng-model="$ctrl.surname" ng-required="true">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputCf" class="col-sm-2 control-label">Codice Fiscale/P. IVA</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputCf" placeholder="CF/P.IVA" ng-model="$ctrl.cf" ng-required="true">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email" ng-model="$ctrl.email" ng-required="true">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPsw" class="col-sm-2 control-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPsw" placeholder="Password" ng-model="$ctrl.psw" ng-required="true">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPhone" class="col-sm-2 control-label">Telefono</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputPhone" placeholder="Telefono" ng-model="$ctrl.phone" ng-required="true">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Referente</label>
+      <div class="col-sm-10">
+        <select class="full-width form-control" name="" ng-model="$ctrl.reference">
+          <option ng-repeat="user in $ctrl.users" value="{{user.id}}">{{user.name + " " + user.surname}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputRead" class="col-sm-2 control-label">Permessi di Lettura</label>
+      <div class="toggler col-sm-10">
+        <input id="togglerRead" type="checkbox" value="1" ng-model="$ctrl.readPermission"/>
+        <label for="togglerRead">
+          <svg class="toggler-on" version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 130.2 130.2">
+            <polyline class="path check" points="100.2,40.2 51.5,88.8 29.8,67.5 "></polyline>
+          </svg>
+          <svg class="toggler-off" version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 130.2 130.2">
+            <line class="path line" x1="34.4" y1="34.4" x2="95.8" y2="95.8"></line>
+            <line class="path line" x1="95.8" y1="34.4" x2="34.4" y2="95.8"></line>
+          </svg>
+        </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Permessi di Scrittura</label>
+      <div class="toggler col-sm-10">
+        <input id="togglerWrite" type="checkbox" value="1" ng-model="$ctrl.writePermission"/>
+        <label for="togglerWrite">
+          <svg class="toggler-on" version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 130.2 130.2">
+            <polyline class="path check" points="100.2,40.2 51.5,88.8 29.8,67.5 "></polyline>
+          </svg>
+          <svg class="toggler-off" version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 130.2 130.2">
+            <line class="path line" x1="34.4" y1="34.4" x2="95.8" y2="95.8"></line>
+            <line class="path line" x1="95.8" y1="34.4" x2="34.4" y2="95.8"></line>
+          </svg>
+        </label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary float-right" ng-click="$ctrl.add()" ng-disabled="addPlafontForm.$invalid">Aggiungi</button>
+      </div>
+    </div>
+  </ng-form>
+</div>

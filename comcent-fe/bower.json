@@ -1,0 +1,38 @@
+{
+  "name": "ng-login",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Corrado dello Russo <info@corradodellorusso.it>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.6",
+    "angular-cookies": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "angular-animate": "^1.6.6",
+    "angular-aria": "^1.6.6",
+    "angular-messages": "^1.6.6",
+    "lodash": "^4.17.4",
+    "angular-sanitize": "^1.6.6",
+    "ngToast": "ngtoast#^2.0.0",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "bootstrap-material-design": "^0.5.10",
+    "angular-toastr": "^2.1.1",
+    "angular-loading-bar": "^0.9.0",
+    "components-font-awesome": "^4.7.0",
+    "angular-bootstrap": "^2.5.0",
+    "moment": "^2.19.2",
+    "font-roboto": "^0.0.2"
+  }
+}

@@ -1,0 +1,251 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+}
+
+uib-accordion, uib-accordion div {
+  box-shadow: none!important;
+}
+
+#toast-container .toast, #toast-container .toast:hover {
+  box-shadow: none;
+  opacity: 1;
+}
+
+#loading-bar {
+  pointer-events: all;
+  z-index: 9999;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  cursor: wait;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#loading-bar-spinner {
+  top: 50vh;
+  left: 50vw;
+}
+
+#loading-bar-spinner .spinner-icon {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: -60px;
+  top: -60px;
+  border-top-color: #009688;
+  border-left-color: #009688;
+}
+
+.material-backpanel {
+  position: fixed;
+  width: 100vw;
+  height: 140px;
+  background: #009688;
+  top: 0;
+  left: 0;
+}
+
+.panel-group {
+  margin-bottom: 0.5rem;
+}
+
+.panel-primary>.panel-heading+.panel-collapse>.panel-body {
+  border: 1px solid #009688;
+  border-radius: 0 0 5px 5px;
+}
+
+.panel-title>a:hover, .panel-title>a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+.form-group label.control-label {
+  margin: 6px 0 0 0;
+}
+
+/* Checkbox */
+
+.toggler {}
+
+.toggler input {
+  display: none;
+}
+
+.toggler label {
+  display: block;
+  position: relative;
+  width: 72px;
+  height: 36px;
+  border: 1px solid #d6d6d6;
+  border-radius: 36px;
+  background: #e4e8e8;
+  cursor: pointer;
+  zoom: 0.8;
+  margin-top: 1rem;
+}
+
+.toggler label::after {
+  display: block;
+  border-radius: 100%;
+  background-color: #f44336;
+  content: '';
+  -webkit-animation-name: toggler-size;
+  animation-name: toggler-size;
+  -webkit-animation-duration: .15s;
+  animation-duration: .15s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.toggler label::after, .toggler label .toggler-on, .toggler label .toggler-off {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  width: 26px;
+  height: 26px;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transition: left .15s ease-in-out, background-color .2s ease-out, width .15s ease-in-out, height .15s ease-in-out, opacity .15s ease-in-out;
+  transition: left .15s ease-in-out, background-color .2s ease-out, width .15s ease-in-out, height .15s ease-in-out, opacity .15s ease-in-out;
+}
+
+.toggler input:checked+label::after, .toggler input:checked+label .toggler-on, .toggler input:checked+label .toggler-off {
+  left: 75%;
+}
+
+.toggler input:checked+label::after {
+  background-color: #009688;
+  -webkit-animation-name: toggler-size2;
+  animation-name: toggler-size2;
+}
+
+.toggler .toggler-on, .toggler .toggler-off {
+  opacity: 1;
+  z-index: 2;
+}
+
+.toggler input:checked+label .toggler-off, .toggler input:not(:checked)+label .toggler-on {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.toggler .path {
+  fill: none;
+  stroke: #fefefe;
+  stroke-width: 7px;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+@-webkit-keyframes toggler-size {
+  0%, 100% {
+    width: 26px;
+    height: 26px;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@keyframes toggler-size {
+  0%, 100% {
+    width: 26px;
+    height: 26px;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@-webkit-keyframes toggler-size2 {
+  0%, 100% {
+    width: 26px;
+    height: 26px;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@keyframes toggler-size2 {
+  0%, 100% {
+    width: 26px;
+    height: 26px;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Utility */
+
+.sticky {
+  position: sticky;
+  top: 2rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.almost-center {
+  margin: 10vh auto;
+}
+
+.no-margin {
+  margin: 0!important;
+}
+
+.margin-top-2 {
+  margin-top: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.padding-2 {
+  padding: 2rem;
+}
+
+.bordered {
+  border: 1px solid #eee;
+  border-radius: 1rem;
+}

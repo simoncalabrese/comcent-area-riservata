@@ -10,6 +10,9 @@ spring:
       charset: UTF-8
       enabled: true
       force: true
+logging:
+  level:
+    root: 'INFO'
 app:
   basePath: http://www.comunicationcenter.it/area-riservata/be/
   restUrl:
@@ -27,3 +30,4 @@ app:
       getDocs: getDocs.php
       addDocs: addDoc.php
       delDocs: delDoc.php
+      getPlafontList: getPlafontList.php

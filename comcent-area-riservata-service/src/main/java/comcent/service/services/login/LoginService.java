@@ -16,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Comparator;
+import java.util.Optional;
 
 /**
  * Created by simon.calabrese on 31/10/2017.
@@ -36,7 +37,7 @@ public class LoginService extends AbstractService {
                 .max(Comparator.comparing(UserDTO::getId))
                 .map(e -> e.getId() + 1)
                 .orElse(0));
-        userDTO.setReferenceId(userDTO.getReference().getId());
+        userDTO.setReferenceId(Optional.ofNullable(userDTO.getReferenceId()).orElse(0));
         userDTO.setWritePermissionString(ConvertionFunction.toStringFlag.apply(userDTO.getWritePermission()));
         userDTO.setReadPermissionString(ConvertionFunction.toStringFlag.apply(userDTO.getReadPermission()));
         final Boolean res = doPostCall(String.class, ApiEnum.SIGNUP, userDTO, e -> e.equals("0"));

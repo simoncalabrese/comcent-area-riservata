@@ -16,10 +16,7 @@ import comcent.service.services.AbstractService;
 import comcent.service.services.ApiEnum;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
@@ -39,7 +36,7 @@ public class PlafontService extends AbstractService {
         }
     }
 
-    public Map<String,String> getPlafont(final GetPlafontDTO getPlafontDTO) throws BaseException {
+    public Map<String, String> getPlafont(final GetPlafontDTO getPlafontDTO) throws BaseException {
         final String dateStart = Optional.ofNullable(getPlafontDTO.getDateStart()).orElseGet(ConvertionFunction.getFirstOfMonthAsString);
         final String dateEnd = Optional.ofNullable(getPlafontDTO.getDateEnd()).orElseGet(ConvertionFunction.getTodayAsString);
 
@@ -100,5 +97,11 @@ public class PlafontService extends AbstractService {
         } catch (BaseException e) {
             return null;
         }
+    }
+
+    public List<AddPlafontDTO> getPlafontList(final GetPlafontDTO getPlafontDTO) throws BaseException {
+        getPlafontDTO.setDateStart(Optional.ofNullable(getPlafontDTO.getDateStart()).orElseGet(ConvertionFunction.getFirstOfMonthAsString));
+        getPlafontDTO.setDateEnd(Optional.ofNullable(getPlafontDTO.getDateEnd()).orElseGet(ConvertionFunction.getTodayAsString));
+        return doPostCallList(AddPlafontDTO.class, ApiEnum.GET_PLAFONT_LIST, getPlafontDTO);
     }
 }

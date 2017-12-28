@@ -1,0 +1,36 @@
+<div class="user well">
+    <p class="text-center text-primary">
+        <i class="fa fa-user-circle fa-5x" aria-hidden="true"></i>
+    </p>
+    <h4 class="text-center">{{$ctrl.user.name + " " + $ctrl.user.surname}}</h4>
+    <h5 class="text-center text-primary">{{$ctrl.user.partIva || $ctrl.user.codFisc}}</h5>
+    <h5 class="text-center text-muted">{{$ctrl.user.email}}</h5>
+    <hr/>
+    <p class="text-center">
+        <a ng-click="$ctrl.addUser();" ng-if="$ctrl.user.writePermission == true" class="btn btn-primary">NUOVO
+            UTENTE</a>
+        <a ng-click="$ctrl.logout();" class="btn btn-primary">LOGOUT</a>
+    </p>
+
+</div>
+<div class="links well">
+    <p>
+    <h4 class="text-center">Link Utili</h4>
+    <ul>
+        <li ng-repeat="link in $ctrl.listLink">{{link.name}}&nbsp;-&nbsp;<a ng-click="$ctrl.redirectUrl(link.url)">{{link.url}}</a>
+            <a ng-click="$ctrl.delDoc(link.name);" class="btn btn-primary btn-xs" style="color:red;">X</a>
+        </li>
+    </ul>
+    <label for="inputName" class="col-sm-2 control-label">Title</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputName" placeholder="Title" ng-model="$ctrl.name"
+               ng-required="true">
+    </div>
+    <label for="inputLink" class="col-sm-2 control-label">Link</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputLink" placeholder="Link" ng-model="$ctrl.link"
+               ng-required="true">
+    </div>
+    <a ng-click="$ctrl.addDoc();" class="btn btn-primary" ng-disabled = "!$ctrl.link && !$ctrl.name">AGGIUNGI LINK</a>
+    </p>
+</div>

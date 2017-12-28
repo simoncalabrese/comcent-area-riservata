@@ -1,0 +1,1 @@
+electron-packager . app --platform win32 --arch ia32 --out dist/ && xcopy node_modules\electron-cookies\* dist\app-win32-ia32\resources\app\node_modules\electron-cookies\* /E /R

@@ -32,6 +32,11 @@ public class PlafontController extends AbstractController {
         return plafontService.getPlafont(getPlafontDTO);
     }
 
+    @RequestMapping(value = "/getPlafontList", method = RequestMethod.POST)
+    public List<AddPlafontDTO> getPlafontList(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
+        return plafontService.getPlafontList(getPlafontDTO);
+    }
+
     @RequestMapping(value = "/insertActivation", method = RequestMethod.POST)
     public ConcreteDTO insertApplication(@RequestBody final ActivationDTO activationDTO) throws BaseException {
         return plafontService.insertActivation(activationDTO);

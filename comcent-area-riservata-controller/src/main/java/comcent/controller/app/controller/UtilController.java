@@ -21,8 +21,9 @@ public class UtilController extends AbstractController {
     @Autowired
     private UtilService utilService;
 
-    @RequestMapping(value = "/getDocs", method = RequestMethod.GET)
+    @RequestMapping(value = "/getDocs", method = RequestMethod.POST)
     public List<Map> getDocumentLinks() throws BaseException {
+        log.info("SONO ENTRATO");
         return utilService.getDocumentLinks();
     }
 
