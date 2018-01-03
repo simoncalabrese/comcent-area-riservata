@@ -1,6 +1,6 @@
 comcent*/target/
 .idea/
 comcent-fe/node_modules/*
-angular-example
+angular-example/*
 comcent-a*/target
 out

@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0496f68a-0664-4cf9-99e6-ff7434c94865" name="Default" comment="Simon - fix git">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/angular-example" afterPath="$PROJECT_DIR$/angular-example" />
-      <change beforePath="$PROJECT_DIR$/angular-example/app/components/dashboard/dashboard-component.js" afterPath="$PROJECT_DIR$/angular-example/app/components/dashboard/dashboard-component.js" />
-      <change beforePath="$PROJECT_DIR$/angular-example/app/components/dashboard/dashboard-template.html" afterPath="$PROJECT_DIR$/angular-example/app/components/dashboard/dashboard-template.html" />
-      <change beforePath="$PROJECT_DIR$/angular-example/app/services/api-service.js" afterPath="$PROJECT_DIR$/angular-example/app/services/api-service.js" />
-      <change beforePath="$PROJECT_DIR$/angular-example/comcent-area-riservata-controller-0.0.1-exec.jar" afterPath="$PROJECT_DIR$/angular-example/comcent-area-riservata-controller-0.0.1-exec.jar" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/application.yml" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/PlafontController.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/PlafontController.class" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/functions/ConvertionFunction.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/functions/ConvertionFunction.class" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/activation/ActivationDTO.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/activation/ActivationDTO.class" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/ApiEnum.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/ApiEnum.class" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/activation/ActivationSerice.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/activation/ActivationSerice.class" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/login/LoginService.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/login/LoginService.class" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/plafont/PlafontService.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/plafont/PlafontService.class" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-service/target/" />
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-controller/target/" />
@@ -78,11 +58,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtilController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UtilController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/user/user-component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -136,28 +136,6 @@
             <state relative-caret-position="679">
               <caret line="65" column="44" lean-forward="false" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="external-link-component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular-example/app/components/external-link/external-link-component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -240,13 +218,13 @@
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-common/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/login/LoginService.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/functions/ConvertionFunction.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java" />
         <option value="$PROJECT_DIR$/angular-example/app/services/api-service.js" />
         <option value="$PROJECT_DIR$/angular-example/app/components/dashboard/dashboard-template.html" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -379,75 +357,13 @@
             <path>
               <item name="comcent-area-riservata" type="b2602c69:ProjectViewProjectNode" />
               <item name="comcent-area-riservata" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent-area-riservata-service" type="462c0819:PsiDirectoryNode" />
+              <item name="comcent-fe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comcent-area-riservata" type="b2602c69:ProjectViewProjectNode" />
               <item name="comcent-area-riservata" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent-area-riservata-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcent-area-riservata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcent-area-riservata" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent-area-riservata-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcent-area-riservata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcent-area-riservata" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent-area-riservata-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcent-area-riservata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcent-area-riservata" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent-area-riservata-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcent-area-riservata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcent-area-riservata" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent-area-riservata-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcent-area-riservata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcent-area-riservata" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent-area-riservata-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcent-area-riservata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcent-area-riservata" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent-area-riservata-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="comcent" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-              <item name="activation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcent-area-riservata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcent-area-riservata" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="comcent-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -483,10 +399,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\simon.calabrese\Documents\comcent-area-riservata\comcent-fe\app" />
       <recent name="C:\Users\simon.calabrese\Documents\comcent-area-riservata\angular-example\app\components\external-link" />
       <recent name="C:\Users\simon.calabrese\Documents\comcent-area-riservata\angular-example" />
       <recent name="C:\Users\simon.calabrese\Documents\comcent-area-riservata\comcent-fe" />
-      <recent name="C:\Users\simon.calabrese\Documents\comcent-area-riservata\comcent-fe\app" />
       <recent name="C:\Users\simon.calabrese\Documents\comcent-area-riservata\angular-example\app\components\user" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -508,9 +424,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -966,7 +880,7 @@
       <workItem from="1514480070116" duration="158000" />
       <workItem from="1514973709627" duration="2319000" />
       <workItem from="1514978657573" duration="449000" />
-      <workItem from="1514991915826" duration="4240000" />
+      <workItem from="1514991915826" duration="5183000" />
     </task>
     <task id="LOCAL-00001" summary="fix code">
       <created>1510043828623</created>
@@ -1199,11 +1113,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514978237997</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Simon - allineamento">
+      <created>1514996762604</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1514996762605</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Simon - fe">
+      <created>1514996959359</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1514996959359</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19466000" />
+    <option name="totallyTimeSpent" value="20409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1219,7 +1147,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1227,7 +1155,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43924192" sideWeight="0.49573562" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.4936034" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.4936034" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18506132" sideWeight="0.4914712" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15991472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1330,6 +1258,8 @@
     <MESSAGE value="Simon - aggiunto plafon per livelli superiori" />
     <MESSAGE value="Fix a lot of things" />
     <MESSAGE value="Simon - add a lot" />
+    <MESSAGE value="Simon - allineamento" />
+    <MESSAGE value="Simon - fe" />
     <MESSAGE value="Simon - fix git" />
     <option name="LAST_COMMIT_MESSAGE" value="Simon - fix git" />
   </component>
@@ -1519,13 +1449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/user/user-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-example/app/components/user/user-template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1660,13 +1583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/UserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1798,6 +1714,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/user/user-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
