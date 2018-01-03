@@ -16,8 +16,14 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 public class ConvertionFunction {
-    public static final Function<String, Boolean> toBooleanConvertion = string -> StringUtils.equalsIgnoreCase(string, "S");
-    public static final Function<Boolean,String> toStringFlag = bool -> bool ? "S" : "N";
+    public static final Function<String, Boolean> toBooleanConvertion = string -> {
+        if (string == null) return false;
+        return StringUtils.equalsIgnoreCase(string, "S");
+    };
+    public static final Function<Boolean,String> toStringFlag = bool -> {
+        if(bool == null) return "N";
+        return bool ? "S" : "N";
+    };
 
     public static final Function<Date, String> dateToString = date -> {
         SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");

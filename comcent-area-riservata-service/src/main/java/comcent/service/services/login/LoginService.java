@@ -32,11 +32,13 @@ public class LoginService extends AbstractService {
     }
 
     public ConcreteDTO signUp(final CompleteUserDTO userDTO) throws BaseException {
-        userDTO.setId(plafontService.getUsersDependencyPublic(0)
+        final Integer id = plafontService.getUsersDependencyPublic(0)
                 .stream()
                 .max(Comparator.comparing(UserDTO::getId))
                 .map(e -> e.getId() + 1)
-                .orElse(0));
+                .orElse(0);
+
+        userDTO.setId(id);
         userDTO.setReferenceId(Optional.ofNullable(userDTO.getReferenceId()).orElse(0));
         userDTO.setWritePermissionString(ConvertionFunction.toStringFlag.apply(userDTO.getWritePermission()));
         userDTO.setReadPermissionString(ConvertionFunction.toStringFlag.apply(userDTO.getReadPermission()));
