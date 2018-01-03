@@ -28,7 +28,7 @@ public class PlafontController extends AbstractController {
     }
 
     @RequestMapping(value = "/getPlafont", method = RequestMethod.POST)
-    public Map<String,String> getPlafont(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
+    public Map<String, String> getPlafont(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
         return plafontService.getPlafont(getPlafontDTO);
     }
 
@@ -42,7 +42,7 @@ public class PlafontController extends AbstractController {
         return plafontService.insertActivation(activationDTO);
     }
 
-    @RequestMapping(value = "/getUsers",method = RequestMethod.GET)
+    @RequestMapping(value = "/getUsers", method = RequestMethod.GET)
     public List<UserDTO> getUsers(@RequestParam(value = "userId") final Integer userId) throws BaseException {
         return plafontService.getUsersDependencyPublic(userId);
     }

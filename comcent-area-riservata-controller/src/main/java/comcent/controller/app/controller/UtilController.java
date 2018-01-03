@@ -23,7 +23,6 @@ public class UtilController extends AbstractController {
 
     @RequestMapping(value = "/getDocs", method = RequestMethod.POST)
     public List<Map> getDocumentLinks() throws BaseException {
-        log.info("SONO ENTRATO");
         return utilService.getDocumentLinks();
     }
 
