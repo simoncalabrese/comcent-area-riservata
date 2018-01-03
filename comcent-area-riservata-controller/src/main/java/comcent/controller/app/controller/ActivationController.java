@@ -23,7 +23,7 @@ public class ActivationController extends AbstractController{
     private ActivationSerice activationSerice;
 
     @RequestMapping(value = "/getActivations", method = RequestMethod.POST)
-    public List<WrapperUserActivations> getActivation(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
+    public WrapperUserActivations getActivation(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
         return activationSerice.getActivations(getPlafontDTO);
     }
 }

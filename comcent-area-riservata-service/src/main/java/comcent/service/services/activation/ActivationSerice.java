@@ -28,7 +28,7 @@ public class ActivationSerice extends AbstractService {
     @Autowired
     private PlafontService plafontService;
 
-    public List<WrapperUserActivations> getActivations(final GetPlafontDTO getPlafontDTO) throws BaseException {
+    public WrapperUserActivations getActivations(final GetPlafontDTO getPlafontDTO) throws BaseException {
         final String dateStart = Optional.ofNullable(getPlafontDTO.getDateStart()).orElseGet(ConvertionFunction.getFirstOfMonthAsString);
         final String dateEnd = Optional.ofNullable(getPlafontDTO.getDateEnd()).orElseGet(ConvertionFunction.getTodayAsString);
         getPlafontDTO.setDateStart(dateStart);
@@ -62,6 +62,7 @@ public class ActivationSerice extends AbstractService {
             })).collect(Collectors.toList()));
             return wrapperUserActivations;
         };
+        final WrapperUserActivations w = new WrapperUserActivations();
         //se abbiamo uno user di bottom, la nostra hierarchy sarà vuota in quando non c'è nessuno al di sotto e quindi
         //possiamo eeguire la query delle attivazioni altrimenti...
         if (CollectionUtils.isEmpty(hierarchyMappings)) {
@@ -73,7 +74,7 @@ public class ActivationSerice extends AbstractService {
                             return null;
                         }
                     }, Collectors.toList())));
-            return mapRet.entrySet()
+            final List<WrapperUserActivations> collect = mapRet.entrySet()
                     .stream()
                     .map(e -> {
                         final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
@@ -91,6 +92,7 @@ public class ActivationSerice extends AbstractService {
                         })).collect(Collectors.toList()));
                         return wrapperUserActivations;
                     }).collect(Collectors.toList());
+          w.setWrapper(collect);
         } else {
             final Map<Integer, List<Integer>> hierarchiMap = hierarchyMappings
                     .stream()
@@ -116,8 +118,9 @@ public class ActivationSerice extends AbstractService {
                             .collect(Collectors.groupingBy(Map.Entry::getKey,
                                     Collectors.summingDouble(e -> e.getValue() != null ? Double.valueOf(e.getValue()) : 0D)))
                             .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, e -> e.getValue().toString()))));
-            return collect;
+            w.setWrapper(collect);
         }
+        return w;
     }
 
     public List<ActivationDTO> getActivation(final GetPlafontDTO getPlafontDTO) throws BaseException {
