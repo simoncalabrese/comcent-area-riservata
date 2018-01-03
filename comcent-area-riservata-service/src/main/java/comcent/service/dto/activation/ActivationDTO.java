@@ -1,6 +1,7 @@
 package comcent.service.dto.activation;
 
 import comcent.service.dto.base.AbstractDTO;
+import comcent.service.dto.user.UserDTO;
 
 import java.util.Date;
 
@@ -13,6 +14,7 @@ public class ActivationDTO extends AbstractDTO {
     private Date dateAtt;
     private String dateString;
     private Integer userInsert;
+    private UserDTO userInsertDetail;
 
     public Integer getId() {
         return id;
@@ -68,6 +70,14 @@ public class ActivationDTO extends AbstractDTO {
 
     public void setUserInsert(Integer userInsert) {
         this.userInsert = userInsert;
+    }
+
+    public UserDTO getUserInsertDetail() {
+        return userInsertDetail;
+    }
+
+    public void setUserInsertDetail(UserDTO userInsertDetail) {
+        this.userInsertDetail = userInsertDetail;
     }
 
     @Override

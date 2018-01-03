@@ -37,7 +37,12 @@ public class ActivationSerice extends AbstractService {
         final Function<Pair<UserDTO, List<ActivationDTO>>, WrapperUserActivations> funcFinal = e -> {
             final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
             wrapperUserActivations.setUser(e.getKey());
-            wrapperUserActivations.setActivations(e.getValue());
+            wrapperUserActivations.setActivations(e.getValue()
+                    .stream()
+                    .peek(pair -> pair.setUserInsertDetail(Optional.ofNullable(pair.getUserInsert())
+                            .map(u -> plafontService.getUser(u))
+                            .orElse(null)))
+                    .collect(Collectors.toList()));
             return wrapperUserActivations;
         };
 
@@ -104,13 +109,13 @@ public class ActivationSerice extends AbstractService {
                     }).collect(Collectors.toList())))
                     .map(funcIntermediate).collect(Collectors.toList());
             collect.forEach(user ->
-                user.setPlafont(user.getWrapper().stream()
-                        .map(WrapperUserActivations::getPlafont)
-                        .filter(Objects::nonNull)
-                        .flatMap(e -> e.entrySet().stream())
-                        .collect(Collectors.groupingBy(Map.Entry::getKey,
-                                Collectors.summingDouble(e -> e.getValue() != null ? Double.valueOf(e.getValue()) : 0D)))
-                        .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, e -> e.getValue().toString()))));
+                    user.setPlafont(user.getWrapper().stream()
+                            .map(WrapperUserActivations::getPlafont)
+                            .filter(Objects::nonNull)
+                            .flatMap(e -> e.entrySet().stream())
+                            .collect(Collectors.groupingBy(Map.Entry::getKey,
+                                    Collectors.summingDouble(e -> e.getValue() != null ? Double.valueOf(e.getValue()) : 0D)))
+                            .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, e -> e.getValue().toString()))));
             return collect;
         }
     }
