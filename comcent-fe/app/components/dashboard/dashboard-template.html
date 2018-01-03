@@ -28,7 +28,11 @@
         </div>
         <hr/>
         <uib-accordion close-others="true">
-            <div ng-repeat="(key, value) in $ctrl.activations" uib-accordion-group class="panel-primary"
+            <tr>
+                <td><strong>#Attivazioni {{$ctrl.user.name + ' - ' + $ctrl.user.surname}}:
+                    {{totHighLevel($ctrl.activations)}}</strong></td>
+            </tr>
+            <div ng-repeat="(key, value) in $ctrl.activations.wrapper" uib-accordion-group class="panel-primary"
                  heading="{{value.user.id + ' - ' + value.user.name}}" is-open="panel[value.user.id]"
                  is-disabled="false">
                 <tr>
@@ -71,11 +75,11 @@
                             </table>
                             <hr/>
                             <div class="full-width">
-                                <a ng-click="$ctrl.addPlafont(subValue.user.id);"
+                                <a ng-click="$ctrl.addPlafont(subValue.user.id);" ng-if="$ctrl.user.writePermission === true"
                                    class="btn btn-raised btn-primary float-right"><i class="material-icons fa fa-plus"
                                                                                      aria-hidden="true"></i>&nbsp;Aggiungi
                                     Plafont</a>
-                                <a ng-click="$ctrl.addActivation(subValue.user.id);"
+                                <a ng-click="$ctrl.addActivation(subValue.user.id);" ng-if="$ctrl.user.writePermission === true"
                                    class="btn btn-raised btn-primary float-right"><i class="material-icons fa fa-plus"
                                                                                      aria-hidden="true"></i>&nbsp;Aggiungi
                                     Attivazione</a>

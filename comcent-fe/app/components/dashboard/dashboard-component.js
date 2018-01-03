@@ -1,7 +1,7 @@
 angular.module('app').component('dashboard', {
   templateUrl: window.PATH_PREFIX + './app/components/dashboard/dashboard-template.html',
   bindings: {},
-  controller: ('loginController', ['$scope', '$rootScope', 'AuthService', 'ActivasionsService', 'DateService', 'ModalService', function($scope, $rootScope, AuthService, ActivasionsService, DateService, ModalService) {
+  controller: ('loginController', ['$scope', '$rootScope', 'AuthService', 'ActivasionsService', 'DateService', 'ModalService','_', function($scope, $rootScope, AuthService, ActivasionsService, DateService, ModalService,_) {
 
     var $ctrl = this;
     $ctrl.user = null;
@@ -81,12 +81,17 @@ angular.module('app').component('dashboard', {
       $ctrl.activations = data;
     }
 
-    $scope.totHighLevel = function(elem) {
+    var recursiveTot = (elem) => {
+        if(!(_.isObject(elem))) return null;
         var total = 0;
         for(var i=0; i < elem.wrapper.length; i++) {
-            total += elem.wrapper[i].activations.length;
+            total += _.isObject(elem.wrapper[i].activations) ? elem.wrapper[i].activations.length : recursiveTot(elem.wrapper[i]);
         }
         return total;
+    };
+
+    $scope.totHighLevel = function(elem) {
+        return recursiveTot(elem);
     }
 
 

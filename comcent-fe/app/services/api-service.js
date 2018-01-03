@@ -63,7 +63,7 @@ angular.module('app').service('ApiService', [function () {
     }
 
     function plafontList() {
-        return PATH + PLAFONT + 'getPlafontList';
+        return PATH + PLAFONT + 'plafontList';
     }
 
 }]);
