@@ -71,4 +71,8 @@ angular.module('app').service('ApiService', [function () {
         return PATH + ACTIVATIONS + 'delActivation';
     }
 
+    function delPlafont() {
+            return PATH + PLAFONT + 'delPlafont';
+        }
+
 }]);

@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="0496f68a-0664-4cf9-99e6-ff7434c94865" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/delPlafont.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/ActivationController.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/ActivationController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/exceptions/Suppliers.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/exceptions/Suppliers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/ApiEnum.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/ApiEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/activation/ActivationSerice.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/activation/ActivationSerice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/plafont/PlafontService.class" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/plafont/PlafontService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/application.yml" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" afterPath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html" afterPath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-fe/app/services/api-service.js" afterPath="$PROJECT_DIR$/comcent-fe/app/services/api-service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js" afterPath="$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/query.php" afterPath="$PROJECT_DIR$/php/query.php" />
     </list>
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-service/target/" />
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-controller/target/" />
@@ -49,7 +37,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plafont-list-component.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plafont-list-component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
@@ -62,14 +50,14 @@
       <file leaf-file-name="plafonts-service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="90">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plafont-list-template.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plafont-list-template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -77,6 +65,16 @@
               <folding>
                 <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api-service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/api-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +147,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/ActivationDTO.java" />
         <option value="$PROJECT_DIR$/DB/Sql1151252_1-2.sql" />
-        <option value="$PROJECT_DIR$/comcent-fe/app/services/api-service.js" />
         <option value="$PROJECT_DIR$/php/delActivation.php" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-common/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java" />
@@ -163,9 +160,10 @@
         <option value="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java" />
-        <option value="$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js" />
         <option value="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" />
         <option value="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html" />
+        <option value="$PROJECT_DIR$/comcent-fe/app/services/api-service.js" />
+        <option value="$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js" />
       </list>
     </option>
   </component>
@@ -429,7 +427,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Progetti/NFC/Branch/11142 - Incasso/FRONTEND/NFC/svil-nfc-front-end" />
-    <property name="SearchEverywhereHistoryKey" value="plaf&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-template.html&#10;act&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;plafont-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/plafonts-service.js&#10;plafontl&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-component.js&#10;plafco&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafonser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;query.p&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/php/query.php&#10;plafontser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;add-pla&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/add-plafont/add-plafont-component.js&#10;pla-serv&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/plafonts-service.js&#10;plafon-li&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-component.js&#10;dashb&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-template.html&#10;plafont-list&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-template.html&#10;plafontc&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafont&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;activ-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;dash&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-component.js&#10;glo&#9;PSI&#9;JAVA://comcent.controller.base.GlobalExceptionHandler&#10;baseex&#9;PSI&#9;JAVA://comcent.service.exceptions.BaseException&#10;bas&#9;PSI&#9;JAVA://comcent.common.configuration.BaseApplication&#10;Suppl&#9;PSI&#9;JAVA://comcent.service.exceptions.Suppliers&#10;plafs&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;addpla&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java&#10;yml&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/resources/application.yml&#10;ac&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;acticontr&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java&#10;activationser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;api-s&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/api-service.js&#10;Auth-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/auth-service.js&#10;user&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/user/user-component.js&#10;activation-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;dashbo&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-component.js&#10;das&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-template.html&#10;wrapp&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/WrapperUserActivations.java&#10;plafc&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;log&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java&#10;abstra&#9;PSI&#9;JAVA://comcent.controller.base.AbstractController&#10;apie&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java&#10;plafontco&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafontdto&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java&#10;wra&#9;PSI&#9;JAVA://comcent.service.dto.activation.WrapperUserActivations&#10;Login&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java&#10;utilc&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;utilco&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;angular-cl&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/angular-example/node_modules/@schematics/angular/application/files/__dot__angular-cli.json&#10;Util&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;Suppliers&#9;PSI&#9;JAVA://comcent.service.exceptions.Suppliers&#10;Basee&#9;PSI&#9;JAVA://comcent.service.exceptions.BaseException&#10;Serv&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/AbstractService.java&#10;LOGINC&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java" />
+    <property name="SearchEverywhereHistoryKey" value="api-s&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/api-service.js&#10;plaf&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-template.html&#10;act&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;plafont-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/plafonts-service.js&#10;plafontl&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-component.js&#10;plafco&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafonser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;query.p&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/php/query.php&#10;plafontser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;add-pla&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/add-plafont/add-plafont-component.js&#10;pla-serv&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/plafonts-service.js&#10;plafon-li&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-component.js&#10;dashb&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-template.html&#10;plafont-list&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-template.html&#10;plafontc&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafont&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;activ-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;dash&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-component.js&#10;glo&#9;PSI&#9;JAVA://comcent.controller.base.GlobalExceptionHandler&#10;baseex&#9;PSI&#9;JAVA://comcent.service.exceptions.BaseException&#10;bas&#9;PSI&#9;JAVA://comcent.common.configuration.BaseApplication&#10;Suppl&#9;PSI&#9;JAVA://comcent.service.exceptions.Suppliers&#10;plafs&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;addpla&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java&#10;yml&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/resources/application.yml&#10;ac&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;acticontr&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java&#10;activationser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;Auth-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/auth-service.js&#10;user&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/user/user-component.js&#10;activation-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;dashbo&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-component.js&#10;das&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-template.html&#10;wrapp&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/WrapperUserActivations.java&#10;plafc&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;log&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java&#10;abstra&#9;PSI&#9;JAVA://comcent.controller.base.AbstractController&#10;apie&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java&#10;plafontco&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafontdto&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java&#10;wra&#9;PSI&#9;JAVA://comcent.service.dto.activation.WrapperUserActivations&#10;Login&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java&#10;utilc&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;utilco&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;angular-cl&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/angular-example/node_modules/@schematics/angular/application/files/__dot__angular-cli.json&#10;Util&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;Suppliers&#9;PSI&#9;JAVA://comcent.service.exceptions.Suppliers&#10;Basee&#9;PSI&#9;JAVA://comcent.service.exceptions.BaseException&#10;Serv&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/AbstractService.java&#10;LOGINC&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -2417,7 +2415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515080247375</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Simon - elimina plafont">
+      <created>1515081359784</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1515081359784</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -2774,14 +2779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/api-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="69" column="26" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/getId.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2944,26 +2941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/activations-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="52" column="14" selection-start-line="43" selection-start-column="4" selection-end-line="52" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -2975,6 +2956,30 @@
           <folding>
             <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/api-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

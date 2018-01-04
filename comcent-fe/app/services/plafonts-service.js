@@ -4,6 +4,7 @@ angular.module('app').service('PlafontsService', ['_', '$http', 'ApiService', fu
 
     $svc.addPlafont = addPlafont;
     $svc.getPlafontList = getPlafontList;
+    $svc.delPlafont = delPlafont;
 
     function addPlafont(userId, date, amount, callback) {
         let data = {
