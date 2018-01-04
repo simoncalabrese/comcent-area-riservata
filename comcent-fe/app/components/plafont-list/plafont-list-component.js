@@ -12,7 +12,7 @@ angular.module('app').component('plafontList', {
         $ctrl.dateStart = null;
         $ctrl.dateEnd = null;
         $ctrl.$onInit = function () {
-
+            callGetList();
         }
 
         function callGetList() {

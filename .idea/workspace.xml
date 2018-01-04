@@ -4,11 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/functions/ConvertionFunction.java" line="56" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="0496f68a-0664-4cf9-99e6-ff7434c94865" name="Default" comment="Simon - elimina attivazioni">
+    <list default="true" readonly="true" id="0496f68a-0664-4cf9-99e6-ff7434c94865" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" afterPath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html" afterPath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-fe/app/services/activations-service.js" afterPath="$PROJECT_DIR$/comcent-fe/app/services/activations-service.js" />
     </list>
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-service/target/" />
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-controller/target/" />
@@ -60,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plafont-list-template.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plafont-list-template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -72,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plafont-list-component.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plafont-list-component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -185,8 +183,8 @@
         <option value="$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-component.js" />
         <option value="$PROJECT_DIR$/comcent-fe/app/services/activations-service.js" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java" />
-        <option value="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" />
         <option value="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html" />
+        <option value="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" />
       </list>
     </option>
   </component>
@@ -2424,7 +2422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515077695838</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Simon - elimina plafont">
+      <created>1515080016868</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1515080016868</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -2529,7 +2534,8 @@
     <MESSAGE value="Simon - activations" />
     <MESSAGE value="Simon - DB NEW" />
     <MESSAGE value="Simon - elimina attivazioni" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simon - elimina attivazioni" />
+    <MESSAGE value="Simon - elimina plafont" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simon - elimina plafont" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2964,14 +2970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2979,6 +2977,14 @@
           <folding>
             <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
