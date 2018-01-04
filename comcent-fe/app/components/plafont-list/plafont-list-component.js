@@ -12,6 +12,10 @@ angular.module('app').component('plafontList', {
         $ctrl.dateStart = null;
         $ctrl.dateEnd = null;
         $ctrl.$onInit = function () {
+
+        }
+
+        function callGetList() {
             $ctrl.dateStart = DateService.msToDefaultFormat($ctrl.resolve.dateFrom);
             $ctrl.dateEnd = DateService.msToDefaultFormat($ctrl.resolve.dateTo);
             let data = {
@@ -24,6 +28,11 @@ angular.module('app').component('plafontList', {
 
         function managePlafontList(data) {
             $ctrl.plafonts = data;
+        }
+
+        $ctrl.delPlafont = function(amount) {
+            var newAmount = amount * -1;
+            PlafontsService.addPlafont($ctrl.resolve.userId, DateService.msToDefaultFormat(new Date()), newAmount, callGetList);
         }
 
     }])

@@ -6,12 +6,14 @@
             <tr>
                 <th>IMPORTO VERSATO</th>
                 <th>DATA REGISTRAZIONE VERSAMENTO</th>
+                <th></th>
             </tr>
             </thead>
             <tbody>
             <tr ng-repeat="(key, value) in $ctrl.plafonts">
                 <td class="text-primary text-right">{{value.amount}}</td>
                 <td>{{value.dateString}}</td>
+                <td><a ng-click="$ctrl.delPlafont(value.amount);" class="btn btn-primary btn-xs" style="color:red;">X</a></td>
             </tr>
             </tbody>
         </table>

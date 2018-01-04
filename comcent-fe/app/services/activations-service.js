@@ -4,6 +4,7 @@ angular.module('app').service('ActivasionsService', ['_', '$http', 'ApiService',
 
   $svc.getActivations = getActivations;
   $svc.addActivation = addActivation;
+  $svc.delActivation = delActivation;
 
   function getActivations(userId, dateStart, dateEnd, callback) {
     let data = {
