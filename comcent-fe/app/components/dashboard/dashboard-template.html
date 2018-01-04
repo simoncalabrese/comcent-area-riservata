@@ -71,7 +71,9 @@
                                     <td>{{subSubValue.amntPlafont | currency:"€"}}</td>
                                     <td>{{subSubValue.dateString}}</td>
                                     <td>{{subSubValue.userInsertDetail.name + ' - ' + subSubValue.userInsertDetail.surname}}</td>
-                                    <td><a ng-click="$ctrl.delActivation(subSubValue.id,subSubValue.amntPlafont);" class="btn btn-primary btn-xs" style="color:red;">X</a></td>
+                                    <td><a ng-click="$ctrl.delActivation(subSubValue.id,subSubValue.amntPlafont);"
+                                           class="btn btn-primary btn-xs"
+                                           style="color:red;" ng-if="$ctrl.user.id === 0">X</a></td>
                                 </tr>
                                 </tbody>
                             </table>

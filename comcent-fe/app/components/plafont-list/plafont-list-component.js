@@ -5,13 +5,15 @@ angular.module('app').component('plafontList', {
         close: '&',
         dismiss: '&'
     },
-    controller: ('plafontListController', ['$scope', '$rootScope', 'DateService', 'PlafontsService', function ($scope, $rootScope, DateService, PlafontsService) {
+    controller: ('plafontListController', ['$scope', '$rootScope', 'DateService', 'PlafontsService','AuthService', function ($scope, $rootScope, DateService, PlafontsService,AuthService) {
 
         var $ctrl = this;
+        $ctrl.user = null;
         $ctrl.plafonts = [];
         $ctrl.dateStart = null;
         $ctrl.dateEnd = null;
         $ctrl.$onInit = function () {
+            $ctrl.user = AuthService.getUser;
             callGetList();
         }
 
