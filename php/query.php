@@ -10,15 +10,15 @@
 		$queries-> queryGetIdActivation = "SELECT coalesce(max(ID),0) as id FROM app_activation t";
 		$queries-> insertMove = "INSERT INTO app_transactions(ID,USER,DAT_MOV,AMOUNT) VALUES (<id>,<user>,'<date>',<amount>)";
 		$queries-> insertActivation = "INSERT INTO app_activation(ID, USER, DES_ACTIVATION, AMNT_PLAFONT,DAT_ATT,USER_INSERT) VALUES (<id>,<user>,'<desActivation>',<amntPlafont>,'<datAtt>',<userInsert>)";
-		$queries-> getPlafont = "SELECT SUM(amount) as amount FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%Y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%Y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%Y' )";
+		$queries-> getPlafont = "SELECT SUM(amount) as amount FROM app_transactions WHERE USER = <userId>";
 		$queries-> getPlafontList = "SELECT amount as amount, dat_mov as dateString, ID as id
 									from app_transactions 
 									where user = <userId> 
 										AND STR_TO_DATE( DAT_MOV,  '%d-%m-%Y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%Y' ) 
 										AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%Y' ) AND AMOUNT > 0 
 										ORDER BY DAT_MOV";
-		$queries-> getPlafontPos = "SELECT SUM(amount) as amountPos FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%Y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%Y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%Y' ) and amount>0";
-		$queries-> getPlafontNeg = "SELECT SUM(amount) as amountNeg FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%Y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%Y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%Y' ) and amount<0";
+		$queries-> getPlafontPos = "SELECT SUM(amount) as amountPos FROM app_transactions WHERE USER = <userId> and amount>0";
+		$queries-> getPlafontNeg = "SELECT SUM(amount) as amountNeg FROM app_transactions WHERE USER = <userId> and amount<0";
 		$queries-> getUsers = "SELECT * FROM  `app_hierarchy` h WHERE h.center =<userId> OR h.top = <userId>";
 		$queries-> getActivations = "SELECT a.ID as id, 
 											a.DES_ACTIVATION as desActivation,
