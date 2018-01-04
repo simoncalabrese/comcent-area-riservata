@@ -12,6 +12,7 @@ comcent\service\exceptions\Suppliers.class
 comcent\service\dbmappings\IdMapping.class
 comcent\service\dto\base\AbstractDTO.class
 comcent\service\services\ApiEnum.class
+comcent\service\services\utils\UtilService.class
 comcent\service\dto\base\ConcreteDTO.class
 comcent\service\dbmappings\HierarchyMappings.class
 comcent\service\dto\plafont\AddPlafontDTO.class
