@@ -4,8 +4,10 @@ package comcent.service.exceptions;
 import comcent.service.dto.base.AbstractDTO;
 import comcent.service.dto.base.ConcreteDTO;
 import comcent.service.dto.base.MessageDTO;
+import comcent.service.dto.plafont.AddPlafontDTO;
 
 import java.util.Collections;
+import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**
@@ -53,4 +55,14 @@ public class Suppliers {
         messageDTO.setDesErrore("Errore durante l' eliminazione del link");
         return new ConcreteDTO(Collections.singletonList(messageDTO));
     };
+
+
+    public static class Utils {
+        public static Function<Integer,AddPlafontDTO> toAddPlafonStorno = i -> {
+            final AddPlafontDTO dto = new AddPlafontDTO();
+            dto.setAmount(i);
+            dto.setUserId(0);
+            return dto;
+        };
+    }
 }

@@ -28,6 +28,7 @@
 		$queries-> getDocs = "SELECT NAME as name, URL as url FROM anag_docs";
 		$queries-> addDocLink = "INSERT INTO anag_docs values ('<name>','<url>')";
 		$queries-> removeDocLink = "DELETE FROM anag_docs WHERE NAME = '<name>'";
+		$queries-> delActivation = "DELETE FROM app_activation WHERE ID = <id>";
 		$query = $queries->$querykey;
 		if($params != null) {
 			foreach ($params as $value) {

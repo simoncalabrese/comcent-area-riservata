@@ -6,6 +6,7 @@ angular.module('app').service('ApiService', [function () {
     $svc.getActivasionsURL = getActivasionsURL;
     $svc.getAddPlafontURL = getAddPlafontURL;
     $svc.getAddActivasionsURL = getAddActivasionsURL;
+    $svc.delActivation = delActivation;
     $svc.getUsersURL = getUsersURL;
     $svc.getLinks = getLinks;
     $svc.delDoc = delDoc;
@@ -64,6 +65,10 @@ angular.module('app').service('ApiService', [function () {
 
     function plafontList() {
         return PATH + PLAFONT + 'plafontList';
+    }
+
+    function delActivation() {
+        return PATH + ACTIVATIONS + 'delActivation';
     }
 
 }]);

@@ -6,9 +6,11 @@ import comcent.service.dbmappings.UserMapping;
 import comcent.service.dbmappings.functions.ConvertionFunction;
 import comcent.service.dto.activation.ActivationDTO;
 import comcent.service.dto.activation.WrapperUserActivations;
+import comcent.service.dto.base.ConcreteDTO;
 import comcent.service.dto.plafont.GetPlafontDTO;
 import comcent.service.dto.user.UserDTO;
 import comcent.service.exceptions.BaseException;
+import comcent.service.exceptions.Suppliers;
 import comcent.service.services.AbstractService;
 import comcent.service.services.ApiEnum;
 import comcent.service.services.plafont.PlafontService;
@@ -18,6 +20,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import java.util.*;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -92,7 +95,7 @@ public class ActivationSerice extends AbstractService {
                         })).collect(Collectors.toList()));
                         return wrapperUserActivations;
                     }).collect(Collectors.toList());
-          w.setWrapper(collect);
+            w.setWrapper(collect);
         } else {
             final Map<Integer, List<Integer>> hierarchiMap = hierarchyMappings
                     .stream()
@@ -123,7 +126,27 @@ public class ActivationSerice extends AbstractService {
         return w;
     }
 
-    public List<ActivationDTO> getActivation(final GetPlafontDTO getPlafontDTO) throws BaseException {
+    private List<ActivationDTO> getActivation(final GetPlafontDTO getPlafontDTO) throws BaseException {
         return doPostCallList(ActivationDTO.class, ApiEnum.GET_ACTIVATIONS, getPlafontDTO);
     }
+
+    public ConcreteDTO delActivation(final Integer id, final Integer amount) throws BaseException {
+        return ((Function<Integer, ConcreteDTO>) e -> {
+            try {
+                return doGetCall(String.class,
+                        ApiEnum.DEL_ACTIVATION,
+                        QueryParamsBuilder.getBuilder().appendParams("id", id),
+                        s -> new ConcreteDTO());
+            } catch (BaseException e1) {
+                throw new RuntimeException(e1);
+            }
+        }).andThen(response -> {
+            try {
+                return plafontService.addPlafont(Suppliers.Utils.toAddPlafonStorno.apply(amount));
+            } catch (BaseException e) {
+                throw new RuntimeException(e);
+            }
+        }).apply(null);
+    }
+
 }

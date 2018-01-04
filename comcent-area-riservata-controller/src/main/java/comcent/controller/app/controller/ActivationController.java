@@ -3,6 +3,7 @@ package comcent.controller.app.controller;
 import comcent.controller.base.AbstractController;
 import comcent.service.dto.activation.ActivationDTO;
 import comcent.service.dto.activation.WrapperUserActivations;
+import comcent.service.dto.base.ConcreteDTO;
 import comcent.service.dto.plafont.GetPlafontDTO;
 import comcent.service.dto.user.UserDTO;
 import comcent.service.exceptions.BaseException;
@@ -17,7 +18,7 @@ import java.util.Map;
 @RestController
 @CrossOrigin
 @RequestMapping("/activations")
-public class ActivationController extends AbstractController{
+public class ActivationController extends AbstractController {
 
     @Autowired
     private ActivationSerice activationSerice;
@@ -25,5 +26,11 @@ public class ActivationController extends AbstractController{
     @RequestMapping(value = "/getActivations", method = RequestMethod.POST)
     public WrapperUserActivations getActivation(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
         return activationSerice.getActivations(getPlafontDTO);
+    }
+
+    @RequestMapping(value = "/delActivation", method = RequestMethod.GET)
+    public ConcreteDTO delActivation(@RequestParam(value = "id") final Integer id,
+                                     @RequestParam(value = "amount") final Integer amount) throws BaseException {
+        return activationSerice.delActivation(id,amount);
     }
 }

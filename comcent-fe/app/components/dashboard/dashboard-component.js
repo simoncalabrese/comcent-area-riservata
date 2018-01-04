@@ -41,6 +41,10 @@ angular.module('app').component('dashboard', {
       ModalService.showPlafontList(userId,$ctrl.from,$ctrl.to);
     }
 
+    $ctrl.delActivation = function(id,amount) {
+        ActivasionsService.delActivation(id,amount, getActivations);
+    }
+
     /* */
 
     $scope.dateOptions = {
