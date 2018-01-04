@@ -13,6 +13,7 @@ angular.module('app').service('ApiService', [function () {
     $svc.addDoc = addDoc;
     $svc.signUp = signUp;
     $svc.plafontList = plafontList;
+    $svc.delPlafont = delPlafont
 
     $svc.STATUS_OK = 'OK';
     $svc.STATUS_KO = 'KO';
