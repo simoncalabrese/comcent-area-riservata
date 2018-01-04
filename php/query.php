@@ -11,7 +11,7 @@
 		$queries-> insertMove = "INSERT INTO app_transactions(ID,USER,DAT_MOV,AMOUNT) VALUES (<id>,<user>,'<date>',<amount>)";
 		$queries-> insertActivation = "INSERT INTO app_activation(ID, USER, DES_ACTIVATION, AMNT_PLAFONT,DAT_ATT,USER_INSERT) VALUES (<id>,<user>,'<desActivation>',<amntPlafont>,'<datAtt>',<userInsert>)";
 		$queries-> getPlafont = "SELECT SUM(amount) as amount FROM app_transactions WHERE USER = <userId> AND STR_TO_DATE( DAT_MOV,  '%d-%m-%Y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%Y' ) AND  STR_TO_DATE('<dateEnd>',  '%d-%m-%Y' )";
-		$queries-> getPlafontList = "SELECT amount as amount, dat_mov as dateString 
+		$queries-> getPlafontList = "SELECT amount as amount, dat_mov as dateString, ID as id
 									from app_transactions 
 									where user = <userId> 
 										AND STR_TO_DATE( DAT_MOV,  '%d-%m-%Y' ) BETWEEN STR_TO_DATE('<dateStart>',  '%d-%m-%Y' ) 
@@ -29,6 +29,7 @@
 		$queries-> addDocLink = "INSERT INTO anag_docs values ('<name>','<url>')";
 		$queries-> removeDocLink = "DELETE FROM anag_docs WHERE NAME = '<name>'";
 		$queries-> delActivation = "DELETE FROM app_activation WHERE ID = <id>";
+		$queries-> delPlafont = "DELETE FROM app_transactions WHERE ID = <id>";
 		$query = $queries->$querykey;
 		if($params != null) {
 			foreach ($params as $value) {

@@ -104,4 +104,8 @@ public class PlafontService extends AbstractService {
         getPlafontDTO.setDateEnd(Optional.ofNullable(getPlafontDTO.getDateEnd()).orElseGet(ConvertionFunction.getTodayAsString));
         return doPostCallList(AddPlafontDTO.class, ApiEnum.GET_PLAFONT_LIST, getPlafontDTO);
     }
+
+    public ConcreteDTO delPlafont(final Integer id) throws BaseException {
+        return doGetCall(String.class,ApiEnum.DEL_PLAFONT,QueryParamsBuilder.getBuilder().appendParams("id",id), result -> new ConcreteDTO());
+    }
 }

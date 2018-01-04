@@ -15,7 +15,7 @@ public enum ApiEnum {
     SIGNUP("signUp"),
     GET_DOCS("getDocs"),
     ADD_DOCS("addDocs"), DEL_DOC("delDocs"),
-    GET_PLAFONT_LIST("getPlafontList"), DEL_ACTIVATION("delActivation");
+    GET_PLAFONT_LIST("getPlafontList"), DEL_ACTIVATION("delActivation"), DEL_PLAFONT("delPlafont.php");
 
 
     private String apiMapKey;

@@ -30,9 +30,8 @@ angular.module('app').component('plafontList', {
             $ctrl.plafonts = data;
         }
 
-        $ctrl.delPlafont = function(amount) {
-            var newAmount = amount * -1;
-            PlafontsService.addPlafont($ctrl.resolve.userId, DateService.msToDefaultFormat(new Date()), newAmount, callGetList);
+        $ctrl.delPlafont = function(id) {
+            PlafontsService.delPlafont(id,callGetList);
         }
 
     }])

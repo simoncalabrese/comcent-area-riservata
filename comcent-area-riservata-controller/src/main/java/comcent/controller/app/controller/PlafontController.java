@@ -27,6 +27,11 @@ public class PlafontController extends AbstractController {
         return plafontService.addPlafont(addPlafontDTO);
     }
 
+    @RequestMapping(value = "/delPlafont", method = RequestMethod.GET)
+    public ConcreteDTO delPlafont(@RequestParam(value = "id") final Integer id) throws BaseException {
+        return plafontService.delPlafont(id);
+    }
+
     @RequestMapping(value = "/getPlafont", method = RequestMethod.POST)
     public Map<String, String> getPlafont(@RequestBody final GetPlafontDTO getPlafontDTO) throws BaseException {
         return plafontService.getPlafont(getPlafontDTO);

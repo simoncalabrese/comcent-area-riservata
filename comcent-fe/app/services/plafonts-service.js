@@ -30,4 +30,16 @@ angular.module('app').service('PlafontsService', ['_', '$http', 'ApiService', fu
         })
     }
 
+    function delPlafont(id, callback) {
+        $http({
+                      method: 'GET',
+                      url: ApiService.delPlafont(),
+                      params: {
+                        id: id
+                        }
+                    }).then(function(response){
+                        (callback)();
+                    })
+    }
+
 }]);
