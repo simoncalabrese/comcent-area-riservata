@@ -3,5 +3,5 @@
   <h4 class="text-primary text-right">{{($ctrl.plafont.amountPos || 0)  | currency:"€"}}</h4>
   <h4 class="text-danger text-right">{{($ctrl.plafont.amountNeg || 0)  | currency:"€"}}</h4>
   <hr class="no-margin">
-  <h4 class="text-right">Totale: <span ng-class="{'text-primary': $ctrl.plafont.amount > 0, 'text-danger': $ctrl.plafont.amount < 0}">{{($ctrl.plafont.amount || 0)  | currency:"€"}}</span></h4>
+  <h4 class="text-right">Residuo: <span ng-class="{'text-primary': $ctrl.plafont.amount > 0, 'text-danger': $ctrl.plafont.amount < 0}">{{($ctrl.plafont.amount || 0)  | currency:"€"}}</span></h4>
 </div>

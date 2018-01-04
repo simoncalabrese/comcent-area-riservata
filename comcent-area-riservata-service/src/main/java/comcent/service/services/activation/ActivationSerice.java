@@ -130,7 +130,7 @@ public class ActivationSerice extends AbstractService {
         return doPostCallList(ActivationDTO.class, ApiEnum.GET_ACTIVATIONS, getPlafontDTO);
     }
 
-    public ConcreteDTO delActivation(final Integer id, final Integer amount) throws BaseException {
+    public ConcreteDTO delActivation(final Integer id, final Integer amount, final Integer user) throws BaseException {
         return ((Function<Integer, ConcreteDTO>) e -> {
             try {
                 final Boolean res = doGetCall(String.class,
@@ -144,7 +144,7 @@ public class ActivationSerice extends AbstractService {
             }
         }).andThen(response -> {
             try {
-                return plafontService.addPlafont(Suppliers.Utils.toAddPlafonStorno.apply(amount));
+                return plafontService.addPlafont(Suppliers.Utils.toAddPlafonStorno.apply(amount,user));
             } catch (BaseException e) {
                 throw new RuntimeException(e);
             }

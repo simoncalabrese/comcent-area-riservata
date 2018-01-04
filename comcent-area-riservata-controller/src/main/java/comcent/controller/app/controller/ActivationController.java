@@ -30,7 +30,8 @@ public class ActivationController extends AbstractController {
 
     @RequestMapping(value = "/delActivation", method = RequestMethod.GET)
     public ConcreteDTO delActivation(@RequestParam(value = "id") final Integer id,
-                                     @RequestParam(value = "amount") final Integer amount) throws BaseException {
-        return activationSerice.delActivation(id,amount);
+                                     @RequestParam(value = "amount") final Integer amount,
+                                     @RequestParam(value = "user") final Integer user) throws BaseException {
+        return activationSerice.delActivation(id,amount,user);
     }
 }

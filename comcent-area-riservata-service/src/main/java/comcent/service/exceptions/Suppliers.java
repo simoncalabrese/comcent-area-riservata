@@ -7,7 +7,7 @@ import comcent.service.dto.base.MessageDTO;
 import comcent.service.dto.plafont.AddPlafontDTO;
 
 import java.util.Collections;
-import java.util.function.Function;
+import java.util.function.BiFunction;
 import java.util.function.Supplier;
 
 /**
@@ -58,10 +58,10 @@ public class Suppliers {
 
 
     public static class Utils {
-        public static Function<Integer,AddPlafontDTO> toAddPlafonStorno = i -> {
+        public static BiFunction<Integer,Integer,AddPlafontDTO> toAddPlafonStorno = (amount,user) -> {
             final AddPlafontDTO dto = new AddPlafontDTO();
-            dto.setAmount(i);
-            dto.setUserId(0);
+            dto.setAmount(amount);
+            dto.setUserId(user);
             return dto;
         };
     }
