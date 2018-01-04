@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="0496f68a-0664-4cf9-99e6-ff7434c94865" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-fe/app/services/api-service.js" afterPath="$PROJECT_DIR$/comcent-fe/app/services/api-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" afterPath="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" />
     </list>
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-service/target/" />
     <ignored path="$PROJECT_DIR$/comcent-area-riservata-controller/target/" />
@@ -37,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plafont-list-component.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plafont-list-component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +59,8 @@
       <file leaf-file-name="plafont-list-template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="255">
+              <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -79,11 +78,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/comcent-area-riservata-common/src/main/resources/application.yml">
+      <file leaf-file-name="dashboard-template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="227">
+              <caret line="75" column="88" selection-start-line="75" selection-start-column="88" selection-end-line="75" selection-end-column="88" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#uib-accordion#0;n#div#0;n#div#0;n#uib-accordion#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard-component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal-service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/modal-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-919">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,19 +182,19 @@
         <option value="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/exceptions/Suppliers.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java" />
-        <option value="$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-template.html" />
-        <option value="$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-component.js" />
         <option value="$PROJECT_DIR$/comcent-fe/app/services/activations-service.js" />
         <option value="$PROJECT_DIR$/php/delPlafont.php" />
         <option value="$PROJECT_DIR$/php/query.php" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java" />
-        <option value="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" />
-        <option value="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html" />
         <option value="$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js" />
         <option value="$PROJECT_DIR$/comcent-fe/app/services/api-service.js" />
         <option value="$PROJECT_DIR$/comcent-area-riservata-common/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-template.html" />
+        <option value="$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-component.js" />
+        <option value="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html" />
+        <option value="$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js" />
       </list>
     </option>
   </component>
@@ -232,9 +253,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="819" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -429,15 +449,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Progetti/NFC/Branch/11142 - Incasso/FRONTEND/NFC/svil-nfc-front-end" />
-    <property name="SearchEverywhereHistoryKey" value="yml&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/resources/application.yml&#10;api-s&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/api-service.js&#10;plaf&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-template.html&#10;act&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;plafont-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/plafonts-service.js&#10;plafontl&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-component.js&#10;plafco&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafonser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;query.p&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/php/query.php&#10;plafontser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;add-pla&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/add-plafont/add-plafont-component.js&#10;pla-serv&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/plafonts-service.js&#10;plafon-li&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-component.js&#10;dashb&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-template.html&#10;plafont-list&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-template.html&#10;plafontc&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafont&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;activ-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;dash&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-component.js&#10;glo&#9;PSI&#9;JAVA://comcent.controller.base.GlobalExceptionHandler&#10;baseex&#9;PSI&#9;JAVA://comcent.service.exceptions.BaseException&#10;bas&#9;PSI&#9;JAVA://comcent.common.configuration.BaseApplication&#10;Suppl&#9;PSI&#9;JAVA://comcent.service.exceptions.Suppliers&#10;plafs&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;addpla&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java&#10;ac&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;acticontr&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java&#10;activationser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;Auth-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/auth-service.js&#10;user&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/user/user-component.js&#10;activation-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;dashbo&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-component.js&#10;das&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-template.html&#10;wrapp&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/WrapperUserActivations.java&#10;plafc&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;log&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java&#10;abstra&#9;PSI&#9;JAVA://comcent.controller.base.AbstractController&#10;apie&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java&#10;plafontco&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafontdto&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java&#10;wra&#9;PSI&#9;JAVA://comcent.service.dto.activation.WrapperUserActivations&#10;Login&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java&#10;utilc&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;utilco&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;angular-cl&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/angular-example/node_modules/@schematics/angular/application/files/__dot__angular-cli.json&#10;Util&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;Suppliers&#9;PSI&#9;JAVA://comcent.service.exceptions.Suppliers&#10;Basee&#9;PSI&#9;JAVA://comcent.service.exceptions.BaseException&#10;Serv&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/AbstractService.java&#10;LOGINC&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java" />
+    <property name="SearchEverywhereHistoryKey" value="auth-s&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/auth-service.js&#10;modal-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/modal-service.js&#10;dashboard&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-component.js&#10;plafon-lis&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-component.js&#10;dashb&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-template.html&#10;yml&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/resources/application.yml&#10;api-s&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/api-service.js&#10;plaf&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-template.html&#10;act&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;plafont-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/plafonts-service.js&#10;plafontl&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-component.js&#10;plafco&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafonser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;query.p&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/php/query.php&#10;plafontser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;add-pla&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/add-plafont/add-plafont-component.js&#10;pla-serv&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/plafonts-service.js&#10;plafon-li&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-component.js&#10;plafont-list&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/plafont-list/plafont-list-template.html&#10;plafontc&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafont&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;activ-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;dash&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-component.js&#10;glo&#9;PSI&#9;JAVA://comcent.controller.base.GlobalExceptionHandler&#10;baseex&#9;PSI&#9;JAVA://comcent.service.exceptions.BaseException&#10;bas&#9;PSI&#9;JAVA://comcent.common.configuration.BaseApplication&#10;Suppl&#9;PSI&#9;JAVA://comcent.service.exceptions.Suppliers&#10;plafs&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java&#10;addpla&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java&#10;ac&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;acticontr&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java&#10;activationser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java&#10;Auth-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/auth-service.js&#10;user&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/user/user-component.js&#10;activation-ser&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/services/activations-service.js&#10;dashbo&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-component.js&#10;das&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-fe/app/components/dashboard/dashboard-template.html&#10;wrapp&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/WrapperUserActivations.java&#10;plafc&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;log&#9;FILE&#9;file:///Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java&#10;abstra&#9;PSI&#9;JAVA://comcent.controller.base.AbstractController&#10;apie&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java&#10;plafontco&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java&#10;plafontdto&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java&#10;wra&#9;PSI&#9;JAVA://comcent.service.dto.activation.WrapperUserActivations&#10;Login&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java&#10;utilc&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;utilco&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java&#10;angular-cl&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/angular-example/node_modules/@schematics/angular/application/files/__dot__angular-cli.json&#10;Util&#9;FILE&#9;file://C:/Users/simon.calabrese/Documents/comcent-area-riservata/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -475,1255 +495,6 @@
       <recent name="C:\Users\simon.calabrese\Documents\comcent-area-riservata\comcent-fe" />
       <recent name="C:\Users\simon.calabrese\Documents\comcent-area-riservata\comcent-fe\app" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-common/target/classes/application.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-common/target/maven-archiver/pom.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/ActivationController.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/PlafontController.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-archiver/pom.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/functions/ConvertionFunction.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/activation/ActivationDTO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/ApiEnum.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/activation/ActivationSerice.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/login/LoginService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/plafont/PlafontService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/target/maven-archiver/pom.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-animate/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-animate/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-animate/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-animate/angular-animate.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-animate/angular-animate.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-animate/angular-animate.min.js.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-animate/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-animate/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-animate/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-aria/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-aria/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-aria/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-aria/angular-aria.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-aria/angular-aria.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-aria/angular-aria.min.js.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-aria/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-aria/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-aria/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/.npmignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/ui-bootstrap-csp.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/ui-bootstrap-tpls.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/ui-bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-bootstrap/ui-bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-cookies/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-cookies/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-cookies/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-cookies/angular-cookies.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-cookies/angular-cookies.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-cookies/angular-cookies.min.js.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-cookies/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-cookies/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-cookies/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/CHANGELOG.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/CONTRIBUTING.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/Gruntfile.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/ISSUE_TEMPLATE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/PULL_REQUEST_TEMPLATE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/build/loading-bar.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/build/loading-bar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/build/loading-bar.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/build/loading-bar.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/src/loading-bar.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-loading-bar/src/loading-bar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-messages/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-messages/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-messages/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-messages/angular-messages.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-messages/angular-messages.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-messages/angular-messages.min.js.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-messages/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-messages/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-messages/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-route/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-route/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-route/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-route/angular-route.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-route/angular-route.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-route/angular-route.min.js.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-route/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-route/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-route/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-sanitize/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-sanitize/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-sanitize/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-sanitize/angular-sanitize.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-sanitize/angular-sanitize.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-sanitize/angular-sanitize.min.js.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-sanitize/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-sanitize/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-sanitize/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/.npmignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/CONTRIBUTING.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/dist/angular-toastr.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/dist/angular-toastr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/dist/angular-toastr.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/dist/angular-toastr.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/dist/angular-toastr.tpls.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/dist/angular-toastr.tpls.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/gulpfile.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular-toastr/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/angular-csp.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/angular.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/angular.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/angular.min.js.gzip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/angular.min.js.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/angular/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/Gemfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/Gruntfile.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/ISSUE_TEMPLATE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/_config.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/bootstrap-elements.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/css/ripples.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/css/ripples.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/css/ripples.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/css/ripples.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/js/material.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/js/material.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/js/material.min.js.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/js/ripples.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/js/ripples.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/dist/js/ripples.min.js.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/grunt/configBridge.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/index.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_alerts.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_buttons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_cards.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_checkboxes.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_colors.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_core.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_dialogs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_dividers.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_form.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_import-bs-less.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_import-bs-sass.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_inputs-size.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_inputs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_lists.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_mixins.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_navbar.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_panels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_plugins.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_popups.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_progress.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_radios.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_shadows.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_tabs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_themes.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_togglebutton.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_typography.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_variables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/_welljumbo.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/bootstrap-material-design.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/plugins/_plugin-dropdownjs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/plugins/_plugin-nouislider.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/plugins/_plugin-selectize.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/plugins/_plugin-snackbarjs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/less/ripples.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/material-design-color-palette.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_alerts.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_buttons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_cards.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_checkboxes.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_colors-map.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_colors.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_core.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_dialogs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_dividers.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_form.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_import-bs-less.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_import-bs-sass.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_inputs-size.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_inputs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_labels.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_lists.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_mixins-utilities.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_mixins.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_navbar.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_panels.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_plugins.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_popups.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_progress.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_radios.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_shadows.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_tabs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_themes.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_togglebutton.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_typography.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_variables.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/_welljumbo.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/bootstrap-material-design.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/plugins/_plugin-dropdownjs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/plugins/_plugin-nouislider.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/plugins/_plugin-selectize.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/plugins/_plugin-snackbarjs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/sass/ripples.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/scripts/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/scripts/material.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/scripts/ripples.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-material-design/testcase.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/CHANGELOG.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/CONTRIBUTING.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap-mincer.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_component-animations.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_media.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_pager.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-embed.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_theme.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_wells.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_border-radius.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_center-block.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_gradients.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_hide-text.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_image.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-divider.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_opacity.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_reset-filter.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_reset-text.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_resize.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_size.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_tab-focus.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-overflow.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/eyeglass-exports.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap-sass/sache.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/CHANGELOG.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/Gemfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/Gemfile.lock</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/Gruntfile.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/ISSUE_TEMPLATE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/css/bootstrap-theme.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/css/bootstrap-theme.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/css/bootstrap-theme.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/css/bootstrap.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/css/bootstrap.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/css/bootstrap.min.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/js/bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/dist/js/npm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/grunt/.jshintrc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/grunt/bs-commonjs-generator.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/grunt/bs-lessdoc-parser.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/grunt/bs-raw-files-generator.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/grunt/change-version.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/grunt/configBridge.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/grunt/npm-shrinkwrap.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/grunt/sauce_browsers.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/.jscsrc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/.jshintrc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/affix.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/alert.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/button.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/carousel.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/collapse.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/dropdown.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/modal.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/popover.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/scrollspy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/tab.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/tooltip.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/js/transition.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/.csscomb.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/.csslintrc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/alerts.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/badges.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/bootstrap.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/breadcrumbs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/button-groups.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/buttons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/carousel.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/close.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/code.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/component-animations.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/dropdowns.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/forms.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/glyphicons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/grid.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/input-groups.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/jumbotron.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/labels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/list-group.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/media.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/alerts.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/background-variant.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/border-radius.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/buttons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/center-block.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/clearfix.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/forms.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/gradients.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/grid-framework.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/grid.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/hide-text.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/image.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/labels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/list-group.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/nav-divider.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/nav-vertical-align.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/opacity.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/pagination.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/panels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/progress-bar.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/reset-filter.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/reset-text.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/resize.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/responsive-visibility.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/size.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/tab-focus.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/table-row.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/text-emphasis.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/text-overflow.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/mixins/vendor-prefixes.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/modals.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/navbar.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/navs.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/normalize.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/pager.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/pagination.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/panels.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/popovers.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/print.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/progress-bars.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/responsive-embed.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/responsive-utilities.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/scaffolding.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/tables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/theme.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/thumbnails.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/tooltip.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/type.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/utilities.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/variables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/less/wells.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/nuget/MyGet.ps1</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/nuget/bootstrap.less.nuspec</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/nuget/bootstrap.nuspec</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/package.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/bootstrap/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/.npmignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/css/font-awesome.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/css/font-awesome.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/css/font-awesome.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/fonts/FontAwesome.otf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/fonts/fontawesome-webfont.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/fonts/fontawesome-webfont.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/fonts/fontawesome-webfont.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/fonts/fontawesome-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/fonts/fontawesome-webfont.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/animated.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/bordered-pulled.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/core.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/fixed-width.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/font-awesome.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/icons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/larger.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/list.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/mixins.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/path.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/rotated-flipped.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/screen-reader.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/stacked.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/less/variables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_animated.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_bordered-pulled.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_core.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_fixed-width.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_icons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_larger.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_list.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_mixins.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_path.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_rotated-flipped.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_screen-reader.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_stacked.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/_variables.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/components-font-awesome/scss/font-awesome.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/Gruntfile.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/dist/fonts/Roboto_italic_400_default.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/dist/fonts/Roboto_normal_300_default.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/dist/fonts/Roboto_normal_400_default.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/dist/fonts/Roboto_normal_500_default.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/dist/fonts/Roboto_normal_700_default.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/dist/styles/roboto.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/dist/styles/roboto.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/font-roboto/src/styles/roboto.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/AUTHORS.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/LICENSE.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/dist/jquery.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/dist/jquery.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/dist/jquery.min.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/external/sizzle/LICENSE.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/external/sizzle/dist/sizzle.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/external/sizzle/dist/sizzle.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/external/sizzle/dist/sizzle.min.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/.jshintrc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax/jsonp.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax/load.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax/parseJSON.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax/parseXML.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax/script.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax/var/location.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax/var/nonce.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax/var/rquery.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/ajax/xhr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/attributes.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/attributes/attr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/attributes/classes.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/attributes/prop.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/attributes/support.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/attributes/val.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/callbacks.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/core.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/core/access.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/core/init.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/core/parseHTML.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/core/ready.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/core/var/rsingleTag.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/addGetHookIf.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/adjustCSS.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/curCSS.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/defaultDisplay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/hiddenVisibleSelectors.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/showHide.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/support.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/var/cssExpand.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/var/getStyles.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/var/isHidden.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/var/rmargin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/var/rnumnonpx.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/css/var/swap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/data.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/data/Data.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/data/var/acceptData.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/data/var/dataPriv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/data/var/dataUser.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/deferred.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/deprecated.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/dimensions.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/effects.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/effects/Tween.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/effects/animatedSelector.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/event.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/event/ajax.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/event/alias.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/event/focusin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/event/support.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/event/trigger.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/exports/amd.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/exports/global.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/intro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/jquery.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation/_evalUrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation/buildFragment.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation/getAll.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation/setGlobalEval.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation/support.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation/var/rcheckableType.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation/var/rscriptType.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation/var/rtagName.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/manipulation/wrapMap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/offset.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/outro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/queue.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/queue/delay.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/selector-native.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/selector-sizzle.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/selector.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/serialize.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/traversing.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/traversing/findFilter.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/traversing/var/dir.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/traversing/var/rneedsContext.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/traversing/var/siblings.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/arr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/class2type.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/concat.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/document.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/documentElement.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/hasOwn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/indexOf.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/pnum.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/push.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/rcssNum.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/rnotwhite.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/slice.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/support.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/var/toString.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/jquery/src/wrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/.editorconfig</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/.github/CONTRIBUTING.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/.jscsrc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/.markdown-doctest-setup.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/CHANGELOG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/dist/lodash.core.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/dist/lodash.core.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/dist/lodash.fp.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/dist/lodash.fp.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/dist/lodash.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/dist/lodash.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/dist/mapping.fp.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/doc/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/fp/_baseConvert.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/fp/_convertBrowser.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/fp/_mapping.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/fp/placeholder.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/common/file.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/common/mapping.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/common/minify.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/common/uglify.options.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/common/util.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/build-dist.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/build-doc.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/build-modules.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/template/doc/wiki.jst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/template/modules/_falseOptions.jst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/template/modules/_util.jst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/template/modules/alias.jst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/template/modules/category.jst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/template/modules/convert.jst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/template/modules/fp.jst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/template/modules/module.jst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/fp/template/modules/thru.jst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/main/build-dist.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/main/build-doc.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/main/build-modules.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lib/main/build-site.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/lodash.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/perf/asset/perf-ui.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/perf/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/perf/perf.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/asset/test-ui.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/asset/worker.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/backbone.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/fp.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/remove.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/saucelabs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/test-fp.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/test.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/test/underscore.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/backbone.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/test/collection.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/test/events.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/test/model.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/test/noconflict.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/test/router.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/test/setup/dom-setup.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/test/setup/environment.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/test/sync.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/backbone/test/view.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/license.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/blank.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/buttonBg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/buttonBgHover.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/debugger.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/detach.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/detachHover.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/disable.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/disable.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/disableHover.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/disableHover.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/downActive.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/downHover.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/errorIcon-sm.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/errorIcon.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/errorIcon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/firebug-1.3a2.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/firebug.IE6.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/firebug.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/firebug.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/firebug.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/group.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/html.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/infoIcon.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/infoIcon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/loading_16.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/min.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/minHover.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/off.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/offHover.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/pixel_transparent.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/roundCorner.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/search.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/search.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/shadow.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/shadow2.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/shadowAlpha.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/sprite.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabHoverLeft.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabHoverMid.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabHoverRight.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabLeft.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabMenuCheckbox.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabMenuPin.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabMenuRadio.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabMenuTarget.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabMenuTargetHover.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabMid.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tabRight.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/textEditorBorders.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/textEditorBorders.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/textEditorCorners.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/textEditorCorners.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/titlebarMid.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/toolbarMid.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tree_close.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/tree_open.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/twistyClosed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/twistyOpen.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/up.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/upActive.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/upHover.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/warningIcon.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/skin/xp/warningIcon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/firebug-lite/src/firebug-lite-debug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/json-js/json2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/test/arrays.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/test/chaining.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/test/collections.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/test/cross-document.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/test/functions.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/test/objects.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/test/utility.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/underscore-min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/vendor/underscore/underscore.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/lodash/yarn.lock</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/CHANGELOG.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ar-dz.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ar-kw.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ar-ly.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ar-ma.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ar-sa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ar-tn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/az.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/be.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/bm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/bn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/bo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/bs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/cv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/de-at.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/de-ch.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/dv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/en-au.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/en-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/en-ie.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/en-nz.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/es-do.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/es-us.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/fo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/fr-ch.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/fy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/gd.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/gom-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/gu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/hi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/hy-am.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/is.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/jv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ka.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/kk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/kn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ky.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/lb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/lo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/me.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/mi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/mk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ml.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/mr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ms-my.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ms.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/my.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ne.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/nl-be.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/nn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/pa-in.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/sd.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/se.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/sr-cyrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/sr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ss.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/sw.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ta.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/te.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/tet.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/tl-ph.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/tlh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/tzl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/tzm-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/tzm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/ur.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/uz-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/uz.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/x-pseudo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/yo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/zh-hk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/locale/zh-tw.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/min/locales.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/min/locales.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/min/moment-with-locales.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/min/moment-with-locales.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/min/moment.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/moment.d.ts</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/moment.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/check-overflow.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/date-from-array.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/from-anything.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/from-array.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/from-object.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/from-string-and-array.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/from-string-and-format.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/from-string.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/local.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/parsing-flags.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/utc.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/create/valid.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/abs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/add-subtract.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/as.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/bubble.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/clone.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/constructor.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/create.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/duration.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/get.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/humanize.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/iso-string.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/prototype.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/duration/valid.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/format/format.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/base-config.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/calendar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/constructor.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/formats.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/invalid.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/lists.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/locale.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/locales.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/ordinal.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/pre-post-format.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/prototype.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/relative.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/locale/set.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/add-subtract.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/calendar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/clone.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/compare.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/constructor.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/creation-data.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/diff.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/format.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/from.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/get-set.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/locale.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/min-max.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/moment.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/now.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/prototype.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/start-end-of.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/to-type.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/to.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/moment/valid.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/parse/regex.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/parse/token.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/aliases.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/constants.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/day-of-month.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/day-of-week.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/day-of-year.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/hour.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/millisecond.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/minute.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/month.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/offset.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/priorities.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/quarter.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/second.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/timestamp.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/timezone.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/units.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/week-calendar-utils.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/week-year.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/week.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/units/year.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/abs-ceil.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/abs-floor.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/abs-round.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/compare-arrays.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/defaults.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/deprecate.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/extend.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/has-own-prop.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/hooks.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/index-of.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/is-array.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/is-date.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/is-function.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/is-number.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/is-object-empty.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/is-object.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/is-undefined.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/keys.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/map.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/mod.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/some.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/to-int.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/lib/utils/zero-fill.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ar-dz.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ar-kw.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ar-ly.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ar-ma.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ar-sa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ar-tn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/az.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/be.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/bm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/bn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/bo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/bs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/cv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/de-at.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/de-ch.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/dv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/en-au.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/en-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/en-ie.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/en-nz.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/es-do.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/es-us.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/fo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/fr-ch.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/fy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/gd.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/gom-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/gu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/hi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/hy-am.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/is.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/jv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ka.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/kk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/kn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ky.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/lb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/lo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/me.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/mi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/mk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ml.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/mr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ms-my.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ms.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/my.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ne.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/nl-be.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/nn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/pa-in.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/sd.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/se.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/sr-cyrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/sr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ss.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/sw.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ta.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/te.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/tet.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/tl-ph.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/tlh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/tzl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/tzm-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/tzm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/ur.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/uz-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/uz.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/x-pseudo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/yo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/zh-hk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/locale/zh-tw.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/src/moment.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/templates/default.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/templates/locale-header.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/moment/templates/test-header.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/ngToast/.bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/ngToast/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/ngToast/bower.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/ngToast/dist/ngToast-animations.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/ngToast/dist/ngToast-animations.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/ngToast/dist/ngToast.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/ngToast/dist/ngToast.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/ngToast/dist/ngToast.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/comcent-fe/bower_components/ngToast/dist/ngToast.min.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2439,14 +1210,28 @@
       <option name="project" value="LOCAL" />
       <updated>1515081615831</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Simon - elimina plafont">
+      <created>1515082209395</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1515082209395</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Simon - elimina plafont">
+      <created>1515083684907</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1515083684907</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="11995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2458,14 +1243,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18617614" sideWeight="0.50852877" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26226014" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266762" sideWeight="0.4936034" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42653352" sideWeight="0.49573562" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42537314" sideWeight="0.49573562" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18402283" sideWeight="0.4914712" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15307583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Graph Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2485,6 +1269,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2600,13 +1385,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/getPlafont.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -2632,7 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2640,7 +1417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2648,7 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2660,36 +1435,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#649#650#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#801#802#0" expanded="false" />
-            <element signature="e#847#848#0" expanded="false" />
-            <element signature="e#894#895#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1021#1022#0" expanded="false" />
-            <element signature="e#1077#1078#0" expanded="false" />
-            <element signature="e#1107#1108#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-            <element signature="e#1213#1214#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB/Sql1151252_1-2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/Sql1151252_1-2.sql" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -2702,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2710,7 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2718,7 +1465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2726,7 +1472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="11" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2734,7 +1479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2742,7 +1486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2750,7 +1493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2758,7 +1500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2766,7 +1507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2774,15 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-251">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/auth-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="78" column="10" selection-start-line="72" selection-start-column="4" selection-end-line="78" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2790,9 +1521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="106" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="106" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2800,7 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2808,7 +1535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2816,7 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="9" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2824,7 +1549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2832,7 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
           <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2840,7 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2848,7 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2856,7 +1577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2872,15 +1592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2888,17 +1599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="73" column="175" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="175" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#uib-accordion#0;n#div#0;n#div#0;n#uib-accordion#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2906,7 +1606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2914,7 +1613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2922,7 +1620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2930,7 +1627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="101" selection-start-line="17" selection-start-column="101" selection-end-line="17" selection-end-column="101" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2946,7 +1642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2954,33 +1649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="52" column="14" selection-start-line="43" selection-start-column="4" selection-end-line="52" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2994,8 +1662,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comcent-area-riservata-common/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/modal-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/auth-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="78" column="10" selection-start-line="72" selection-start-column="4" selection-end-line="78" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/services/plafonts-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/dashboard/dashboard-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="75" column="88" selection-start-line="75" selection-start-column="88" selection-end-line="75" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#uib-accordion#0;n#div#0;n#div#0;n#uib-accordion#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comcent-fe/app/components/plafont-list/plafont-list-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

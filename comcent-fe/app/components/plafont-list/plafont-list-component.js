@@ -13,7 +13,7 @@ angular.module('app').component('plafontList', {
         $ctrl.dateStart = null;
         $ctrl.dateEnd = null;
         $ctrl.$onInit = function () {
-            $ctrl.user = AuthService.getUser;
+            $ctrl.user = AuthService.getUser();
             callGetList();
         }
 
