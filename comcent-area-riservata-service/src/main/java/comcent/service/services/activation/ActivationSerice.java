@@ -133,10 +133,12 @@ public class ActivationSerice extends AbstractService {
     public ConcreteDTO delActivation(final Integer id, final Integer amount) throws BaseException {
         return ((Function<Integer, ConcreteDTO>) e -> {
             try {
-                return doGetCall(String.class,
+                final Boolean res = doGetCall(String.class,
                         ApiEnum.DEL_ACTIVATION,
                         QueryParamsBuilder.getBuilder().appendParams("id", id),
-                        s -> new ConcreteDTO());
+                        s -> s.equals("1"));
+                if (res) return new ConcreteDTO();
+                else throw new RuntimeException();
             } catch (BaseException e1) {
                 throw new RuntimeException(e1);
             }
