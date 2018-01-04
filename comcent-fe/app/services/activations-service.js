@@ -40,13 +40,14 @@ angular.module('app').service('ActivasionsService', ['_', '$http', 'ApiService',
     });
   }
 
-  function delActivation(id,amount,callback) {
+  function delActivation(id,amount, user, callback) {
     $http({
               method: 'GET',
               url: ApiService.delActivation(),
               params: {
                 id: id,
-                amount: amount
+                amount: amount,
+                user:user
                 }
             }).then(function(response){
                 (callback)();
