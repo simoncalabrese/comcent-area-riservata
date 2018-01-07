@@ -79,20 +79,21 @@ public class ActivationSerice extends AbstractService {
                     }, Collectors.toList())));
             final List<WrapperUserActivations> collect = mapRet.entrySet()
                     .stream()
-                    .map(e -> {
+                    .map((Map.Entry<Integer, List<Pair<UserDTO, List<ActivationDTO>>>> e) -> {
                         final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
                         wrapperUserActivations.setUser(plafontService.getUser(e.getKey()));
-                        wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinal.andThen(elem -> {
-                            convertObjectCloned(getPlafontDTO, s -> {
-                                try {
-                                    s.setUserId(elem.getUser().getId());
-                                    return plafontService.getPlafont(s);
-                                } catch (BaseException e1) {
-                                    return null;
-                                }
-                            });
-                            return elem;
-                        })).collect(Collectors.toList()));
+                        wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinal).peek(elem -> {
+                            try {
+                                elem.setPlafont(plafontService.getPlafont(cloneObject(getPlafontDTO)));
+                            } catch (BaseException e1) {
+                            }
+                        }).collect(Collectors.toList()));
+                        wrapperUserActivations.setPlafont(cloneObject(wrapperUserActivations)
+                                .getWrapper()
+                                .stream()
+                                .findFirst()
+                                .map(WrapperUserActivations::getPlafont)
+                                .orElse(null));
                         return wrapperUserActivations;
                     }).collect(Collectors.toList());
             w.setWrapper(collect);
@@ -144,7 +145,7 @@ public class ActivationSerice extends AbstractService {
             }
         }).andThen(response -> {
             try {
-                return plafontService.addPlafont(Suppliers.Utils.toAddPlafonStorno.apply(amount,user));
+                return plafontService.addPlafont(Suppliers.Utils.toAddPlafonStorno.apply(amount, user));
             } catch (BaseException e) {
                 throw new RuntimeException(e);
             }

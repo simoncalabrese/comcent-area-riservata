@@ -133,7 +133,6 @@ public class AbstractService {
     }
 
 
-
     private InputStream copyInputStream(InputStream inputStream) throws IOException {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         byte[] barr = new byte[256];
@@ -149,13 +148,17 @@ public class AbstractService {
         return func.apply(src);
     }
 
-    protected <SRC,DST> DST convertObjectCloned(final SRC src, final Converter<SRC, DST> func) {
+    protected <SRC> SRC cloneObject(final SRC src) {
         try {
             final SRC clone = (SRC) src.getClass().newInstance();
-            BeanUtils.copyProperties(src,clone);
-            return func.apply(clone);
+            BeanUtils.copyProperties(src, clone);
+            return clone;
         } catch (InstantiationException | IllegalAccessException e) {
             return null;
         }
+    }
+
+    protected <SRC, DST> DST convertObjectCloned(final SRC src, final Converter<SRC, DST> func) {
+        return convertObject(cloneObject(src), func);
     }
 }
