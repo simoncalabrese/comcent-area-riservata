@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Service
 public class PlafontService extends AbstractService {
@@ -85,7 +86,11 @@ public class PlafontService extends AbstractService {
     }
 
     public List<UserDTO> getUsersDependencyPublic(final Integer id) throws BaseException {
-        return getUsersDependency(id).stream().map(hierarchyMappings -> getUser(hierarchyMappings.getBottom())).collect(Collectors.toList());
+        final List<UserDTO> collect = getUsersDependency(id).stream().map(hierarchyMappings -> getUser(hierarchyMappings.getBottom())).collect(Collectors.toList());
+        if (id.equals(0)) {
+            return Stream.concat(collect.stream(), Stream.of(getUser(0))).collect(Collectors.toList());
+        }
+        return collect;
     }
 
     public UserDTO getUser(final Integer id) {
@@ -106,6 +111,6 @@ public class PlafontService extends AbstractService {
     }
 
     public ConcreteDTO delPlafont(final Integer id) throws BaseException {
-        return doGetCall(String.class,ApiEnum.DEL_PLAFONT,QueryParamsBuilder.getBuilder().appendParams("id",id), result -> new ConcreteDTO());
+        return doGetCall(String.class, ApiEnum.DEL_PLAFONT, QueryParamsBuilder.getBuilder().appendParams("id", id), result -> new ConcreteDTO());
     }
 }
