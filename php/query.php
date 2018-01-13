@@ -19,7 +19,10 @@
 										ORDER BY DAT_MOV";
 		$queries-> getPlafontPos = "SELECT SUM(amount) as amountPos FROM app_transactions WHERE USER = <userId> and amount>0";
 		$queries-> getPlafontNeg = "SELECT SUM(amount) as amountNeg FROM app_transactions WHERE USER = <userId> and amount<0";
-		$queries-> getUsers = "SELECT * FROM  `app_hierarchy` h WHERE h.center =<userId> OR h.top = <userId>";
+		$queries-> getUsers = "SELECT * FROM  `app_hierarchy` h
+                               WHERE CASE WHEN (
+                               	(SELECT center from app_hierarchy where bottom =<userId>) is null and (SELECT top from app_hierarchy where bottom =<userId>) is null and <userId> <> 0)
+                               	THEN h.center =0 OR h.top = 0 ELSE h.center = <userId> OR h.top = <userId> END";
 		$queries-> getActivations = "SELECT a.ID as id, 
 											a.DES_ACTIVATION as desActivation,
 											a.AMNT_PLAFONT as amntPlafont,
