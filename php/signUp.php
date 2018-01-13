@@ -18,7 +18,11 @@
 	$params[4]-> value=$json->partIva;
 	$params[5] = new stdClass();
 	$params[5]-> key="REFERENCE";
-	$params[5]-> value=$json->referenceId;
+	$ref = $json->referenceId;
+	if($ref == null) {
+		$ref = "null";
+	}
+	$params[5]-> value=$ref;
 	$params[6] = new stdClass();
 	$params[6]-> key="READ_PERMISSION";
 	$params[6]-> value=$json->readPermissionString;

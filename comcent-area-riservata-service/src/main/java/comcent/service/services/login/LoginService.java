@@ -39,7 +39,7 @@ public class LoginService extends AbstractService {
                 .orElse(0);
 
         userDTO.setId(id);
-        userDTO.setReferenceId(Optional.ofNullable(userDTO.getReferenceId()).orElse(0));
+        userDTO.setReferenceId(Optional.ofNullable(userDTO.getReferenceId()).orElse(null));
         userDTO.setWritePermissionString(ConvertionFunction.toStringFlag.apply(userDTO.getWritePermission()));
         userDTO.setReadPermissionString(ConvertionFunction.toStringFlag.apply(userDTO.getReadPermission()));
         final Boolean res = doPostCall(String.class, ApiEnum.SIGNUP, userDTO, e -> e.equals("0"));
