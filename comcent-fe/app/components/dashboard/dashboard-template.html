@@ -29,15 +29,15 @@
         <hr/>
         <uib-accordion close-others="true">
             <tr>
-                <td><strong>#Attivazioni {{$ctrl.user.name + ' - ' + $ctrl.user.surname}}:
-                    {{totHighLevel($ctrl.activations)}}</strong></td>
+                <td><strong>#Attivazioni {{$ctrl.user.name + ' - ' + $ctrl.user.surname}} :
+                    {{$ctrl.numAttPadre}}</strong></td>
             </tr>
             <div ng-repeat="(key, value) in $ctrl.activations.wrapper" uib-accordion-group class="panel-primary"
-                 heading="{{value.user.id + ' - ' + value.user.name}}" is-open="panel[value.user.id]"
+                 heading="{{value.user.name + ' - ' + value.user.surname}}" is-open="panel[value.user.id]"
                  is-disabled="false">
                 <tr>
                     <td><strong>#Attivazioni {{value.user.name + ' - ' + value.user.surname}}:
-                        {{totHighLevel(value)}}</strong></td>
+                        {{$ctrl.totHighLevel(value)}}</strong></td>
                 </tr>
                 <plafont-widget plafont="value.plafont"></plafont-widget>
                 <h4 class="margin-top-2 text-primary">Dettagli</h4>

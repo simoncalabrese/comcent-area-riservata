@@ -22,6 +22,7 @@ import org.springframework.util.CollectionUtils;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -37,92 +38,79 @@ public class ActivationSerice extends AbstractService {
         getPlafontDTO.setDateStart(dateStart);
         getPlafontDTO.setDateEnd(dateEnd);
         final List<HierarchyMappings> hierarchyMappings = plafontService.getUsersDependency(getPlafontDTO.getUserId());
-        final Function<Pair<UserDTO, List<ActivationDTO>>, WrapperUserActivations> funcFinal = e -> {
-            final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
-            wrapperUserActivations.setUser(e.getKey());
-            wrapperUserActivations.setActivations(e.getValue()
-                    .stream()
-                    .peek(pair -> pair.setUserInsertDetail(Optional.ofNullable(pair.getUserInsert())
-                            .map(u -> plafontService.getUser(u))
-                            .orElse(null)))
-                    .collect(Collectors.toList()));
-            return wrapperUserActivations;
-        };
-
-        final Function<Pair<UserDTO, List<Pair<UserDTO, List<ActivationDTO>>>>, WrapperUserActivations> funcIntermediate = e -> {
-            final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
-            wrapperUserActivations.setUser(e.getKey());
-            wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinal.andThen(elem -> {
-                elem.setPlafont(convertObjectCloned(getPlafontDTO, s -> {
-                    try {
-                        s.setUserId(elem.getUser().getId());
-                        return plafontService.getPlafont(s);
-                    } catch (BaseException e1) {
-                        return null;
-                    }
-                }));
-                return elem;
-            })).collect(Collectors.toList()));
-            return wrapperUserActivations;
+        final Function<WrapperUserActivations,Map<String,String>> concatPlafont = e -> Optional.ofNullable(e.getWrapper())
+                    .map(wr -> wr.stream()
+                            .filter(wrap -> wrap.getPlafont() != null)
+                            .flatMap(wrap -> wrap.getPlafont().entrySet().stream())
+                            .collect(Collectors.groupingBy(Map.Entry::getKey,
+                                    Collectors.summingDouble(wrap -> wrap.getValue() != null ? Double.valueOf(wrap.getValue()) : 0D)))
+                            .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, set -> set.getValue().toString()))
+                    ).orElse(null);
+        final Function<Integer,WrapperUserActivations> userToWrapper = e -> {
+                try {
+                    final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
+                    final UserDTO user = plafontService.getUser(e);
+                    getPlafontDTO.setUserId(e);
+                    wrapperUserActivations.setUser(user);
+                    wrapperUserActivations.setActivations(getActivation(getPlafontDTO));
+                    wrapperUserActivations.setPlafont(plafontService.getPlafont(getPlafontDTO));
+                    return wrapperUserActivations;
+                } catch (BaseException ex) {
+                    throw new RuntimeException(ex);
+                }
         };
         final WrapperUserActivations w = new WrapperUserActivations();
         //se abbiamo uno user di bottom, la nostra hierarchy sarà vuota in quando non c'è nessuno al di sotto e quindi
         //possiamo eeguire la query delle attivazioni altrimenti...
         if (CollectionUtils.isEmpty(hierarchyMappings)) {
-            final Map<Integer, List<Pair<UserDTO, List<ActivationDTO>>>> mapRet = Stream.of(getPlafontDTO).collect(Collectors.groupingBy(GetPlafontDTO::getUserId,
-                    Collectors.mapping(e -> {
-                        try {
-                            return Pair.of(plafontService.getUser(e.getUserId()), getActivation(e));
-                        } catch (BaseException ex) {
-                            return null;
-                        }
-                    }, Collectors.toList())));
-            final List<WrapperUserActivations> collect = mapRet.entrySet()
-                    .stream()
-                    .map((Map.Entry<Integer, List<Pair<UserDTO, List<ActivationDTO>>>> e) -> {
-                        final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
-                        wrapperUserActivations.setUser(plafontService.getUser(e.getKey()));
-                        wrapperUserActivations.setWrapper(e.getValue().stream().map(funcFinal).peek(elem -> {
-                            try {
-                                elem.setPlafont(plafontService.getPlafont(cloneObject(getPlafontDTO)));
-                            } catch (BaseException e1) {
-                            }
-                        }).collect(Collectors.toList()));
-                        wrapperUserActivations.setPlafont(cloneObject(wrapperUserActivations)
-                                .getWrapper()
-                                .stream()
-                                .findFirst()
-                                .map(WrapperUserActivations::getPlafont)
-                                .orElse(null));
-                        return wrapperUserActivations;
-                    }).collect(Collectors.toList());
-            w.setWrapper(collect);
+            final Supplier<List<WrapperUserActivations>> wSup = () -> {
+                final WrapperUserActivations apply = userToWrapper.apply(getPlafontDTO.getUserId());
+                apply.setWrapper(Collections.singletonList(cloneObject(apply)));
+                return Collections.singletonList(apply);
+            };
+            w.setWrapper(wSup.get());
         } else {
-            final Map<Integer, List<Integer>> hierarchiMap = hierarchyMappings
+            final List<WrapperUserActivations> allWrappers = hierarchyMappings
                     .stream()
-                    .filter(e -> e.getTop() != null)
-                    .map(e -> Pair.of(e.getCenter(),
-                            e.getBottom()))
-                    .collect(Collectors.groupingBy(Pair::getKey, Collectors.mapping(Pair::getValue, Collectors.toList())));
-            final List<WrapperUserActivations> collect = hierarchiMap.entrySet().stream().map(e ->
-                    Pair.of(plafontService.getUser(e.getKey()), e.getValue().stream().map(i -> {
-                        getPlafontDTO.setUserId(i);
-                        try {
-                            return Pair.of(plafontService.getUser(i), getActivation(getPlafontDTO));
-                        } catch (BaseException e1) {
-                            return null;
-                        }
-                    }).collect(Collectors.toList())))
-                    .map(funcIntermediate).collect(Collectors.toList());
-            collect.forEach(user ->
-                    user.setPlafont(user.getWrapper().stream()
-                            .map(WrapperUserActivations::getPlafont)
-                            .filter(Objects::nonNull)
-                            .flatMap(e -> e.entrySet().stream())
-                            .collect(Collectors.groupingBy(Map.Entry::getKey,
-                                    Collectors.summingDouble(e -> e.getValue() != null ? Double.valueOf(e.getValue()) : 0D)))
-                            .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, e -> e.getValue().toString()))));
-            w.setWrapper(collect);
+                    .map(HierarchyMappings::getBottom)
+                    .filter(e -> !e.equals(getPlafontDTO.getUserId()))
+                    .map(userToWrapper).collect(Collectors.toList());
+            final List<WrapperUserActivations> middle = hierarchyMappings.stream().filter(e -> e.getTop() == null).map(HierarchyMappings::getBottom)
+                    .flatMap(e -> allWrappers.stream().filter(u -> u.getUser().getId().equals(e)))
+                    .collect(Collectors.toList());
+            //Prendo quelli che stanno al centro e li metto nel wrapper
+            if(middle != null && !middle.isEmpty()) {
+                w.setWrapper(middle);
+                //tutti quelli che non c'erano sopra;
+                final List<WrapperUserActivations> nonMiddle = allWrappers.stream()
+                        .filter(e -> !w.getWrapper()
+                                .stream()
+                                .map(WrapperUserActivations::getUser)
+                                .collect(Collectors.toList())
+                                .contains(e.getUser()))
+                        .collect(Collectors.toList());
+                final Map<Integer, List<WrapperUserActivations>> collect1 = hierarchyMappings
+                        .stream()
+                        .filter(e -> e.getTop() != null)
+                        .map(e -> Pair.of(e.getBottom(), e.getCenter()))
+                        .collect(Collectors.groupingBy(Pair::getValue, Collectors.mapping(
+                                e -> nonMiddle.
+                                        stream()
+                                        .filter(u -> u.getUser().getId().equals(e.getKey()))
+                                        .findFirst()
+                                        .orElse(null),
+                                Collectors.toList())));
+                w.setWrapper(w.getWrapper().stream().peek(e -> {
+                    e.setWrapper(collect1.get(e.getUser().getId()));
+                    e.setPlafont(concatPlafont.apply(e));
+                }).collect(Collectors.toList()));
+            } else {
+                w.setWrapper(allWrappers);
+                w.setPlafont(concatPlafont.apply(w));
+            }
+
+
+
         }
         return w;
     }
