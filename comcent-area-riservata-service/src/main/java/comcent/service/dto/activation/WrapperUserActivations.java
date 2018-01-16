@@ -14,7 +14,8 @@ public class WrapperUserActivations extends AbstractDTO {
     private static final long serialVersionUID = -3928457993926354382L;
     private UserDTO user;
     private List<ActivationDTO> activations;
-    private Map<String,String> plafont;
+    private Map<String, String> plafont;
+    private Long activationsCount;
     private List<WrapperUserActivations> wrapper;
 
     public UserDTO getUser() {
@@ -47,5 +48,13 @@ public class WrapperUserActivations extends AbstractDTO {
 
     public void setWrapper(List<WrapperUserActivations> wrapper) {
         this.wrapper = wrapper;
+    }
+
+    public Long getActivationsCount() {
+        return activationsCount;
+    }
+
+    public void setActivationsCount(Long activationsCount) {
+        this.activationsCount = activationsCount;
     }
 }

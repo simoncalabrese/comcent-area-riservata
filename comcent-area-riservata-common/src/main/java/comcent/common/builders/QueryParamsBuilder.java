@@ -24,7 +24,7 @@ public class QueryParamsBuilder {
     }
 
     public <T> QueryParamsBuilder appendParams(final String key, final T value) {
-        final Function<T, String> toString = Object::toString;
+        final Function<T, String> toString = t -> t.toString().replace(" ","%20");
         params.add(Pair.of(key, toString.apply(value)));
         return this;
     }

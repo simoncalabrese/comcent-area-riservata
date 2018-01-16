@@ -108,11 +108,19 @@ public class ActivationSerice extends AbstractService {
                 w.setWrapper(allWrappers);
                 w.setPlafont(concatPlafont.apply(w));
             }
-
-
-
         }
-        return w;
+        return Optional.ofNullable(w).map(this::countAct).orElse(null);
+    }
+
+    private WrapperUserActivations countAct(final WrapperUserActivations wr) {
+        if(wr.getWrapper() == null || wr.getWrapper().isEmpty()) {
+            wr.setActivationsCount(Optional.ofNullable(wr.getActivations()).map(e -> e.stream().count()).orElse(0L));
+            return wr;
+        } else {
+            wr.setWrapper(wr.getWrapper().stream().map(this::countAct).collect(Collectors.toList()));
+            wr.setActivationsCount(wr.getWrapper().stream().mapToLong(WrapperUserActivations::getActivationsCount).sum());
+            return wr;
+        }
     }
 
     private List<ActivationDTO> getActivation(final GetPlafontDTO getPlafontDTO) throws BaseException {

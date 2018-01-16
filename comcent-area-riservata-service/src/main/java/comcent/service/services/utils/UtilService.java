@@ -22,6 +22,9 @@ public class UtilService extends AbstractService {
     }
 
     public ConcreteDTO addDoc(final Map<String,String> couple) throws BaseException {
+        if(couple.get("url").startsWith("http://")){
+            couple.replace("url",couple.get("url").replace("http://",""));
+        }
         if(doPostCall(String.class,ApiEnum.ADD_DOCS,couple,e -> e.equals("0"))) {
             return new ConcreteDTO();
         } else {

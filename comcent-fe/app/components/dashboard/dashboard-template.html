@@ -33,7 +33,7 @@
                     {{$ctrl.numAttPadre}}</strong></td>
             </tr>
             <div ng-repeat="(key, value) in $ctrl.activations.wrapper" uib-accordion-group class="panel-primary"
-                 heading="{{value.user.name + ' - ' + value.user.surname}}" is-open="panel[value.user.id]"
+                 heading="{{value.user.name + ' - ' + value.user.surname}} #Attivazioni : {{ value.activationsCount}}" is-open="panel[value.user.id]"
                  is-disabled="false">
                 <tr>
                     <td><strong>#Attivazioni {{value.user.name + ' - ' + value.user.surname}}:
@@ -44,7 +44,7 @@
                 <div ng-repeat="(subKey, subValue) in value.wrapper">
                     <uib-accordion close-others="false">
                         <div uib-accordion-group class="panel-default"
-                             heading="{{subValue.user.name + ' - ' + subValue.user.surname}}"
+                             heading="{{subValue.user.name + ' - ' + subValue.user.surname}} #Attivazioni : {{subValue.activationsCount}}"
                              is-open="panel[subValue.user.id]" is-disabled="false">
                             <tr>
                                 <td><strong>#Attivazioni {{subValue.user.name + ' - ' + subValue.user.surname}}:
