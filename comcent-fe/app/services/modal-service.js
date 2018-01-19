@@ -7,13 +7,16 @@ angular.module('app').service('ModalService', ['$uibModal', '$log', function ($u
     $svc.modalLink = modalLink;
     $svc.showPlafontList = showPlafontList;
 
-    function openAddPlafontModal(userId, callback) {
+    function openAddPlafontModal(userId, userInsert,callback) {
         let modalInstance = $uibModal.open({
             animation: true,
             component: 'addPlafont',
             resolve: {
                 userId: function () {
                     return userId;
+                },
+                userInsert: function () {
+                    return userInsert;
                 }
             }
         });

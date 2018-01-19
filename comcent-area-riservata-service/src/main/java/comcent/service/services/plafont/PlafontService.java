@@ -69,6 +69,7 @@ public class PlafontService extends AbstractService {
         dto.setUserId(activationDTO.getUser());
         dto.setDataMov(new Date());
         dto.setAmount(0D - activationDTO.getAmntPlafont());
+        dto.setUserInsert(activationDTO.getUserInsert());
         return dto;
     }
 

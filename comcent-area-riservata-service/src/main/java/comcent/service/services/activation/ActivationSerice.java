@@ -38,26 +38,29 @@ public class ActivationSerice extends AbstractService {
         getPlafontDTO.setDateStart(dateStart);
         getPlafontDTO.setDateEnd(dateEnd);
         final List<HierarchyMappings> hierarchyMappings = plafontService.getUsersDependency(getPlafontDTO.getUserId());
-        final Function<WrapperUserActivations,Map<String,String>> concatPlafont = e -> Optional.ofNullable(e.getWrapper())
-                    .map(wr -> wr.stream()
-                            .filter(wrap -> wrap.getPlafont() != null)
-                            .flatMap(wrap -> wrap.getPlafont().entrySet().stream())
-                            .collect(Collectors.groupingBy(Map.Entry::getKey,
-                                    Collectors.summingDouble(wrap -> wrap.getValue() != null ? Double.valueOf(wrap.getValue()) : 0D)))
-                            .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, set -> set.getValue().toString()))
-                    ).orElse(null);
-        final Function<Integer,WrapperUserActivations> userToWrapper = e -> {
-                try {
-                    final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
-                    final UserDTO user = plafontService.getUser(e);
-                    getPlafontDTO.setUserId(e);
-                    wrapperUserActivations.setUser(user);
-                    wrapperUserActivations.setActivations(getActivation(getPlafontDTO));
-                    wrapperUserActivations.setPlafont(plafontService.getPlafont(getPlafontDTO));
-                    return wrapperUserActivations;
-                } catch (BaseException ex) {
-                    throw new RuntimeException(ex);
-                }
+        final Function<WrapperUserActivations, Map<String, String>> concatPlafont = e -> Optional.ofNullable(e.getWrapper())
+                .map(wr -> wr.stream()
+                        .filter(wrap -> wrap.getPlafont() != null)
+                        .flatMap(wrap -> wrap.getPlafont().entrySet().stream())
+                        .collect(Collectors.groupingBy(Map.Entry::getKey,
+                                Collectors.summingDouble(wrap -> wrap.getValue() != null ? Double.valueOf(wrap.getValue()) : 0D)))
+                        .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, set -> set.getValue().toString()))
+                ).orElse(null);
+        final Function<Integer, WrapperUserActivations> userToWrapper = e -> {
+            try {
+                final WrapperUserActivations wrapperUserActivations = new WrapperUserActivations();
+                final UserDTO user = plafontService.getUser(e);
+                getPlafontDTO.setUserId(e);
+                wrapperUserActivations.setUser(user);
+                wrapperUserActivations.setActivations(getActivation(getPlafontDTO)
+                        .stream()
+                        .peek(att -> att.setUserInsertDetail(plafontService.getUser(att.getUserInsert())))
+                        .collect(Collectors.toList()));
+                wrapperUserActivations.setPlafont(plafontService.getPlafont(getPlafontDTO));
+                return wrapperUserActivations;
+            } catch (BaseException ex) {
+                throw new RuntimeException(ex);
+            }
         };
         final WrapperUserActivations w = new WrapperUserActivations();
         //se abbiamo uno user di bottom, la nostra hierarchy sarà vuota in quando non c'è nessuno al di sotto e quindi
@@ -79,7 +82,7 @@ public class ActivationSerice extends AbstractService {
                     .flatMap(e -> allWrappers.stream().filter(u -> u.getUser().getId().equals(e)))
                     .collect(Collectors.toList());
             //Prendo quelli che stanno al centro e li metto nel wrapper
-            if(middle != null && !middle.isEmpty()) {
+            if (middle != null && !middle.isEmpty()) {
                 w.setWrapper(middle);
                 //tutti quelli che non c'erano sopra;
                 final List<WrapperUserActivations> nonMiddle = allWrappers.stream()
@@ -113,7 +116,7 @@ public class ActivationSerice extends AbstractService {
     }
 
     private WrapperUserActivations countAct(final WrapperUserActivations wr) {
-        if(wr.getWrapper() == null || wr.getWrapper().isEmpty()) {
+        if (wr.getWrapper() == null || wr.getWrapper().isEmpty()) {
             wr.setActivationsCount(Optional.ofNullable(wr.getActivations()).map(e -> e.stream().count()).orElse(0L));
             return wr;
         } else {

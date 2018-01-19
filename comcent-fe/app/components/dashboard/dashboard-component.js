@@ -27,7 +27,7 @@ angular.module('app').component('dashboard', {
          Qui si aggiorna solo la lista alla chiusura del modal.
          */
         $ctrl.addPlafont = function (userId) {
-            ModalService.openAddPlafontModal(userId, getActivations);
+            ModalService.openAddPlafontModal(userId, $ctrl.user.id, getActivations);
         }
 
         /**
