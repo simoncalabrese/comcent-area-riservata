@@ -127,7 +127,7 @@ public class ActivationSerice extends AbstractService {
         return doPostCallList(ActivationDTO.class, ApiEnum.GET_ACTIVATIONS, getPlafontDTO);
     }
 
-    public ConcreteDTO delActivation(final Integer id, final Integer amount, final Integer user) throws BaseException {
+    public ConcreteDTO delActivation(final Integer id, final Double amount, final Integer user) throws BaseException {
         return ((Function<Integer, ConcreteDTO>) e -> {
             try {
                 final Boolean res = doGetCall(String.class,

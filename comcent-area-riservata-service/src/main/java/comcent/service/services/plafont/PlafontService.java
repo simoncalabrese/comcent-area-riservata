@@ -68,7 +68,7 @@ public class PlafontService extends AbstractService {
         final AddPlafontDTO dto = new AddPlafontDTO();
         dto.setUserId(activationDTO.getUser());
         dto.setDataMov(new Date());
-        dto.setAmount(0 - activationDTO.getAmntPlafont());
+        dto.setAmount(0D - activationDTO.getAmntPlafont());
         return dto;
     }
 
@@ -107,7 +107,7 @@ public class PlafontService extends AbstractService {
     public List<AddPlafontDTO> getPlafontList(final GetPlafontDTO getPlafontDTO) throws BaseException {
         getPlafontDTO.setDateStart(Optional.ofNullable(getPlafontDTO.getDateStart()).orElseGet(ConvertionFunction.getFirstOfMonthAsString));
         getPlafontDTO.setDateEnd(Optional.ofNullable(getPlafontDTO.getDateEnd()).orElseGet(ConvertionFunction.getTodayAsString));
-        return doPostCallList(AddPlafontDTO.class, ApiEnum.GET_PLAFONT_LIST, getPlafontDTO);
+        return doPostCallList(AddPlafontDTO.class, ApiEnum.GET_PLAFONT_LIST, getPlafontDTO).stream().peek(e -> e.setUserInsertDetail(getUser(e.getUserInsert()))).collect(Collectors.toList());
     }
 
     public ConcreteDTO delPlafont(final Integer id) throws BaseException {

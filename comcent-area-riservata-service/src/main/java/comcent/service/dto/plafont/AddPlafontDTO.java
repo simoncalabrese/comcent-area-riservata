@@ -1,6 +1,7 @@
 package comcent.service.dto.plafont;
 
 import comcent.service.dto.base.AbstractDTO;
+import comcent.service.dto.user.UserDTO;
 
 import java.util.Date;
 
@@ -10,13 +11,15 @@ public class AddPlafontDTO extends AbstractDTO {
     private Integer userId;
     private Date dataMov;
     private String dateString;
-    private Integer amount;
+    private Double amount;
+    private Integer userInsert;
+    private UserDTO userInsertDetail;
 
-    public Integer getAmount() {
+    public Double getAmount() {
         return amount;
     }
 
-    public void setAmount(Integer amount) {
+    public void setAmount(Double amount) {
         this.amount = amount;
     }
 
@@ -50,5 +53,21 @@ public class AddPlafontDTO extends AbstractDTO {
 
     public void setDateString(String dateString) {
         this.dateString = dateString;
+    }
+
+    public Integer getUserInsert() {
+        return userInsert;
+    }
+
+    public void setUserInsert(Integer userInsert) {
+        this.userInsert = userInsert;
+    }
+
+    public UserDTO getUserInsertDetail() {
+        return userInsertDetail;
+    }
+
+    public void setUserInsertDetail(UserDTO userInsertDetail) {
+        this.userInsertDetail = userInsertDetail;
     }
 }

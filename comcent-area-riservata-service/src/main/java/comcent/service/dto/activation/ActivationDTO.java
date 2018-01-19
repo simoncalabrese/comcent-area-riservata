@@ -10,7 +10,7 @@ public class ActivationDTO extends AbstractDTO {
     private Integer id;
     private Integer user;
     private String desActivation;
-    private Integer amntPlafont;
+    private Double amntPlafont;
     private Date dateAtt;
     private String dateString;
     private Integer userInsert;
@@ -40,11 +40,11 @@ public class ActivationDTO extends AbstractDTO {
         this.desActivation = desActivation;
     }
 
-    public Integer getAmntPlafont() {
+    public Double getAmntPlafont() {
         return amntPlafont;
     }
 
-    public void setAmntPlafont(Integer amntPlafont) {
+    public void setAmntPlafont(Double amntPlafont) {
         this.amntPlafont = amntPlafont;
     }
 

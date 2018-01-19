@@ -8,7 +8,7 @@
 		$queries-> queryUser = "SELECT u.ID,u.NAME,u.SURNAME FROM anag_user u where u.ID = <id>";
 		$queries-> queryGetId = "SELECT coalesce(max(ID),0) as id FROM app_transactions t";
 		$queries-> queryGetIdActivation = "SELECT coalesce(max(ID),0) as id FROM app_activation t";
-		$queries-> insertMove = "INSERT INTO app_transactions(ID,USER,DAT_MOV,AMOUNT) VALUES (<id>,<user>,'<date>',<amount>)";
+		$queries-> insertMove = "INSERT INTO app_transactions(ID,USER,DAT_MOV,AMOUNT,USER_INSERT) VALUES (<id>,<user>,'<date>',<amount>,<userInser>)";
 		$queries-> insertActivation = "INSERT INTO app_activation(ID, USER, DES_ACTIVATION, AMNT_PLAFONT,DAT_ATT,USER_INSERT) VALUES (<id>,<user>,'<desActivation>',<amntPlafont>,'<datAtt>',<userInsert>)";
 		$queries-> getPlafont = "SELECT SUM(amount) as amount FROM app_transactions WHERE USER = <userId>";
 		$queries-> getPlafontList = "SELECT amount as amount, dat_mov as dateString, ID as id

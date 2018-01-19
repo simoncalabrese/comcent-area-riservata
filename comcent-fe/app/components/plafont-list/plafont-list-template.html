@@ -6,6 +6,7 @@
             <tr>
                 <th>IMPORTO VERSATO</th>
                 <th>DATA REGISTRAZIONE VERSAMENTO</th>
+                <th>UTENTE INSERENTE</th>
                 <th></th>
             </tr>
             </thead>
@@ -13,6 +14,7 @@
             <tr ng-repeat="(key, value) in $ctrl.plafonts">
                 <td class="text-primary text-right">{{value.amount}}</td>
                 <td>{{value.dateString}}</td>
+                <td>{{value.userInsertDetail.name}} - {{value.userInsertDetail.surname}}</td>
                 <td><a ng-click="$ctrl.delPlafont(value.id);"
                        class="btn btn-primary btn-xs"
                        style="color:red;" ng-if ="$ctrl.user.id === 0">X</a></td>

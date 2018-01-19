@@ -58,7 +58,7 @@ public class Suppliers {
 
 
     public static class Utils {
-        public static BiFunction<Integer,Integer,AddPlafontDTO> toAddPlafonStorno = (amount,user) -> {
+        public static BiFunction<Double,Integer,AddPlafontDTO> toAddPlafonStorno = (amount,user) -> {
             final AddPlafontDTO dto = new AddPlafontDTO();
             dto.setAmount(amount);
             dto.setUserId(user);

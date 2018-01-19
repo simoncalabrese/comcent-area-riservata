@@ -9,11 +9,14 @@
 	$params[2]-> key="date";
 	$params[3] = new stdClass();
 	$params[3]-> key="amount";
+	$params[4] = new stdClass();
+	$params[4]-> key="userInsert";
 	$params[0]-> value=$json->id;
 	$params[1]-> value=$json->userId;
 	$date = $json->dateString;
 	$params[2]-> value=$date;
 	$params[3]-> value=$json->amount;
+	$params[4]-> value=$json->userInsert;
 	$conn = createConnection();
 	$query = getQuery("insertMove",$params);
 	$res = executeInsert($conn,$query);
