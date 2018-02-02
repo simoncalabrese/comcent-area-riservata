@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>comcent-area-riservata-controller</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -26,5 +26,8 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <finalName>comunicationcenter</finalName>
+    </build>
 
 </project>
