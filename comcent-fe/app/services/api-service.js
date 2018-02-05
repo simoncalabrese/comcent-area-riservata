@@ -18,7 +18,7 @@ angular.module('app').service('ApiService', [function () {
     $svc.STATUS_OK = 'OK';
     $svc.STATUS_KO = 'KO';
 
-    const PATH = 'http://localhost:8080/comunicationcenter/';
+    const PATH = 'https://comunicationcenter.herokuapp.com/';
     const INDEX = 'index/';
     const ACTIVATIONS = 'activations/';
     const PLAFONT = 'plafont/';

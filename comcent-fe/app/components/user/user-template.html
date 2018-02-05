@@ -17,7 +17,9 @@
     <p>
     <h4 class="text-center">Link Utili</h4>
     <ul>
-        <li ng-repeat="link in $ctrl.listLink">{{link.name}}&nbsp;-&nbsp;<a ng-click="$ctrl.redirectUrl(link.url)">{{link.url}}</a>
+        <li ng-repeat="link in $ctrl.listLink">{{link.name}}&nbsp;-&nbsp;
+            <!--<a ng-click="$ctrl.redirectUrl(link.url)">{{link.url}}</a>-->
+            <a href="http://{{link.url}}" target = '_blank'>{{link.url}}</a>
             <a ng-click="$ctrl.delDoc(link.name);" class="btn btn-primary btn-xs" style="color:red;">X</a>
         </li>
     </ul>
@@ -31,6 +33,6 @@
         <input type="text" class="form-control" id="inputLink" placeholder="Link" ng-model="$ctrl.link"
                ng-required="true">
     </div>
-    <a ng-click="$ctrl.addDoc();" class="btn btn-primary" ng-disabled = "!$ctrl.link && !$ctrl.name">AGGIUNGI LINK</a>
+    <a ng-click="$ctrl.addDoc();" class="btn btn-primary" ng-disabled="!$ctrl.link && !$ctrl.name">AGGIUNGI LINK</a>
     </p>
 </div>

@@ -1,57 +1,58 @@
 angular.module('app').component('user', {
-  templateUrl: window.PATH_PREFIX + './app/components/user/user-template.html',
-  bindings: {},
-  controller: ('loginController', ['$log', '$rootScope', 'AuthService', 'ModalService','$window', function($log, $rootScope, AuthService, ModalService,$window) {
+    templateUrl: window.PATH_PREFIX + './app/components/user/user-template.html',
+    bindings: {},
+    controller: ('loginController', ['$log', '$rootScope', 'AuthService', 'ModalService', '$window', function ($log, $rootScope, AuthService, ModalService, $window) {
 
-    var $ctrl = this;
-    $ctrl.user = {};
-    $ctrl.listLink = [];
-    $ctrl.name = null;
-    $ctrl.link = null;
+        var $ctrl = this;
+        $ctrl.user = {};
+        $ctrl.listLink = [];
+        $ctrl.name = null;
+        $ctrl.link = null;
 
-    $ctrl.$onInit = function () {
-      $ctrl.user = AuthService.getUser();
-      $ctrl.getAllLink();
-    }
-
-    $ctrl.addUser = function () {
-      ModalService.openAddUserModal($ctrl.user.id, manageUserAdded);
-    }
-
-    $ctrl.logout = function() {
-      AuthService.logout();
-    };
-
-    $ctrl.delDoc = function(name) {
-        AuthService.delDoc(name,$ctrl.getAllLink)
-    }
-
-    $ctrl.addDoc = function addDoc() {
-        let doc = {
-            name: $ctrl.name,
-            url: $ctrl.link
-        };
-        AuthService.addDoc(doc,function(){
+        $ctrl.$onInit = function () {
+            $ctrl.user = AuthService.getUser();
             $ctrl.getAllLink();
-            $ctrl.name = null;
-            $ctrl.link = null;
-        });
-    }
+        }
 
-    function manageUserAdded() {
-      // Nope al momento
-    }
+        $ctrl.addUser = function () {
+            ModalService.openAddUserModal($ctrl.user.id, manageUserAdded);
+        }
 
-    $ctrl.getAllLink = function getAllLink() {
-        AuthService.getLinks(manageLinks);
-    }
+        $ctrl.logout = function () {
+            AuthService.logout();
+        };
 
-    function manageLinks(data) {
-        $ctrl.listLink = data;
-    }
+        $ctrl.delDoc = function (name) {
+            AuthService.delDoc(name, $ctrl.getAllLink)
+        }
 
-    $ctrl.redirectUrl = function(url) {
-        ModalService.modalLink('http://' + url, manageUserAdded);
-    }
-  }])
+        $ctrl.addDoc = function addDoc() {
+            let doc = {
+                name: $ctrl.name,
+                url: $ctrl.link
+            };
+            AuthService.addDoc(doc, function () {
+                $ctrl.getAllLink();
+                $ctrl.name = null;
+                $ctrl.link = null;
+            });
+        }
+
+        function manageUserAdded() {
+            // Nope al momento
+        }
+
+        $ctrl.getAllLink = function getAllLink() {
+            AuthService.getLinks(manageLinks);
+        }
+
+        function manageLinks(data) {
+            $ctrl.listLink = data;
+        }
+
+        $ctrl.redirectUrl = function (url) {
+            $window.open('http://' + url, '_blank');
+            //ModalService.modalLink('http://' + url, manageUserAdded);
+        }
+    }])
 });
