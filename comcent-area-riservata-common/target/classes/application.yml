@@ -32,3 +32,4 @@ app:
       delDocs: delDoc.php
       getPlafontList: getPlafontList.php
       delActivation: delActivation.php
+      delPlafont: delPlafont.php

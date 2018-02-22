@@ -21,5 +21,12 @@
   },
   "dependencies": {
     "gulp-uglifycss": "^1.0.8"
-  }
+  },
+  "engines": {
+    "node": "6.11.2"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
 }
