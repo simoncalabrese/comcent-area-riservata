@@ -7,6 +7,7 @@ import comcent.service.dbmappings.functions.ConvertionFunction;
 import comcent.service.dto.activation.ActivationDTO;
 import comcent.service.dto.activation.WrapperUserActivations;
 import comcent.service.dto.base.ConcreteDTO;
+import comcent.service.dto.plafont.AddPlafontDTO;
 import comcent.service.dto.plafont.GetPlafontDTO;
 import comcent.service.dto.user.UserDTO;
 import comcent.service.exceptions.BaseException;
@@ -130,7 +131,7 @@ public class ActivationSerice extends AbstractService {
         return doPostCallList(ActivationDTO.class, ApiEnum.GET_ACTIVATIONS, getPlafontDTO);
     }
 
-    public ConcreteDTO delActivation(final Integer id, final Double amount, final Integer user) throws BaseException {
+    public ConcreteDTO delActivation(final Integer id, final Double amount, final Integer user, final Integer userInsert) throws BaseException {
         return ((Function<Integer, ConcreteDTO>) e -> {
             try {
                 final Boolean res = doGetCall(String.class,
@@ -144,7 +145,9 @@ public class ActivationSerice extends AbstractService {
             }
         }).andThen(response -> {
             try {
-                return plafontService.addPlafont(Suppliers.Utils.toAddPlafonStorno.apply(amount, user));
+                final AddPlafontDTO apply = Suppliers.Utils.toAddPlafonStorno.apply(amount, user);
+                apply.setUserInsert(userInsert);
+                return plafontService.addPlafont(apply);
             } catch (BaseException e) {
                 throw new RuntimeException(e);
             }

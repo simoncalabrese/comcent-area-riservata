@@ -43,7 +43,7 @@ angular.module('app').component('dashboard', {
         }
 
         $ctrl.delActivation = function (id, amount, user) {
-            ActivasionsService.delActivation(id, amount, user, getActivations);
+            ActivasionsService.delActivation(id, amount, user,$ctrl.user.id, getActivations);
         }
 
         /* */
