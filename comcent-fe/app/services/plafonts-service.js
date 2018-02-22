@@ -6,11 +6,12 @@ angular.module('app').service('PlafontsService', ['_', '$http', 'ApiService', fu
     $svc.getPlafontList = getPlafontList;
     $svc.delPlafont = delPlafont;
 
-    function addPlafont(userId, date, amount, callback) {
+    function addPlafont(userId, date, amount, userInsert, callback) {
         let data = {
             userId: userId,
             dataMov: date,
-            amount: amount
+            amount: amount,
+            userInsert: userInsert
         };
         $http.post(ApiService.getAddPlafontURL(), data).then(function (response) {
             if (_.isObject(response) && _.isObject(response.data) && response.data.status == 200) {
