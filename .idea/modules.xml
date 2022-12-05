@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/comcent-area-riservata.iml" filepath="$PROJECT_DIR$/comcent-area-riservata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comcent-area-riservata-alwaysUp/comcent-area-riservata-alwaysUp.iml" filepath="$PROJECT_DIR$/comcent-area-riservata-alwaysUp/comcent-area-riservata-alwaysUp.iml" />
       <module fileurl="file://$PROJECT_DIR$/comcent-area-riservata-common/comcent-area-riservata-common.iml" filepath="$PROJECT_DIR$/comcent-area-riservata-common/comcent-area-riservata-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/comcent-area-riservata-controller/comcent-area-riservata-controller.iml" filepath="$PROJECT_DIR$/comcent-area-riservata-controller/comcent-area-riservata-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/comcent-area-riservata-service/comcent-area-riservata-service.iml" filepath="$PROJECT_DIR$/comcent-area-riservata-service/comcent-area-riservata-service.iml" />
