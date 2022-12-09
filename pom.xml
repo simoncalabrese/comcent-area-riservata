@@ -90,6 +90,17 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>com.heroku.sdk</groupId>
+                <artifactId>heroku-maven-plugin</artifactId>
+                <version>3.0.6</version>
+                <configuration>
+                    <appName>comunicationcenter</appName>
+                    <processTypes>
+                        <web>java $JAVA_OPTS -jar comcent-area-riservata-controller/target/dependency/webapp-runner.jar comcent-area-riservata-controller/target/comunicationcenter-exec.war</web>
+                    </processTypes>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <executions>
