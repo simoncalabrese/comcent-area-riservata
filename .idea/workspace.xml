@@ -130,6 +130,7 @@
       <command value="mvn install" />
       <command value="mvn clean heroku:deploy-war" />
       <command value="mvn clean heroku:deploy" />
+      <command value="mvn -DskipTests clean dependency:list install" />
     </option>
   </component>
   <component name="RunManager">

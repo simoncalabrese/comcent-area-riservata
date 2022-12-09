@@ -5,6 +5,7 @@
     <parent>
         <artifactId>comcent-area-riservata</artifactId>
         <groupId>comcent-area-riservata</groupId>
+        <relativePath>../pom.xml</relativePath>
         <version>0.0.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -25,5 +26,23 @@
             <artifactId>comcent-area-riservata-common</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>comunicationcenter</finalName>
+        <plugins>
+            <plugin>
+                <groupId>com.heroku.sdk</groupId>
+                <artifactId>heroku-maven-plugin</artifactId>
+                <version>3.0.6</version>
+                <configuration>
+                    <appName>comunicationcenter</appName>
+                    <processTypes>
+                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Start</web>
+                    </processTypes>
+                    <warFile>comcent-area-riservata-controller/target/comunicationcenter-exec.war</warFile>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
