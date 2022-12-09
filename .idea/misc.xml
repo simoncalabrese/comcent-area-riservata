@@ -12,6 +12,9 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/comcent-area-riservata-alwaysUp/pom.xml" />
+        <option value="$PROJECT_DIR$/comcent-area-riservata-common/pom.xml" />
+        <option value="$PROJECT_DIR$/comcent-area-riservata-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/comcent-area-riservata-service/pom.xml" />
       </set>
     </option>
   </component>

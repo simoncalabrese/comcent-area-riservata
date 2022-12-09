@@ -5,7 +5,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d668aac3-c1af-4f8b-b036-0eb94a7ea7bc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/.springBeans" beforeDir="false" afterPath="$PROJECT_DIR$/.springBeans" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/comcent-area-riservata-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/java/comcent/common/builders/ParallelCallBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/common/builders/ParallelCallBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/java/comcent/common/builders/QueryParamsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/common/builders/QueryParamsBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/java/comcent/common/components/AbstractPropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/common/components/AbstractPropertiesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/java/comcent/common/components/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/common/components/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/java/comcent/common/components/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/common/components/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/java/comcent/common/components/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/common/components/PropertiesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/java/comcent/common/configuration/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/common/configuration/BaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/system.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/comcent/common/builders/ParallelCallBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/comcent/common/builders/QueryParamsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/comcent/common/components/AbstractPropertiesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/comcent/common/components/Api.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/comcent/common/components/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/comcent/common/components/PropertiesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/classes/comcent/common/configuration/BaseApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/comcent-area-riservata-controller.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/controller/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/ActivationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/controller/app/controller/ActivationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/controller/app/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/PlafontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/controller/app/controller/PlafontController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/app/controller/UtilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/controller/app/controller/UtilController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/base/AbstractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/controller/base/AbstractController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/java/comcent/controller/base/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/controller/base/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/system.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/ActivationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/PlafontController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/base/AbstractController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/base/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/comcent-area-riservata-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/HierarchyMappings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dbmappings/HierarchyMappings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/IdMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dbmappings/IdMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/UserMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dbmappings/UserMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dbmappings/functions/ConvertionFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dbmappings/functions/ConvertionFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/ActivationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/activation/ActivationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/activation/WrapperUserActivations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/activation/WrapperUserActivations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/base/AbstractDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/base/AbstractDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/base/ConcreteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/base/ConcreteDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/base/MessageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/base/MessageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/plafont/AddPlafontDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/plafont/GetPlafontDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/plafont/GetPlafontDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/CompleteUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/user/CompleteUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/LoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/user/LoginDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/dto/user/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/dto/user/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/exceptions/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/exceptions/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/exceptions/Suppliers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/exceptions/Suppliers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/services/AbstractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/ApiEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/services/ApiEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/activation/ActivationSerice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/services/activation/ActivationSerice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/login/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/services/login/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/plafont/PlafontService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/services/plafont/PlafontService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/src/main/java/comcent/service/services/utils/UtilService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comcent/service/services/utils/UtilService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/system.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/HierarchyMappings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/IdMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/UserMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dbmappings/functions/ConvertionFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/activation/ActivationDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/activation/WrapperUserActivations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/base/AbstractDTO$HttpStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/base/AbstractDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/base/ConcreteDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/base/MessageDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/plafont/AddPlafontDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/plafont/GetPlafontDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/user/CompleteUserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/user/LoginDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/dto/user/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/exceptions/BaseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/exceptions/Suppliers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/AbstractService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/ApiEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/activation/ActivationSerice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/login/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/plafont/PlafontService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comcent-area-riservata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,11 +214,17 @@
     <property name="SearchEverywhereHistoryKey" value="utilco&#9;PSI&#9;JAVA://comcent.controller.app.controller.UtilController" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/comcent-area-riservata-controller" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/comcent-area-riservata-controller" />
       <recent name="$PROJECT_DIR$/comcent-fe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/comcent-area-riservata-controller/src/main/resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -129,8 +234,8 @@
       <command value="mvn clean" />
       <command value="mvn install" />
       <command value="mvn clean heroku:deploy-war" />
-      <command value="mvn clean heroku:deploy" />
       <command value="mvn -DskipTests clean dependency:list install" />
+      <command value="mvn clean heroku:deploy" />
     </option>
   </component>
   <component name="RunManager">
@@ -143,8 +248,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comcent.controller.Main" />
-      <module name="comcent-area-riservata-controller" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="comcent-area-riservata" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="comcent.controller.*" />
@@ -294,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670591702495</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="cas">
+      <created>1670592100142</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670592100143</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

@@ -6,14 +6,8 @@
 
     <groupId>comcent-area-riservata</groupId>
     <artifactId>comcent-area-riservata</artifactId>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
     <version>0.0.2</version>
-    <modules>
-        <module>comcent-area-riservata-controller</module>
-        <module>comcent-area-riservata-service</module>
-        <module>comcent-area-riservata-common</module>
-    </modules>
-
 
     <properties>
         <start-class>comcent.controller.Main</start-class>
@@ -26,69 +20,81 @@
         <version>1.5.6.RELEASE</version>
     </parent>
 
-<!--    <repositories>-->
-<!--        <repository>-->
-<!--            <snapshots>-->
-<!--                <enabled>false</enabled>-->
-<!--            </snapshots>-->
-<!--            <id>central</id>-->
-<!--            <name>Maven Repository Switchboard</name>-->
-<!--            <url>http://repo1.maven.org/maven3</url>-->
-<!--        </repository>-->
-<!--    </repositories>-->
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>comcent-area-riservata</groupId>
-                <artifactId>comcent-area-riservata-controller</artifactId>
-                <version>0.0.2</version>
-            </dependency>
-            <dependency>
-                <groupId>comcent-area-riservata</groupId>
-                <artifactId>comcent-area-riservata-service</artifactId>
-                <version>0.0.2</version>
-            </dependency>
-            <dependency>
-                <groupId>comcent-area-riservata</groupId>
-                <artifactId>comcent-area-riservata-common</artifactId>
-                <version>0.0.2</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-beanutils</groupId>
-                <artifactId>commons-beanutils</artifactId>
-                <version>1.9.3</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-collections4</artifactId>
-                <version>4.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang3</artifactId>
-                <version>3.6</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>2.8.9</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-annotations</artifactId>
-                <version>2.8.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>2.8.9</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.3.10.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>com.heroku</groupId>
+                                    <artifactId>webapp-runner</artifactId>
+                                    <version>9.0.69.0</version>
+                                    <destFileName>webapp-runner.jar</destFileName>
+                                </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
@@ -96,7 +102,9 @@
                 <configuration>
                     <appName>comunicationcenter</appName>
                     <processTypes>
-                        <web>java $JAVA_OPTS -jar comcent-area-riservata-controller/target/dependency/webapp-runner.jar comcent-area-riservata-controller/target/comunicationcenter-exec.war</web>
+                        <web>java $JAVA_OPTS -jar comcent-area-riservata-controller/target/dependency/webapp-runner.jar
+                            comcent-area-riservata-controller/target/comunicationcenter-exec.war
+                        </web>
                     </processTypes>
                 </configuration>
             </plugin>
