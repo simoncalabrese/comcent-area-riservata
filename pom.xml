@@ -12,7 +12,6 @@
         <module>comcent-area-riservata-controller</module>
         <module>comcent-area-riservata-service</module>
         <module>comcent-area-riservata-common</module>
-        <module>comcent-area-riservata-alwaysUp</module>
     </modules>
 
 
