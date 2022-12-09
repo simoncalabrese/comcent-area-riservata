@@ -1,5 +1,4 @@
 server:
-  contextPath: /comunicationcenter
   port: 8080
 spring:
   jackson:
