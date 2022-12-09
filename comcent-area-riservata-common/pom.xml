@@ -5,6 +5,7 @@
     <parent>
         <artifactId>comcent-area-riservata</artifactId>
         <groupId>comcent-area-riservata</groupId>
+        <relativePath>../pom.xml</relativePath>
         <version>0.0.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>

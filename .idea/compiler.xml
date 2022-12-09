@@ -9,7 +9,6 @@
         <module name="comcent-area-riservata-common" />
         <module name="comcent-area-riservata-service" />
         <module name="comcent-area-riservata-controller" />
-        <module name="comcent-area-riservata-alwaysUp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
