@@ -7,7 +7,7 @@
     <groupId>comcent-area-riservata</groupId>
     <artifactId>comcent-area-riservata</artifactId>
     <packaging>pom</packaging>
-    <version>${application.version}</version>
+    <version>0.0.2</version>
     <modules>
         <module>comcent-area-riservata-controller</module>
         <module>comcent-area-riservata-service</module>
@@ -17,7 +17,6 @@
 
 
     <properties>
-        <application.version>0.0.1</application.version>
         <start-class>comcent.controller.Main</start-class>
         <java.version>1.8</java.version>
     </properties>
@@ -28,22 +27,33 @@
         <version>1.5.6.RELEASE</version>
     </parent>
 
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>Maven Repository Switchboard</name>
+            <url>http://repo1.maven.org/maven2</url>
+        </repository>
+    </repositories>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>comcent-area-riservata</groupId>
                 <artifactId>comcent-area-riservata-controller</artifactId>
-                <version>${application.version}</version>
+                <version>0.0.2</version>
             </dependency>
             <dependency>
                 <groupId>comcent-area-riservata</groupId>
                 <artifactId>comcent-area-riservata-service</artifactId>
-                <version>${application.version}</version>
+                <version>0.0.2</version>
             </dependency>
             <dependency>
                 <groupId>comcent-area-riservata</groupId>
                 <artifactId>comcent-area-riservata-common</artifactId>
-                <version>${application.version}</version>
+                <version>0.0.2</version>
             </dependency>
             <dependency>
                 <groupId>commons-beanutils</groupId>

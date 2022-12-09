@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="comcent-area-riservata-common" />
-        <module name="comcent-area-riservata-controller" />
         <module name="comcent-area-riservata-service" />
+        <module name="comcent-area-riservata-controller" />
+        <module name="comcent-area-riservata-alwaysUp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="comcent-area-riservata" target="1.8" />
+      <module name="comcent-area-riservata-alwaysUp" target="1.8" />
       <module name="comcent-area-riservata-common" target="1.8" />
       <module name="comcent-area-riservata-controller" target="1.8" />
       <module name="comcent-area-riservata-service" target="1.8" />

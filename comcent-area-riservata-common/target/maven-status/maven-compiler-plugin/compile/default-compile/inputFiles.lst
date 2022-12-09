@@ -1,7 +1,7 @@
-/Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/configuration/BaseApplication.java
-/Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/builders/ParallelCallBuilder.java
-/Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/components/Converter.java
-/Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/components/Api.java
-/Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/components/AbstractPropertiesConfig.java
-/Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/builders/QueryParamsBuilder.java
-/Users/simon/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/components/PropertiesConfig.java
+/Users/scalabrese/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/configuration/BaseApplication.java
+/Users/scalabrese/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/builders/ParallelCallBuilder.java
+/Users/scalabrese/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/components/AbstractPropertiesConfig.java
+/Users/scalabrese/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/builders/QueryParamsBuilder.java
+/Users/scalabrese/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/components/PropertiesConfig.java
+/Users/scalabrese/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/components/Api.java
+/Users/scalabrese/IdeaProjects/comcent-area-riservata/comcent-area-riservata-common/src/main/java/comcent/common/components/Converter.java
