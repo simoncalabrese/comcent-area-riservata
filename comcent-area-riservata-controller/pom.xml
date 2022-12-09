@@ -38,6 +38,7 @@
                     <processTypes>
                         <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Start</web>
                     </processTypes>
+                    <warFile>comunicationcenter-exec.war</warFile>
                 </configuration>
             </plugin>
         </plugins>

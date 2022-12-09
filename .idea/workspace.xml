@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d668aac3-c1af-4f8b-b036-0eb94a7ea7bc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-alwaysUp/comcent-area-riservata-alwaysUp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-alwaysUp/comcent-area-riservata-alwaysUp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-alwaysUp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-alwaysUp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/ActivationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/classes/comcent/controller/app/controller/ActivationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/activation/ActivationSerice.class" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/classes/comcent/service/services/activation/ActivationSerice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +208,14 @@
       <workItem from="1517680754640" duration="497000" />
       <workItem from="1519287659375" duration="7000" />
     </task>
+    <task id="LOCAL-00001" summary="cas">
+      <created>1670244982610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670244982611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -279,6 +270,21 @@
         <option value="1" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cas" />
+    <option name="LAST_COMMIT_MESSAGE" value="cas" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/comcent-fe/package.json">
