@@ -39,7 +39,6 @@
                     <processTypes>
                         <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
                     </processTypes>
-                    <warFile>comcent-area-riservata-controller/target/comunicationcenter-exec.war</warFile>
                 </configuration>
             </plugin>
         </plugins>
