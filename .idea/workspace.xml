@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d668aac3-c1af-4f8b-b036-0eb94a7ea7bc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/comcent-area-riservata-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/comcent-area-riservata-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +223,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670587468248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cas">
+      <created>1670587607352</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670587607352</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cas">
+      <created>1670587733125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670587733126</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cas">
+      <created>1670587824712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670587824712</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
