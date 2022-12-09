@@ -37,7 +37,7 @@
                 <configuration>
                     <appName>comunicationcenter</appName>
                     <processTypes>
-                        <web>java -jar webapp-runner.jar comunicationcenter-exec.war</web>
+                        <web>java $JAVA_OPTS -jar target/dependency/webapp-runner.jar target/comunicationcenter-exec.war</web>
                     </processTypes>
                 </configuration>
             </plugin>
